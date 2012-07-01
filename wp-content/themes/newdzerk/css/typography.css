@@ -1,16 +1,10 @@
-@charset "UTF-8";
-@import url("/css/normalize.css");
-/*   
- *	Theme Name: Newdzerk
- *	Description: A Wordpress theme for Adzerk's new site
- *	Author: Jonathan Stephens
- *	Author URI: http://jonathanstephens.us
-*/
-/* COLOPHON
+/* TYPOGRAPHY & COLOPHON
 * Typography designed using Typecast – http://typecastapp.com
 * Display type: Proxima Nova Extra Condensed designed by Mark Simonson, http://www.myfonts.com/person/Mark_Simonson/
 * Body type: Gesta designed by Rui Abreu, http://r-typography.com
 * Type served by http://typekit.com */
+
+
 body {
   font-size: 16px;
   line-height: 28px;
@@ -202,126 +196,3 @@ p.gray a:hover {
   font-size: 0.875em;
   color: #666666;
 }
-
-/* we like off-black for text */
-body, select, input, textarea {
-  color: #333;
-}
-
-a {
-  color: #03f;
-}
-
-a:hover {
-  color: #69f;
-}
-
-/* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
-::-moz-selection {
-  background: #fcd700;
-  color: #fff;
-  text-shadow: none;
-}
-
-::selection {
-  background: #fcd700;
-  color: #fff;
-  text-shadow: none;
-}
-
-/*	j.mp/webkit-tap-highlight-color */
-a:link {
-  -webkit-tap-highlight-color: #fcd700;
-}
-
-ins {
-  background-color: #fcd700;
-  color: #000;
-  text-decoration: none;
-}
-
-mark {
-  background-color: #fcd700;
-  color: #000;
-  font-style: italic;
-  font-weight: bold;
-}
-
-/* And here begins the Wordpress fun.
--------------------------------------------------------------------------------*/
-#page-wrap {
-  width: 960px;
-  margin: 20px auto;
-}
-
-ol.commentlist {
-  list-style: none;
-}
-
-ol.commentlist li.comment {
-  border-bottom: 1px dotted #666;
-  padding: 10px;
-}
-
-ol.commentlist li.comment div.vcard cite.fn {
-  font-style: normal;
-}
-
-ol.commentlist li.comment div.vcard img.avatar {
-  float: right;
-  margin: 0 0 10px 10px;
-}
-
-ol.commentlist li.comment div.comment-meta {
-  font-size: 10px;
-}
-
-ol.commentlist li.comment div.comment-meta a {
-  color: #ccc;
-}
-
-ol.commentlist li.comment div.reply {
-  font-size: 11px;
-}
-
-ol.commentlist li.comment div.reply a {
-  font-weight: bold;
-}
-
-ol.commentlist li.comment ul.children {
-  list-style: none;
-  margin: 10px 0 0;
-}
-
-ol.commentlist li.comment ul.children li.depth-2 {
-  border-left: 5px solid #555;
-  margin: 0 0 10px 10px;
-}
-
-ol.commentlist li.comment ul.children li.depth-3 {
-  border-left: 5px solid #999;
-  margin: 0 0 10px 10px;
-}
-
-ol.commentlist li.comment ul.children li.depth-4 {
-  border-left: 5px solid #bbb;
-  margin: 0 0 10px 10px;
-}
-
-ol.commentlist li.even {
-  background: #fff;
-}
-
-ol.commentlist li.odd {
-  background: #f6f6f6;
-}
-
-ol.commentlist li.parent {
-  border-left: 5px solid #111;
-}
-
-/* Print styles!
--------------------------------------------------------------------------------*/
-/* Media queries!
--------------------------------------------------------------------------------*/
-/* Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
