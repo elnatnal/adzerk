@@ -109,10 +109,26 @@
 
 <body <?php body_class(); ?>>
 	
-	<div id="page-wrap"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
+	<div id="wrapper">
 
-		<header id="header">
-			<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
-			<div class="description"><?php bloginfo('description'); ?></div>
+		<header class="bigheader">
+		       <div class="search-log-sign">
+		              <?php include (TEMPLATEPATH . '/searchform.php'); ?>
+		              
+                            <ul class="button-group">
+                                <li><a href="#" class="button primary pill">Login</a></li>
+                                <li><a href="#" class="button pill">Sign Up</a></li>
+                            </ul>
+		       </div>
+		              
+		
+		       
+			<h1 class="logo d1"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
+                     <nav role="navigation" class="main-nav d2-d9">
+                            <ul>
+                                   <?php wp_nav_menu( array('menu' => 'Header Menu' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
+                            </ul>
+                     </nav>
+
 		</header>
 
