@@ -1,0 +1,15 @@
+RELEASE INFORMATION
+---------------
+
+Zend Framework 1.5.3 (revision 10507).
+Released on 2008-07-28.
+
+----------------
+
+wpSearch uses a modified packaging of the framework.
+
+Changes have been made in:
+Anayzer.php
+And all require_once statements.
+
+Only the Zend_Search_Lucene compontent is used.
