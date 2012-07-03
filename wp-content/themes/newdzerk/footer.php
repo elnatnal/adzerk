@@ -1,5 +1,40 @@
-		<footer id="footer" class="source-org vcard copyright">
-			<small>&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?></small>
+		<footer id="footer">
+	              
+	              <section class="d1">
+	                     <ul>
+                                   <?php wp_nav_menu( array('menu' => 'Header Menu' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
+                            </ul>
+                     </section>
+                     
+                     <section class="d2-d4">
+                            <ul>
+                                   <?php wp_nav_menu( array('menu' => 'Header Menu' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
+                            </ul>
+                     </section>
+                     
+                     <section class="d5">
+                            <ul>
+                                   <?php wp_nav_menu( array('menu' => 'Header Menu' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
+                            </ul>
+                     </section>
+                     
+                     <section class="d6-d8">
+                            <ul>
+                                   <?php wp_nav_menu( array('menu' => 'Header Menu' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
+                            </ul>
+                     </section>
+                     
+                     <section class="d9">
+                     <ul>
+                            <?php wp_nav_menu( array('menu' => 'Header Menu' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
+                     </ul>
+                     
+			
+			<section class="copyright">
+			       <small>Copyright Adzerk Inc. <?php echo date("Y"); echo " " ?> &copy;<br />
+			       <a href="#">Privacy Policy for Ad Serving</a>&ensp;|&ensp;<a href="#">Privacy Policy for Customers</a>
+			       </small>
+			</sction>
 		</footer>
 
 	</div>
