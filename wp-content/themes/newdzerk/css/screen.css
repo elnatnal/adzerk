@@ -11,8 +11,8 @@ a:link {
 
 blockquote {
   font-family: Arial;
-  font-size: 26px;
-  line-height: 42px;
+  font-size: 1.625em;
+  line-height: 2.625em;
   font-style: italic;
 }
 
@@ -26,29 +26,28 @@ a:hover {
 }
 
 h1 {
-  font-size: 102px;
-  line-height: 53px;
+  font-size: 6.375em;
+  line-height: 3.313em;
   font-family: proxima-nova-extra-condensed, sans-serif;
   font-weight: 700;
-  font-style: normal;
-  letter-spacing: 0px;
   text-align: center;
   text-transform: uppercase;
-  color: black;
+  margin: 0;
+  margin-top: -1.813em;
 }
 
 h1.sassytext {
-  font-size: 48px;
+  font-size: 3em;
   color: #e35525;
-  line-height: 44px;
+  margin: 0;
+  margin-top: -0.625em;
   font-weight: 700;
-  font-style: normal;
-  margin-bottom: 0.4em;
+  text-align: center;
 }
 
 h2 {
-  font-size: 32px;
-  line-height: 42px;
+  font-size: 2em;
+  line-height: 2.625em;
   font-family: proxima-nova-extra-condensed;
   letter-spacing: 0px;
   color: #092937;
@@ -63,7 +62,7 @@ h2.subtext {
   font-style: normal;
   font-weight: 400;
   font-family: gesta;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 h2.subtext a:link {
@@ -71,14 +70,14 @@ h2.subtext a:link {
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 2.25em;
   font-style: normal;
   font-weight: 300;
   font-family: gesta;
-  line-height: 42px;
+  line-height: 2.625em;
   letter-spacing: 0px;
   margin-bottom: 0px;
-  margin-top: 26px;
+  margin-top: 1.625em;
   color: black;
 }
 
@@ -95,15 +94,15 @@ h3.ad-light {
 }
 
 h3.quote {
-  line-height: 55px;
+  line-height: 3.438em;
   margin-top: 0px;
 }
 
 h3.sidebar-title {
   font-weight: 700;
   font-style: normal;
-  font-size: 18px;
-  line-height: 34px;
+  font-size: 1.125em;
+  line-height: 2.125em;
   margin-top: 0px;
   margin-bottom: 1px;
 }
@@ -112,23 +111,23 @@ h4 {
   font-family: gesta;
   font-weight: 700;
   font-style: normal;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1em;
+  line-height: 1.625em;
   letter-spacing: 1px;
   color: black;
 }
 
-h4.footer-title {
+#footer h3 {
   font-style: normal;
   font-weight: 700;
   font-family: gesta;
-  font-size: 18px;
+  font-size: 1.125em;
   color: white;
 }
 
 h4.gray {
   color: #666666;
-  font-size: 16px;
+  font-size: 1em;
   font-style: normal;
   font-weight: bold;
   font-family: gesta;
@@ -141,16 +140,16 @@ h4.orange {
 h5 {
   font-family: Arial;
   letter-spacing: 1px;
-  line-height: 26px;
-  font-size: 16px;
+  line-height: 1.625em;
+  font-size: 1em;
 }
 
 h6 {
   font-family: Arial;
   font-weight: 400;
   font-style: italic;
-  line-height: 26px;
-  font-size: 16px;
+  line-height: 1.625em;
+  font-size: 1em;
   letter-spacing: 0px;
 }
 
@@ -163,9 +162,27 @@ p.figcaption {
   color: #e35525;
 }
 
-p.footer-white {
+#footer p, #footer ul a {
   font-size: 14px;
   color: white;
+  text-decoration: none;
+}
+
+#footer a:hover, #footer a:active {
+  text-decoration: underline;
+}
+
+#footer ul, #footer li {
+  margin: 0;
+  padding: 0;
+}
+
+#footer li {
+  list-style-type: none;
+}
+
+#footer section .bottom-logo p {
+  color: #000;
 }
 
 p.gray {
@@ -3595,8 +3612,16 @@ nav.main-nav ul a {
   color: white;
   text-decoration: none;
 }
-nav.main-nav ul a:hover {
+nav.main-nav ul a:hover, nav.main-nav ul a:active {
   border-bottom: 1px #fff solid;
+  padding-bottom: 0.25em;
+  text-decoration: none;
+}
+nav.main-nav ul .current-menu-item {
+  border-bottom: 1px #fff solid;
+}
+nav.main-nav ul .current-menu-item a:hover, nav.main-nav ul .current-menu-item a:active {
+  border: none;
 }
 
 ol.commentlist {
@@ -3666,9 +3691,10 @@ ol.commentlist li.parent {
 }
 
 #footer {
-  background-color: #14526a;
-  height: 6.25em;
-  width: 100%;
+  background-color: #092937;
+  height: 15.625em;
+  padding-bottom: 1.875em;
+  padding-top: -0.313em;
 }
 
 .copyright, .copyright a {
@@ -3677,4 +3703,16 @@ ol.commentlist li.parent {
 
 .copyright a:hover, .copyright a:active {
   text-decoration: hover;
+}
+
+.bottom-logo {
+  background: #fff;
+  text-align: center;
+  padding-bottom: .5em;
+  margin-top: -0.625em;
+  color: #000;
+}
+
+.bottom-logo p {
+  color: #000;
 }

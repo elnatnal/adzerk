@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <h1 class="sassytext">Adzerk is for</h1>
-<h1>Publishers</h1>
+<h1>Advertisers</h1>
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			
@@ -9,7 +9,6 @@
 			<h2><?php the_title(); ?></h2>
 
 			<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
-
 			<div class="entry">
 
 				<?php the_content(); ?>

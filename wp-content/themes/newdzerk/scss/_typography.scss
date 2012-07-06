@@ -10,8 +10,8 @@ a:link {
 }
 blockquote {
 	font-family: Arial;
-	font-size: 26px;
-	line-height: 42px;
+	font-size: em(26);
+	line-height: em(42);
 	font-style: italic;
 }
 a:visited {
@@ -22,27 +22,26 @@ a:hover {
 	text-decoration: none;
 }
 h1 {
-	font-size: 102px;
-	line-height: 53px;
+	font-size: em(102);
+	line-height: em(53);
 	font-family: proxima-nova-extra-condensed, sans-serif;
 	font-weight: 700;
-	font-style: normal;
-	letter-spacing: 0px;
 	text-align: center;
 	text-transform: uppercase;
-	color: rgba(0, 0, 0, 1.00);
+	margin:0;
+	margin-top:em(-29);
 }
 h1.sassytext {
-	font-size: 48px;
+	font-size: em(48);
 	color: $orange;
-	line-height: 44px;
+	margin:0;
+	margin-top:em(-10);
 	font-weight: 700;
-	font-style: normal;
-	margin-bottom: 0.4em;
+	text-align:center;
 }
 h2 {
-	font-size: 32px;
-	line-height: 42px;
+	font-size: em(32);
+	line-height: em(42);
 	font-family: proxima-nova-extra-condensed;
 	letter-spacing: 0px;
 	color: rgba(9, 41, 55, 1.00);
@@ -56,20 +55,20 @@ h2.subtext {
 	font-style: normal;
 	font-weight: 400;
 	font-family: gesta;
-	font-size: 16px;
+	font-size: em(16);
 }
 h2.subtext a:link {
 	color: $blue3;
 }
 h3 {
-	font-size: 36px;
+	font-size: em(36);
 	font-style: normal;
 	font-weight: 300;
 	font-family: gesta;
-	line-height: 42px;
+	line-height: em(42);
 	letter-spacing: 0px;
 	margin-bottom: 0px;
-	margin-top: 26px;
+	margin-top: em(26);
 	color: rgba(0, 0, 0, 1.00);
 }
 h3.ad-bold {
@@ -83,14 +82,14 @@ h3.ad-light {
 	font-size: 60px;
 }
 h3.quote {
-	line-height: 55px;
+	line-height: em(55);
 	margin-top: 0px;
 }
 h3.sidebar-title {
 	font-weight: 700;
 	font-style: normal;
-	font-size: 18px;
-	line-height: 34px;
+	font-size: em(18);
+	line-height: em(34);
 	margin-top: 0px;
 	margin-bottom: 1px;
 }
@@ -98,21 +97,21 @@ h4 {
 	font-family: gesta;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 16px;
-	line-height: 26px;
+	font-size: em(16);
+	line-height: em(26);
 	letter-spacing: 1px;
 	color: rgba(0, 0, 0, 1.00);
 }
-h4.footer-title {
+#footer h3 {
 	font-style: normal;
 	font-weight: 700;
 	font-family: gesta;
-	font-size: 18px;
+	font-size: em(18);
 	color: rgba(255, 255, 255, 1.00);
 }
 h4.gray {
 	color: $gray1;
-	font-size: 16px;
+	font-size: em(16);
 	font-style: normal;
 	font-weight: bold;
 	font-family: gesta;
@@ -123,15 +122,15 @@ h4.orange {
 h5 {
 	font-family: Arial;
 	letter-spacing: 1px;
-	line-height: 26px;
-	font-size: 16px;
+	line-height: em(26);
+	font-size: em(16);
 }
 h6 {
 	font-family: Arial;
 	font-weight: 400;
 	font-style: italic;
-	line-height: 26px;
-	font-size: 16px;
+	line-height: em(26);
+	font-size: em(16);
 	letter-spacing: 0px;
 }
 
@@ -142,10 +141,30 @@ p.figcaption {
 	font-size: 14px;
 	color: $orange;
 }
-p.footer-white {
+#footer p, #footer ul a {
 	font-size: 14px;
 	color: rgba(255, 255, 255, 1.00);
+	text-decoration:none;
 }
+
+#footer a:hover, #footer a:active{
+	text-decoration:underline;
+}
+
+#footer ul, #footer li{
+	margin:0;
+	padding:0;
+}
+
+#footer li{
+	list-style-type:none;
+}
+
+#footer section .bottom-logo p{
+	color:#000;
+}
+
+
 p.gray {
 	color: $gray1;
 }

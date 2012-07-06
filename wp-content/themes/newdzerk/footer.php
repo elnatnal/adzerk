@@ -1,36 +1,49 @@
-		<footer id="footer">
+		<footer id="footer" class="d-all">
 	              
 	              <section class="d1">
+	                     <h3>Learn More</h3>
 	                     <ul>
-                                   <?php wp_nav_menu( array('menu' => 'Header Menu' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
+                                   <?php wp_nav_menu( array('menu' => 'Footer Menu 1' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
                             </ul>
                      </section>
                      
                      <section class="d2-d4">
+                            <h3>Help &amp; Support</h3>
                             <ul>
-                                   <?php wp_nav_menu( array('menu' => 'Header Menu' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
+                                   <?php wp_nav_menu( array('menu' => 'Footer Menu 2' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
                             </ul>
                      </section>
                      
                      <section class="d5">
+                            <h3>About Us</h3>
                             <ul>
-                                   <?php wp_nav_menu( array('menu' => 'Header Menu' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
+                                   <?php wp_nav_menu( array('menu' => 'Footer Menu 3' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
                             </ul>
                      </section>
                      
-                     <section class="d6-d8">
+                     <section class="social d6-d8">
+                            <h3>Connect with Us</h3>
+                            <div class="newsletter-sign-up">
+                                   <form></form>
+                                   <button>Sign Up</button>
+                            </div>
+
+                            <hr>
                             <ul>
-                                   <?php wp_nav_menu( array('menu' => 'Header Menu' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
+                                   <?php wp_nav_menu( array('menu' => 'Footer Menu 4' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
                             </ul>
                      </section>
                      
-                     <section class="d9">
-                     <ul>
-                            <?php wp_nav_menu( array('menu' => 'Header Menu' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
-                     </ul>
-                     
+                     <section class="bottom-logo d9">
+                            <h2>ADZERK</h2>
+                            <p>406 Blackwell St. <br />
+                                   Suite B034 <br />
+                                   Durham, NC 27701 <br />
+                            </p>
+
+                     </section>
 			
-			<section class="copyright">
+			<section class="copyright d-all">
 			       <small>Copyright Adzerk Inc. <?php echo date("Y"); echo " " ?> &copy;<br />
 			       <a href="#">Privacy Policy for Ad Serving</a>&ensp;|&ensp;<a href="#">Privacy Policy for Customers</a>
 			       </small>
@@ -38,9 +51,6 @@
 		</footer>
 
 	</div>
-
-	<?php wp_footer(); ?>
-
 
 <!-- here comes the javascript -->
 

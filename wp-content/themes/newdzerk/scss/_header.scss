@@ -8,11 +8,12 @@
 @import "config";
 @import url("/css/normalize.css");
 
+
+
 body {
 	background:url('../imgs/main-head.jpg') repeat-x;
 	max-width: 1030px;
 	margin:0 auto;
-	
 	font-size: 16px;
 	line-height: 28px;
 	font-family: gesta;
@@ -30,18 +31,21 @@ header{
 
 .search-log-sign{
 	float:right;
+	margin-top:em(15);
 }
 
 #searchform{
-	
+	display:inline-block;	
 	
 }
 
 
 /*   BUTTON START   */
 
-.button { 
+.button, #searchsubmit { 
     position: relative; 
+	font-size:em(13);
+	line-height:em(15);
     overflow: visible; 
     display: inline-block; 
     padding: 0.5em 1em; 
@@ -67,21 +71,37 @@ header{
     /* IE hacks */
     zoom: 1; 
     *display: inline; 
+	border-left:2px solid darken($orange, 20%);
 }
+
+#searchsubmit{
+	border:none;
+	outline:none;
+	-webkit-border-radius: 0.1em; 
+    -moz-border-radius: 0.1em; 
+    border-radius: 0.1em; 
+    
+}
+
+
+input#s{
+	
+}
+
 .button:hover,
 .button:focus,
-.button:active {
+.button:active, #searchsubmit {
     text-decoration: none; 
     color: #fff; 
-    background-color: #862f10;
+    background: darken($orange, 10%);
 }
 
 /* overrides extra padding on button elements in Firefox */
-.button::-moz-focus-inner {
+.button::-moz-focus-inner, #searchsubmit::-moz-focus-inner {
     padding: 0;
     border: 0;
 }
-.button.pill {
+.button.pill, #searchsubmit {
     -webkit-border-radius: .5em; 
     -moz-border-radius: .5em; 
     border-radius: .5em; 
@@ -96,6 +116,10 @@ header{
     /* IE hacks */
     zoom: 1; 
     *display: inline; 
+
+	a:active, a:hover, a:visited, a:link{
+		color:white;
+	}
 }
 
 .button + .button,
@@ -157,10 +181,15 @@ h1.logo{
 	width: 208px;
 	height: 64px;
 	margin-top:.9em;
+	
+	a{
+		display:block;
+	}
 }
 
 nav.main-nav ul{
 	float:right;
+	margin-top:em(87);
 	list-style-type:none;
 	color:white;
 	
@@ -178,9 +207,19 @@ nav.main-nav ul{
 		text-decoration:none;
 	}
 	
-	a:hover{
+	a:hover, a:active{
 		border-bottom:1px #fff solid; 
-	};
+		padding-bottom:em(4);
+		text-decoration:none;
+	}
+	
+	.current-menu-item{
+		border-bottom:1px #fff solid;
+	}
+	
+	.current-menu-item a:hover, .current-menu-item a:active{
+		border:none;
+	}
 }
 
 
@@ -243,8 +282,4 @@ ol.commentlist li.parent {border-left: 5px solid #111;}
 ol.commentlist li.thread-alt {}
 ol.commentlist li.thread-even {}
 ol.commentlist li.thread-odd {}
-
-@import "typography.scss";
-@import "gridset.scss";
-
 
