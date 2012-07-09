@@ -3,7 +3,6 @@
 	height:em(250);
 	padding-bottom:em(30);
 	padding-top:em(-5);
-	
 }
 
 .copyright, .copyright a{
@@ -21,9 +20,12 @@
 	padding-bottom:.5em;
 	margin-top:em(-10);
 	color:#000;
+	border-radius: 0px 0px 10px 10px; 
+	-moz-border-radius: 0px 0px 10px 10px; 
+	-webkit-border-radius: 0px 0px 10px 10px; 
+	border: 0px solid #800000;
 }
-.bottom-logo p{
+#footer .bottom-logo p{
 	color:#000;
 }
-
 

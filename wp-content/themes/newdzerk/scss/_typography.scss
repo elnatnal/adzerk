@@ -8,12 +8,7 @@
 a:link {
 	color: rgba(0, 102, 204, 1.00);
 }
-blockquote {
-	font-family: Arial;
-	font-size: em(26);
-	line-height: em(42);
-	font-style: italic;
-}
+
 a:visited {
 	color: rgba(153, 0, 153, 1.00);
 }
@@ -21,6 +16,11 @@ a:hover {
 	color: rgba(0, 102, 204, 1.00);
 	text-decoration: none;
 }
+
+strong{font-weight:700;}
+em{font-style:italic;}
+
+
 h1 {
 	font-size: em(102);
 	line-height: em(53);
@@ -44,6 +44,7 @@ h2 {
 	line-height: em(42);
 	font-family: proxima-nova-extra-condensed;
 	letter-spacing: 0px;
+	text-transform:uppercase;
 	color: rgba(9, 41, 55, 1.00);
 	font-style: normal;
 	font-weight: 700;
@@ -85,12 +86,13 @@ h3.quote {
 	line-height: em(55);
 	margin-top: 0px;
 }
-h3.sidebar-title {
+aside.pricing h3 {
 	font-weight: 700;
 	font-style: normal;
 	font-size: em(18);
 	line-height: em(34);
 	margin-top: 0px;
+	letter-spacing:0;
 	margin-bottom: 1px;
 }
 h4 {
@@ -98,8 +100,6 @@ h4 {
 	font-weight: 700;
 	font-style: normal;
 	font-size: em(16);
-	line-height: em(26);
-	letter-spacing: 1px;
 	color: rgba(0, 0, 0, 1.00);
 }
 #footer h3 {
@@ -151,6 +151,11 @@ p.figcaption {
 	text-decoration:underline;
 }
 
+#footer h2{
+	font-size:3.75em;
+	line-height:.75em;
+}
+
 #footer ul, #footer li{
 	margin:0;
 	padding:0;
@@ -167,14 +172,39 @@ p.figcaption {
 
 p.gray {
 	color: $gray1;
+
+	a:link {
+		text-decoration:underline;
+	}
+
+	a:hover {
+		color: $gray1;
+	}
+
 }
-p.gray a:link {
-	text-decoration:underline;
-}
-p.gray a:hover {
-	color: $gray1;
-}
-.sidebar p{
+
+
+aside {
 	font-size: em(14);
-	color: $gray1;
+	p{
+		color: $gray1;
+		line-height:em(28);
+		margin-top:-.25em;
+		}
+	
+ 	ul {
+		color:$blue3;
+		padding:0;
+	
+		strong {
+			color:#000;
+			}
+			
+		li{
+			list-style-type:none;
+			margin-left:0;
+			line-height:em(23);
+			margin-top:em(10);
+		}
+	}
 }

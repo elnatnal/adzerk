@@ -1,67 +1,62 @@
-		<footer id="footer" class="d-all">
-	              
-	              <section class="d1">
-	                     <h3>Learn More</h3>
-	                     <ul>
+</div>
+	<footer id="footer" class="d-all">
+	       <div class="wrapper">       
+	       <section class="d1">
+	              <h3>Learn More</h3>
+                     <ul>
                                    <?php wp_nav_menu( array('menu' => 'Footer Menu 1' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
-                            </ul>
-                     </section>
-                     
-                     <section class="d2-d4">
-                            <h3>Help &amp; Support</h3>
-                            <ul>
+                     </ul>
+              </section>
+       
+              <section class="d2-d4">
+                     <h3>Help &amp; Support</h3>
+                     <ul>
                                    <?php wp_nav_menu( array('menu' => 'Footer Menu 2' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
-                            </ul>
-                     </section>
+                     </ul>
+              </section>
                      
-                     <section class="d5">
-                            <h3>About Us</h3>
-                            <ul>
+              <section class="d5">
+                     <h3>About Us</h3>
+                     <ul>
                                    <?php wp_nav_menu( array('menu' => 'Footer Menu 3' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
-                            </ul>
-                     </section>
+                     </ul>
+              </section>
                      
-                     <section class="social d6-d8">
-                            <h3>Connect with Us</h3>
-                            <div class="newsletter-sign-up">
-                                   <form></form>
-                                   <button>Sign Up</button>
-                            </div>
-
-                            <hr>
-                            <ul>
+              <section class="social d6-d8">
+                     <h3>Connect with Us</h3>
+                     <div class="newsletter-sign-up">
+                            <form></form>
+                            <button>Sign Up</button>
+                     </div>               
+       
+                    <hr>
+                            
+                     <ul>
                                    <?php wp_nav_menu( array('menu' => 'Footer Menu 4' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
-                            </ul>
-                     </section>
+                     </ul>
                      
-                     <section class="bottom-logo d9">
-                            <h2>ADZERK</h2>
-                            <p>406 Blackwell St. <br />
-                                   Suite B034 <br />
-                                   Durham, NC 27701 <br />
-                            </p>
+              </section>
+                     
+              <section class="bottom-logo d9">
+                     <h2>ADZERK</h2>
+                     <p>406 Blackwell St. <br />
+                            Suite B034 <br />
+                            Durham, NC 27701 <br />
+                     </p>
 
-                     </section>
+              </section>
 			
 			<section class="copyright d-all">
 			       <small>Copyright Adzerk Inc. <?php echo date("Y"); echo " " ?> &copy;<br />
 			       <a href="#">Privacy Policy for Ad Serving</a>&ensp;|&ensp;<a href="#">Privacy Policy for Customers</a>
 			       </small>
-			</sction>
-		</footer>
-
-	</div>
-
-<!-- here comes the javascript -->
+		</section>
+       </div>
+	</footer>
 
 <!-- jQuery is called via the Wordpress-friendly way via functions.php -->
+<script src="<?php bloginfo('template_directory'); ?>/_/js/flexie.js"></script>
 
-<!-- this is where we put our custom functions -->
-<script src="<?php bloginfo('template_directory'); ?>/_/js/functions.js"></script>
-
-<!-- Asynchronous google analytics; this is the official snippet.
-	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
-	 
 <script>
 
   var _gaq = _gaq || [];
@@ -75,8 +70,6 @@
   })();
 
 </script>
--->
-
 <script src="http://get.gridsetapp.com/1013/overlay/"></script>	
 </body>
 

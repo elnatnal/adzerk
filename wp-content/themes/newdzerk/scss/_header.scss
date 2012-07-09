@@ -12,8 +12,6 @@
 
 body {
 	background:url('../imgs/main-head.jpg') repeat-x;
-	max-width: 1030px;
-	margin:0 auto;
 	font-size: 16px;
 	line-height: 28px;
 	font-family: gesta;
@@ -22,7 +20,11 @@ body {
 	letter-spacing: 0px;
 	margin-top: 0px;
 	color: rgba(0, 0, 0, 1.00);
-	
+}
+
+.wrapper{
+	margin:0 auto;
+	width:1030px;
 }
 
 header{

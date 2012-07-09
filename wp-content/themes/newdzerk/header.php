@@ -109,7 +109,7 @@
 
 <body <?php body_class(); ?>>
 	
-	<div id="wrapper">
+	<div class="wrapper">
 
 		<header class="bigheader">
 		       <div class="search-log-sign">

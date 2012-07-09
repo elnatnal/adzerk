@@ -9,13 +9,6 @@ a:link {
   color: #0066cc;
 }
 
-blockquote {
-  font-family: Arial;
-  font-size: 1.625em;
-  line-height: 2.625em;
-  font-style: italic;
-}
-
 a:visited {
   color: #990099;
 }
@@ -23,6 +16,14 @@ a:visited {
 a:hover {
   color: #0066cc;
   text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
 }
 
 h1 {
@@ -50,6 +51,7 @@ h2 {
   line-height: 2.625em;
   font-family: proxima-nova-extra-condensed;
   letter-spacing: 0px;
+  text-transform: uppercase;
   color: #092937;
   font-style: normal;
   font-weight: 700;
@@ -98,12 +100,13 @@ h3.quote {
   margin-top: 0px;
 }
 
-h3.sidebar-title {
+aside.pricing h3 {
   font-weight: 700;
   font-style: normal;
   font-size: 1.125em;
   line-height: 2.125em;
   margin-top: 0px;
+  letter-spacing: 0;
   margin-bottom: 1px;
 }
 
@@ -112,8 +115,6 @@ h4 {
   font-weight: 700;
   font-style: normal;
   font-size: 1em;
-  line-height: 1.625em;
-  letter-spacing: 1px;
   color: black;
 }
 
@@ -172,6 +173,11 @@ p.figcaption {
   text-decoration: underline;
 }
 
+#footer h2 {
+  font-size: 3.75em;
+  line-height: .75em;
+}
+
 #footer ul, #footer li {
   margin: 0;
   padding: 0;
@@ -188,18 +194,33 @@ p.figcaption {
 p.gray {
   color: #666666;
 }
-
 p.gray a:link {
   text-decoration: underline;
 }
-
 p.gray a:hover {
   color: #666666;
 }
 
-.sidebar p {
+aside {
   font-size: 0.875em;
+}
+aside p {
   color: #666666;
+  line-height: 1.75em;
+  margin-top: -0.25em;
+}
+aside ul {
+  color: #138caa;
+  padding: 0;
+}
+aside ul strong {
+  color: #000;
+}
+aside ul li {
+  list-style-type: none;
+  margin-left: 0;
+  line-height: 1.438em;
+  margin-top: 0.625em;
 }
 
 /* GRIDSYSTEM
@@ -3426,6 +3447,22 @@ p.gray a:hover {
   display: none !important;
 }
 
+aside.pricing {
+  background: #efefef;
+  padding: 0.938em;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+aside .d8-d9 {
+  margin-left: 0em !important;
+}
+
+img {
+  border: 3px solid #cdcdcd;
+}
+
 /*   
  *	Theme Name: Newdzerk
  *	Description: A Wordpress theme for Adzerk's new site
@@ -3434,8 +3471,6 @@ p.gray a:hover {
 */
 body {
   background: url("../imgs/main-head.jpg") repeat-x;
-  max-width: 1030px;
-  margin: 0 auto;
   font-size: 16px;
   line-height: 28px;
   font-family: gesta;
@@ -3444,6 +3479,11 @@ body {
   letter-spacing: 0px;
   margin-top: 0px;
   color: black;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1030px;
 }
 
 header {
@@ -3711,8 +3751,12 @@ ol.commentlist li.parent {
   padding-bottom: .5em;
   margin-top: -0.625em;
   color: #000;
+  border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  border: 0px solid #800000;
 }
 
-.bottom-logo p {
+#footer .bottom-logo p {
   color: #000;
 }
