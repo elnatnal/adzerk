@@ -1,10 +1,9 @@
-/* TYPOGRAPHY & COLOPHON
+@charset "UTF-8";
+/* COLOPHON
 * Typography designed using Typecast – http://typecastapp.com
 * Display type: Proxima Nova Extra Condensed designed by Mark Simonson, http://www.myfonts.com/person/Mark_Simonson/
 * Body type: Gesta designed by Rui Abreu, http://r-typography.com
 * Type served by http://typekit.com */
-
-
 body {
   font-size: 16px;
   line-height: 28px;

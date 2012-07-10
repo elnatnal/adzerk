@@ -48,7 +48,6 @@ h1.sassytext {
 
 h2 {
   font-size: 2em;
-  line-height: 2.625em;
   font-family: proxima-nova-extra-condensed;
   letter-spacing: 0px;
   text-transform: uppercase;
@@ -115,6 +114,7 @@ h4 {
   font-weight: 700;
   font-style: normal;
   font-size: 1em;
+  line-height: 0;
   color: black;
 }
 
@@ -146,11 +146,12 @@ h5 {
 }
 
 h6 {
-  font-family: Arial;
   font-weight: 400;
-  font-style: italic;
-  line-height: 1.625em;
+  font-weight: bold;
+  margin: .25em;
+  padding: 0;
   font-size: 1em;
+  line-height: 0;
   letter-spacing: 0px;
 }
 
@@ -3759,4 +3760,27 @@ ol.commentlist li.parent {
 
 #footer .bottom-logo p {
   color: #000;
+}
+
+section#publishers div, section#networks div, section#advertisers div {
+  text-align: center;
+  display: -webkit-flexbox;
+  display: -moz-flexbox;
+  display: -ms-flexbox;
+  display: -o-flexbox;
+  display: flexbox;
+  padding: 0;
+}
+section#publishers div .bronze-support, section#publishers div .white-label, section#publishers div .get-started, section#publishers div .network-tools, section#publishers div .silver-support, section#publishers div .advertiser-mode, section#networks div .bronze-support, section#networks div .white-label, section#networks div .get-started, section#networks div .network-tools, section#networks div .silver-support, section#networks div .advertiser-mode, section#advertisers div .bronze-support, section#advertisers div .white-label, section#advertisers div .get-started, section#advertisers div .network-tools, section#advertisers div .silver-support, section#advertisers div .advertiser-mode {
+  min-width: 10em;
+  display: block;
+}
+section#publishers .price-packages, section#networks .price-packages, section#advertisers .price-packages {
+  background-color: #efefef;
+  padding: 0.938em;
+}
+section#publishers ul li, section#networks ul li, section#advertisers ul li {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }

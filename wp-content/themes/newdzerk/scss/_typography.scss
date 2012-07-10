@@ -41,7 +41,6 @@ h1.sassytext {
 }
 h2 {
 	font-size: em(32);
-	line-height: em(42);
 	font-family: proxima-nova-extra-condensed;
 	letter-spacing: 0px;
 	text-transform:uppercase;
@@ -100,6 +99,7 @@ h4 {
 	font-weight: 700;
 	font-style: normal;
 	font-size: em(16);
+	line-height:0;
 	color: rgba(0, 0, 0, 1.00);
 }
 #footer h3 {
@@ -126,11 +126,12 @@ h5 {
 	font-size: em(16);
 }
 h6 {
-	font-family: Arial;
 	font-weight: 400;
-	font-style: italic;
-	line-height: em(26);
+	font-weight:bold;
+	margin:.25em;
+	padding:0;
 	font-size: em(16);
+	line-height:0;
 	letter-spacing: 0px;
 }
 

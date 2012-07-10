@@ -1,0 +1,31 @@
+section#publishers, section#networks, section#advertisers {
+	div{
+		text-align:center;
+		display:-webkit-flexbox;
+		display:-moz-flexbox;
+		display:-ms-flexbox;
+		display:-o-flexbox;
+		display:flexbox;
+		padding:0;
+	
+		.bronze-support, .white-label, .get-started, .network-tools, .silver-support, .advertiser-mode{
+			min-width:em(160);
+			display:block;
+		} 
+	}
+	
+	.price-packages{
+		background-color:$gray4;
+		padding:em(15);
+	}
+
+	ul{
+
+	}
+	
+	ul li{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	}
+}

@@ -4,7 +4,7 @@
        <h1>Pricing</h1>
 </hgroup>
 <div class="d1-d6">
-       <section id="publishers">
+       <section id="publishers" class="d1-d6">
               <h2>Pricing for Publishers</h2>
               <h4>Get Started free up to 100 million impressions</h4>
               <p class="gray">
@@ -41,7 +41,7 @@
               </div>
        </section>
 
-       <section id="networks">
+       <section id="networks" class="d1-d6">
               <h2>Pricing for Networks</h2>
               <h4>Get Started from $150/mo or 5 cents/CPM</h4>
               <p class="gray">
@@ -90,7 +90,7 @@
        </section>
 
 
-       <section id="advertisers">
+       <section id="advertisers" class="d1-d6">
               <h2>Pricing for Advertisers</h2>
               <h4>Get Started free up to 100 million impressions</h4>
               <p class="gray">
