@@ -3,15 +3,27 @@
 	height:em(250);
 	padding-bottom:em(30);
 	padding-top:em(-5);
+	
+	hr{
+		width:96%;
+		margin-left:-1em;
+	}
+}
+
+.copyright{
+	margin-top:1em;
+	line-height:1.5em;
 }
 
 .copyright, .copyright a{
 	color:$blue3;
+	text-decoration:none;
 	
 }
 
 .copyright a:hover, .copyright a:active{
-	text-decoration:hover;
+	text-decoration:underline;
+	border:none;
 }
 
 .bottom-logo{

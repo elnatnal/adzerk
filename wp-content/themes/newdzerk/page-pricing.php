@@ -1,10 +1,13 @@
 <?php get_header(); ?>
 <hgroup>
-       <h1 class="sassytext">World Class Ad Serving for all</h1>
+       <?php $sassy = get_post_meta($post->ID, "adzerk-sassy-text", true); ?>
+       <h1 class="sassytext">
+          <?php echo $sassy; ?>
+       </h1>
        <h1>Pricing</h1>
 </hgroup>
 <div class="d1-d6">
-       <section id="publishers" class="d1-d6">
+       <section id="publishers">
               <h2>Pricing for Publishers</h2>
               <h4>Get Started free up to 100 million impressions</h4>
               <p class="gray">
@@ -31,17 +34,17 @@
                                      <li>CNAME-ing</li>
                                      <li>API</li>
                               </ul>
-                         </div>
-                     
+                       </div>
+              </div>
                      <button class="get-started">
                             <a href="#"><strong>Get Started Now</strong> <br />
                                    with our super easy wizard!
                                    </a>
                      </button>
-              </div>
+
        </section>
 
-       <section id="networks" class="d1-d6">
+       <section id="networks">
               <h2>Pricing for Networks</h2>
               <h4>Get Started from $150/mo or 5 cents/CPM</h4>
               <p class="gray">
@@ -80,17 +83,17 @@
                                      <li>API</li>
                               </ul>
                          </div>
-                     
-                     <button class="get-started">
-                            <a href="#"><strong>Get Started Now</strong> <br />
+                  </div>
+
+                  <button class="get-started">
+                     <a href="#"><strong>Get Started Now</strong> <br />
                                    with our super easy wizard!
-                                   </a>
-                     </button>
-              </div>
+                     </a>
+                  </button>
        </section>
 
 
-       <section id="advertisers" class="d1-d6">
+       <section id="advertisers">
               <h2>Pricing for Advertisers</h2>
               <h4>Get Started free up to 100 million impressions</h4>
               <p class="gray">
@@ -129,16 +132,18 @@
                                      <li>API</li>
                               </ul>
                          </div>
+                  </div>
                      
-                     <button class="get-started">
-                            <a href="#"><strong>Get Started Now</strong> <br />
-                                   with our super easy wizard!
-                                   </a>
-                     </button>
-              </div>
+                  <button class="get-started">
+                         <a href="#"><strong>Get Started Now</strong> <br />
+                                with our super easy wizard!
+                          </a>
+                  </button>
        </section>
 </div>
- <div class="d7"></div>
+
+<div class="d7"></div>
+
        <aside class="d8-d9 pricing">
               <h3>Enterprise Pricing</h3>
               <p> adOS's robust feature set was built to be scalable as well as affordable. Contact our sales team and we can tailor a package for your needs.</p>
@@ -152,7 +157,7 @@
                             100 million impressions/month and up</li>
               </ul>
               
-              <h4>This is Ron.</h4>
+              <h3>This is Ron.</h3>
               <img src="http://placekitten.com/296/296">
               <p>He's super friendly, and he loves to talk enterprise customers about all their needs. It's what he does all day everyday. Shoot him an email, he'd love to hear from you.</p>
               

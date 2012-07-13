@@ -35,6 +35,7 @@ h1 {
   text-transform: uppercase;
   margin: 0;
   margin-top: -1.813em;
+  margin-bottom: -0.75em;
 }
 
 h1.sassytext {
@@ -58,7 +59,7 @@ h2 {
   margin-top: 0.5em;
 }
 
-h2.subtext {
+h2 span.subtext {
   color: #138caa;
   font-style: normal;
   font-weight: 400;
@@ -3448,20 +3449,41 @@ aside ul li {
   display: none !important;
 }
 
-aside.pricing {
-  background: #efefef;
-  padding: 0.938em;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-}
-
-aside .d8-d9 {
-  margin-left: 0em !important;
-}
-
-img {
+img, iframe {
   border: 3px solid #cdcdcd;
+}
+
+button {
+  outline: none;
+  border: none;
+  margin: 0 auto;
+  color: white;
+  background-image: linear-gradient(bottom, #114155 7%, #145269 54%);
+  background-image: -o-linear-gradient(bottom, #114155 7%, #145269 54%);
+  background-image: -moz-linear-gradient(bottom, #114155 7%, #145269 54%);
+  background-image: -webkit-linear-gradient(bottom, #114155 7%, #145269 54%);
+  background-image: -ms-linear-gradient(bottom, #114155 7%, #145269 54%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.07, #114155), color-stop(0.54, #145269));
+  text-align: center;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+button a, button a:active, button a:visited, button a:hover {
+  color: white;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+button:hover, button:active {
+  background-image: linear-gradient(bottom, #114155 7%, #114155 54%);
+  background-image: -o-linear-gradient(bottom, #114155 7%, #114155 54%);
+  background-image: -moz-linear-gradient(bottom, #114155 7%, #114155 54%);
+  background-image: -webkit-linear-gradient(bottom, #114155 7%, #114155 54%);
+  background-image: -ms-linear-gradient(bottom, #114155 7%, #114155 54%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.07, #114155), color-stop(0.54, #114155));
 }
 
 /*   
@@ -3731,19 +3753,56 @@ ol.commentlist li.parent {
   border-left: 5px solid #111;
 }
 
+aside.pricing {
+  background: #efefef;
+  padding: 0.938em;
+  margin: 0 auto;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+aside.pricing button {
+  margin: 0 auto;
+  min-width: 14.063em;
+  min-height: 3.125em;
+  padding: 1em 2em;
+  margin-left: 3.5em;
+}
+aside.pricing button a {
+  display: block;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+aside .d8-d9 {
+  margin-left: 0em !important;
+}
+
 #footer {
   background-color: #092937;
   height: 15.625em;
   padding-bottom: 1.875em;
   padding-top: -0.313em;
 }
+#footer hr {
+  width: 96%;
+  margin-left: -1em;
+}
+
+.copyright {
+  margin-top: 1em;
+  line-height: 1.5em;
+}
 
 .copyright, .copyright a {
   color: #138caa;
+  text-decoration: none;
 }
 
 .copyright a:hover, .copyright a:active {
-  text-decoration: hover;
+  text-decoration: underline;
+  border: none;
 }
 
 .bottom-logo {
@@ -3762,25 +3821,82 @@ ol.commentlist li.parent {
   color: #000;
 }
 
+.isfor-video {
+  float: right;
+}
+
+section#publishers, section#networks, section#advertisers {
+  padding: 1em 0;
+}
 section#publishers div, section#networks div, section#advertisers div {
   text-align: center;
+}
+section#publishers .price-packages, section#networks .price-packages, section#advertisers .price-packages {
+  background-color: #efefef;
+  width: 96%;
+  height: 14.063em;
+  padding: 1em 0;
+  margin-bottom: 1.5em;
   display: -webkit-flexbox;
   display: -moz-flexbox;
   display: -ms-flexbox;
   display: -o-flexbox;
-  display: flexbox;
-  padding: 0;
+  -webkit-flex-flow: row;
+  -moz-flex-flow: row;
+  -ms-flex-flow: row;
+  -o-flex-flow: row;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
-section#publishers div .bronze-support, section#publishers div .white-label, section#publishers div .get-started, section#publishers div .network-tools, section#publishers div .silver-support, section#publishers div .advertiser-mode, section#networks div .bronze-support, section#networks div .white-label, section#networks div .get-started, section#networks div .network-tools, section#networks div .silver-support, section#networks div .advertiser-mode, section#advertisers div .bronze-support, section#advertisers div .white-label, section#advertisers div .get-started, section#advertisers div .network-tools, section#advertisers div .silver-support, section#advertisers div .advertiser-mode {
-  min-width: 10em;
-  display: block;
-}
-section#publishers .price-packages, section#networks .price-packages, section#advertisers .price-packages {
-  background-color: #efefef;
-  padding: 0.938em;
+section#publishers ul, section#networks ul, section#advertisers ul {
+  padding-left: 0 !important;
 }
 section#publishers ul li, section#networks ul li, section#advertisers ul li {
   list-style-type: none;
-  padding: 0px;
+  padding-left: 0 !important;
   margin: 0px;
+  color: #666666;
+  font-size: .95em;
+  line-height: 1.5em;
+}
+section#publishers .bronze-support, section#publishers .white-label, section#publishers .get-started, section#publishers .network-tools, section#publishers .silver-support, section#publishers .advertiser-mode, section#networks .bronze-support, section#networks .white-label, section#networks .get-started, section#networks .network-tools, section#networks .silver-support, section#networks .advertiser-mode, section#advertisers .bronze-support, section#advertisers .white-label, section#advertisers .get-started, section#advertisers .network-tools, section#advertisers .silver-support, section#advertisers .advertiser-mode {
+  width: 12.5em;
+  display: block;
+  width: -webkit-flex(1 12.5em);
+  width: -moz-flex(1 12.5em);
+  width: -ms-flex(1 12.5em);
+  width: -o-flex(1 12.5em);
+  -webkit-flex-align: center;
+  -moz-flex-align: center;
+  -ms-flex-align: center;
+  -o-flex-align: center;
+  box-flex: center;
+}
+
+section#publishers {
+  padding-top: 0;
+}
+section#publishers h2 {
+  margin-top: 0;
+}
+
+button.get-started {
+  padding: .75em;
+  min-width: 18.75em;
+  min-height: 5em;
+}
+button.get-started a {
+  display: block;
+  font-style: italic;
+  font-size: 1em;
+  color: white;
+}
+button.get-started a strong {
+  font-style: normal;
+  font-size: 1.25em;
+}
+
+aside.pricing h4 {
+  margin-top: 1em;
 }

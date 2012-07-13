@@ -4,29 +4,77 @@
        <h1>Publishers</h1>
 </hgroup>
 
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			
-		<article class="post" id="post-<?php the_ID(); ?>" class="d1-d6">
+<section id="intro d-all">
+       <div class="left">
+              <h3><em>adOS is the best solution for running your network.</em></h3>
+              <p>adOS is your ad network management platform. You'll have a publisher portal to share logins with your publishers and adOS will even help you calculate payouts to your publishers and generate the Paypal mass pay file. Our super easy <strong>three step process</strong> will have you serving ads in minutes.</p>
+              
+              <button>
+                     <a href="#">See Plans and Pricing</a>
+              </button>
+       </div>
 
-			<h2><?php the_title(); ?></h2>
+       
+       <iframe class="isfor-video d6-d9" src="http://player.vimeo.com/video/14510432" width="393" height="217" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-			<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
-			<div class="entry">
+</section>
 
-				<?php the_content(); ?>
 
-				<?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
+<section id="built-for" class="d-all">
+       <h2>Built for Networks <span>adOS is your all$ndash;in$ndash;one network management platform</h2>
 
-			</div>
+       <ul>
+              <li>
+                     <img src="icon"><h4>Skinnable UI</h4> <br />
+                     <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. <a href="#"><strong>Read More <span>arrow</span></p>
+              </li>
 
-			<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+              <li>
+                     <img src="icon"><h4>Site Payout Management</h4> <br />
+                     <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. <a href="#"><strong>Read More <span>arrow</span></p>
+              </li>
 
-		</article>
-		
-		<?php comments_template(); ?>
+              <li>
+                     <img src="icon"><h4>Publisher Portal</h4> <br />
+                     <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. <a href="#"><strong>Read More <span>arrow</span></p>
+              </li>
 
-		<?php endwhile; endif; ?>
+              <li>
+                     <img src="icon"><h4>Advertiser Portal</h4> <br />
+                     <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. <a href="#"><strong>Read More <span>arrow</span></p>
+              </li>
 
-<?php get_sidebar(); ?>
+              <li>
+                     <img src="icon"><h4>Robust Targeting Options</h4> <br />
+                     <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. <a href="#"><strong>Read More <span>arrow</span></p>
+              </li>
+
+              <li>
+                     <img src="icon"><h4>Fast &amp; Accurate Reporting</h4> <br />
+                     <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. <a href="#"><strong>Read More <span>arrow</span></p>
+              </li>
+       </ul>
+
+       <button>
+              <a href="#">More Features</a>
+       </button>
+
+</section>
+
+
+<section id="customers-are-saying">
+
+
+</section>
+
+<aside id="powered-by-ados">
+       
+</aside>
+
+<section id="world-class-ad-serving">
+       
+       
+</section>
+
 
 <?php get_footer(); ?>
