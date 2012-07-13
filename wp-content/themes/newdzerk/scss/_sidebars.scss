@@ -1,9 +1,25 @@
 aside.pricing {
 	background:$gray4;
 	padding:em(15);
+	margin:0 auto;
 	border-radius: 10px; 
 	-moz-border-radius: 10px; 
 	-webkit-border-radius: 10px;
+
+	button {
+		margin:0 auto;
+		min-width:em(225);
+		min-height:em(50);
+		padding:1em 2em;
+		margin-left:3.5em;
+	
+		a{
+			display:block;
+			color:white;
+			font-size:1.5em;
+			text-align:center;
+		}
+	}
 }
 
 aside .d8-d9{

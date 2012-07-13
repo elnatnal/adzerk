@@ -1,6 +1,9 @@
 <?php get_header(); ?>
 <hgroup>
-       <h1 class="sassytext">World Class Ad Serving for all</h1>
+       <?php $sassy = get_post_meta($post->ID, "adzerk-sassy-text", true); ?>
+       <h1 class="sassytext">
+          <?php echo $sassy; ?>
+       </h1>
        <h1>Pricing</h1>
 </hgroup>
 <div class="d1-d6">
@@ -154,7 +157,7 @@
                             100 million impressions/month and up</li>
               </ul>
               
-              <h4>This is Ron.</h4>
+              <h3>This is Ron.</h3>
               <img src="http://placekitten.com/296/296">
               <p>He's super friendly, and he loves to talk enterprise customers about all their needs. It's what he does all day everyday. Shoot him an email, he'd love to hear from you.</p>
               

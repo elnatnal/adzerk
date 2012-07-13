@@ -4,29 +4,33 @@
        <h1>Publishers</h1>
 </hgroup>
 
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			
-		<article class="post" id="post-<?php the_ID(); ?>" class="d1-d6">
+<section id="intro">
 
-			<h2><?php the_title(); ?></h2>
+       <iframe class="isfor-video" src="http://player.vimeo.com/video/14510432" width="393" height="217" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-			<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
-			<div class="entry">
+</section>
 
-				<?php the_content(); ?>
 
-				<?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
+<section id="built-for">
 
-			</div>
 
-			<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 
-		</article>
-		
-		<?php comments_template(); ?>
+</section>
 
-		<?php endwhile; endif; ?>
 
-<?php get_sidebar(); ?>
+<section id="customers-are-saying">
+
+
+</section>
+
+<aside id="powered-by-ados">
+       
+</aside>
+
+<section id="world-class-ad-serving">
+       
+       
+</section>
+
 
 <?php get_footer(); ?>

@@ -92,7 +92,7 @@
 		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
 	
 	<!-- CSS: screen, mobile & print are all in the same file -->
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/screen.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/screen.css?<?php echo date('l jS \of F Y h:i:s A'); ?>">
 	<script type="text/javascript" src="http://use.typekit.com/mic6maz.js"></script>
        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	

@@ -1,7 +1,11 @@
 <?php get_header(); ?>
 <hgroup>
-       <h1 class="sassytext">Adzerk is for</h1>
-       <h1>Publishers</h1>
+       <?php $sassy = get_post_meta($post->ID, "adzerk-sassy-text", true); ?>
+       <h1 class="sassytext">
+          <?php echo $sassy; ?>
+       </h1>
+       
+       <h1><?php wp_title(''); ?></h1>
 </hgroup>       
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
