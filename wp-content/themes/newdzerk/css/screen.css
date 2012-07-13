@@ -59,7 +59,7 @@ h2 {
   margin-top: 0.5em;
 }
 
-h2.subtext {
+h2 span.subtext {
   color: #138caa;
   font-style: normal;
   font-weight: 400;
