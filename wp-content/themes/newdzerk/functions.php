@@ -55,9 +55,6 @@
     add_filter( 'wp_nav_menu_args', 'my_wp_nav_menu_args' );
     
 
-
-
-
     // we need custom fields for the Sassy text above a h1
 
     // Call different custom meta boxes
@@ -185,6 +182,11 @@
         }
     }
 
+    // 3. Custom Content Types
+    //--------------------------------------------------//
+
+    // Custom Content Type for Team Mates
+    require_once('functions/testimonials.php');
 
 
 
