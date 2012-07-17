@@ -6,6 +6,7 @@
        </h1>
        <h1>Pricing</h1>
 </hgroup>
+
 <div class="d1-d6">
        <section id="publishers">
               <h2>Pricing for Publishers</h2>
@@ -142,13 +143,12 @@
        </section>
 </div>
 
-<div class="d7"></div>
-
-       <aside class="d8-d9 pricing">
+       <aside class="d8-d9 sidebar">
+              <div>
               <h3>Enterprise Pricing</h3>
               <p> adOS's robust feature set was built to be scalable as well as affordable. Contact our sales team and we can tailor a package for your needs.</p>
               
-              <ul>
+              <ul class="blue">
                      <li><strong>For Networks</strong><br />
                             20 million impressions/month and up</li>
                      <li><strong>For Advertisers</strong><br />
@@ -158,9 +158,10 @@
               </ul>
               
               <h3>This is Ron.</h3>
-              <img src="http://placekitten.com/296/296">
+              <img src="http://placekitten.com/265/265">
               <p>He's super friendly, and he loves to talk enterprise customers about all their needs. It's what he does all day everyday. Shoot him an email, he'd love to hear from you.</p>
               
               <button><a href="mailto:ron@adzerk.com">Get Enterprise Pricing</a></button>
+              </div>
        </aside>
 <?php get_footer(); ?>

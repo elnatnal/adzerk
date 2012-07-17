@@ -6,11 +6,12 @@
 
 
 a:link {
-	color: rgba(0, 102, 204, 1.00);
+	color: inherit;
+	text-decoration:underline;
 }
 
 a:visited {
-	color: rgba(153, 0, 153, 1.00);
+	color: inherit;
 }
 a:hover {
 	color: rgba(0, 102, 204, 1.00);
@@ -86,7 +87,7 @@ h3.quote {
 	line-height: em(55);
 	margin-top: 0px;
 }
-aside.pricing h3 {
+aside.sidebar h3 {
 	font-weight: 700;
 	font-style: normal;
 	font-size: em(18);
@@ -193,9 +194,12 @@ aside {
 		line-height:em(28);
 		margin-top:-.25em;
 		}
+
+	ul.blue{
+		color:$blue3;
+	}
 	
  	ul {
-		color:$blue3;
 		padding:0;
 	
 		strong {

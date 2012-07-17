@@ -1,0 +1,14 @@
+.position{
+	margin:2em 0;
+	border-bottom:1px solid $blue1;
+
+	img{
+		float:left;
+		margin-top:-.5em;
+		margin-right:1.25em;
+	}
+}
+
+.position:last-child{
+	border:none;
+}

@@ -6,11 +6,12 @@
 * Body type: Gesta designed by Rui Abreu, http://r-typography.com
 * Type served by http://typekit.com */
 a:link {
-  color: #0066cc;
+  color: inherit;
+  text-decoration: underline;
 }
 
 a:visited {
-  color: #990099;
+  color: inherit;
 }
 
 a:hover {
@@ -100,7 +101,7 @@ h3.quote {
   margin-top: 0px;
 }
 
-aside.pricing h3 {
+aside.sidebar h3 {
   font-weight: 700;
   font-style: normal;
   font-size: 1.125em;
@@ -211,8 +212,10 @@ aside p {
   line-height: 1.75em;
   margin-top: -0.25em;
 }
-aside ul {
+aside ul.blue {
   color: #138caa;
+}
+aside ul {
   padding: 0;
 }
 aside ul strong {
@@ -3753,22 +3756,25 @@ ol.commentlist li.parent {
   border-left: 5px solid #111;
 }
 
-aside.pricing {
+aside.sidebar {
   background: #efefef;
-  padding: 0.938em;
-  margin: 0 auto;
+  float: right;
+  margin: 0;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
 }
-aside.pricing button {
+aside.sidebar div {
+  padding: 0.938em;
+}
+aside.sidebar button {
   margin: 0 auto;
   min-width: 14.063em;
   min-height: 3.125em;
   padding: 1em 2em;
-  margin-left: 3.5em;
+  margin-left: 2.65em;
 }
-aside.pricing button a {
+aside.sidebar button a {
   display: block;
   color: white;
   font-size: 1.5em;
@@ -3779,11 +3785,24 @@ aside .d8-d9 {
   margin-left: 0em !important;
 }
 
+aside.job-openings ul {
+  margin-top: 0;
+}
+aside.job-openings li {
+  color: #666666;
+  margin-left: 1.15em;
+}
+aside.job-openings li:before {
+  margin-left: -1em;
+  content: "–  ";
+}
+
 #footer {
   background-color: #092937;
   height: 15.625em;
   padding-bottom: 1.875em;
   padding-top: -0.313em;
+  margin-top: 3em;
 }
 #footer hr {
   width: 96%;
@@ -3833,7 +3852,6 @@ section#publishers div, section#networks div, section#advertisers div {
 }
 section#publishers .price-packages, section#networks .price-packages, section#advertisers .price-packages {
   background-color: #efefef;
-  width: 96%;
   height: 14.063em;
   padding: 1em 0;
   margin-bottom: 1.5em;
@@ -3899,4 +3917,18 @@ button.get-started a strong {
 
 aside.pricing h4 {
   margin-top: 1em;
+}
+
+.position {
+  margin: 2em 0;
+  border-bottom: 1px solid #092937;
+}
+.position img {
+  float: left;
+  margin-top: -0.5em;
+  margin-right: 1.25em;
+}
+
+.position:last-child {
+  border: none;
 }

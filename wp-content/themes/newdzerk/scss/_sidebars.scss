@@ -1,17 +1,21 @@
-aside.pricing {
+aside.sidebar {
 	background:$gray4;
-	padding:em(15);
-	margin:0 auto;
+	float:right;
+	margin:0;
 	border-radius: 10px; 
 	-moz-border-radius: 10px; 
 	-webkit-border-radius: 10px;
 
+	div{
+		padding:em(15);		
+	}
+	
 	button {
 		margin:0 auto;
 		min-width:em(225);
 		min-height:em(50);
 		padding:1em 2em;
-		margin-left:3.5em;
+		margin-left:2.65em;
 	
 		a{
 			display:block;
@@ -24,4 +28,19 @@ aside.pricing {
 
 aside .d8-d9{
 	margin-left:0em !important;
+}
+
+aside.job-openings{
+	ul{
+		margin-top:0;
+	}
+	li{
+		color: $gray1;
+		margin-left:1.15em;
+	}
+	li:before { 
+		margin-left:-1em;
+		content: "–  " 
+	}
+
 }
