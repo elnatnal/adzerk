@@ -13,41 +13,43 @@ function adzerk_testimonials() {
                             'public' => true,
                             'has_archive' => false,
                             'hierarchical' => false, // set to true to "nest" like pages
+
                             'menu_position' => 8, // where on the menu it should appear; 5 = below posts, 10 = below media, etc
-                            'supports' => array( 'title', 'editor' ),
+                            'supports' => array( 'title','excerpt','editor','thumbnail' ),
+			    'taxonomies' => array('category'),
                             'register_meta_box_cb' => 'add_testimonial_metaboxes'
                             )
                       );
+
 }
 
 add_action( 'init', 'adzerk_testimonials' );
 
-
 // Call different custom meta boxes
-$meta_boxes = array();
+$testy_meta_boxes = array();
 
 // titles
-$meta_boxes[] = array(
-    'id' => 'testimonial-position-text',
-    'title' => 'Testimonial',
-    'pages' => array('testmonial'),
+$testy_meta_boxes[] = array(
+    'id' => 'testimonial-meta',
+    'title' => 'Testimonialer Title',
+    'pages' => array('testimonial'), // multiple post types
     'context' => 'side',
     'priority' => 'default',
     'fields' => array(
         array(
-            'name' => 'Testifyer Position',
-            'desc' => 'Example: God',
-            'id' => 'adzerk-testimonial',
+            'name' => 'Title',
+            'desc' => 'Example: CEO of Awesomeness',
+            'id' => 'testimonial-meta-text',
             'type' => 'text'
         )
     )
 );
 
-foreach ($meta_boxes as $meta_box) {
-    $my_box = new testy_meta_box($meta_box);
+foreach ($testy_meta_boxes as $meta_box) {
+    $mytesty_box = new Testy_meta_box($meta_box);
 }
 
-class testy_meta_box {
+class Testy_meta_box {
 
     protected $_meta_box;
 
@@ -71,7 +73,7 @@ class testy_meta_box {
         global $post;
 
         // Use nonce for verification
-        echo '<input type="hidden" name="testy_meta_box_nonce" value="', wp_create_nonce(basename(__FILE__)), '" />';
+        echo '<input type="hidden" name="mytheme_meta_box_nonce" value="', wp_create_nonce(basename(__FILE__)), '" />';
 
         echo '<table class="form-table">';
 
@@ -117,7 +119,7 @@ class testy_meta_box {
     // Save data from meta box
     function save($post_id) {
         // verify nonce
-        if (!wp_verify_nonce($_POST['testy_meta_box_nonce'], basename(__FILE__))) {
+        if (!wp_verify_nonce($_POST['mytheme_meta_box_nonce'], basename(__FILE__))) {
             return $post_id;
         }
 
@@ -147,13 +149,8 @@ class testy_meta_box {
         }
     }
 }
-
-
-
-
-
  
-add_action('save_post', 'save_testimonial_meta', 1, 2);   // save the custom fields
+
 
 // Custom thumbnail sizes for use with portfolio items
 add_image_size( 'profile-pic', 170, 170 );

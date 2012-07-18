@@ -4,7 +4,7 @@
        <h1 class="sassytext">
           <?php echo $sassy; ?>
        </h1>
-       <h1>Pricing</h1>
+       <h1><?php the_title(); ?></h1>
 </hgroup>
 
 <div class="d1-d6">

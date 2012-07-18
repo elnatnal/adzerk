@@ -3472,7 +3472,7 @@ button {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
 }
-button a, button a:active, button a:visited, button a:hover {
+button a:link, button a:active, button a:visited, button a:hover {
   color: white;
   display: block;
   width: 100%;
