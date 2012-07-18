@@ -1,0 +1,81 @@
+section.testimonial{
+	display:inline-block;
+	width:100%;
+	height:100%;
+	min-height:em(235);
+	margin:.5em 0;
+	border-bottom:2px solid $gray4;
+}
+
+section.testimonial:nth-of-type(last){
+	border-bottom:none;
+}
+section.testimonial:nth-of-type(odd){
+	.testy-info{
+		float:left;
+		width:em(205);
+		height:100%;
+	}
+	.testy-content{
+		margin-top: em(-10);
+		float:right;
+		width:em(456);
+
+		p{
+			color:$gray2;
+		}
+
+		blockquote {
+			line-height: em(20);
+			margin-left:0;
+			text-indent:em(-5);
+			font-weight:300;
+			font-style:normal;
+			font-size:em(36);
+			margin-top: em(-15);
+			color:black;
+		
+			p{
+				color:black;
+			}
+		}
+	}
+	
+}
+
+section.testimonial:nth-of-type(even){
+	.testy-info{
+		float:right;
+		height:100%;
+		width:em(205);
+		text-align:right;
+	}
+
+	.testy-content{
+		float:left;
+		margin-top: em(-10);
+		text-align:right;
+		width:em(456);
+				
+		p{
+			color:$gray2;
+		}
+		
+		blockquote {
+			line-height: em(20);
+			margin:0;
+			text-indent:em(-7);
+			font-weight:300;
+			font-style:normal;
+			font-size:em(36);
+			color:black;
+			
+			p{
+				color:black;
+				padding:0;
+				margin:0;
+
+			}
+		}
+	}
+}

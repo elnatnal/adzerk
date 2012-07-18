@@ -87,18 +87,13 @@ h3 {
 h3.ad-bold {
   font-weight: 700;
   font-style: normal;
-  font-size: 60px;
+  font-size: 3.75em;
 }
 
 h3.ad-light {
   font-weight: 300;
   font-style: normal;
-  font-size: 60px;
-}
-
-h3.quote {
-  line-height: 3.438em;
-  margin-top: 0px;
+  font-size: 3.75em;
 }
 
 aside.sidebar h3 {
@@ -118,6 +113,7 @@ h4 {
   font-size: 1em;
   line-height: 0;
   color: black;
+  margin-top: .75em;
 }
 
 #footer h3 {
@@ -140,11 +136,18 @@ h4.orange {
   color: #e35525;
 }
 
+.side-testy h4 {
+  color: #138caa;
+  font-style: italic;
+  margin-top: 0.625em;
+}
+
 h5 {
-  font-family: Arial;
-  letter-spacing: 1px;
-  line-height: 1.625em;
+  color: #e35525;
+  font-weight: 300;
+  font-family: gesta;
   font-size: 1em;
+  margin-top: -0.625em;
 }
 
 h6 {
@@ -3931,4 +3934,74 @@ aside.pricing h4 {
 
 .position:last-child {
   border: none;
+}
+
+section.testimonial {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  min-height: 14.688em;
+  margin: .5em 0;
+  border-bottom: 2px solid #efefef;
+}
+
+section.testimonial:nth-of-type(last) {
+  border-bottom: none;
+}
+
+section.testimonial:nth-of-type(odd) .testy-info {
+  float: left;
+  width: 12.813em;
+  height: 100%;
+}
+section.testimonial:nth-of-type(odd) .testy-content {
+  margin-top: -0.625em;
+  float: right;
+  width: 28.5em;
+}
+section.testimonial:nth-of-type(odd) .testy-content p {
+  color: #8e8e8e;
+}
+section.testimonial:nth-of-type(odd) .testy-content blockquote {
+  line-height: 1.25em;
+  margin-left: 0;
+  text-indent: -0.313em;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.25em;
+  margin-top: -0.938em;
+  color: black;
+}
+section.testimonial:nth-of-type(odd) .testy-content blockquote p {
+  color: black;
+}
+
+section.testimonial:nth-of-type(even) .testy-info {
+  float: right;
+  height: 100%;
+  width: 12.813em;
+  text-align: right;
+}
+section.testimonial:nth-of-type(even) .testy-content {
+  float: left;
+  margin-top: -0.625em;
+  text-align: right;
+  width: 28.5em;
+}
+section.testimonial:nth-of-type(even) .testy-content p {
+  color: #8e8e8e;
+}
+section.testimonial:nth-of-type(even) .testy-content blockquote {
+  line-height: 1.25em;
+  margin: 0;
+  text-indent: -0.438em;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.25em;
+  color: black;
+}
+section.testimonial:nth-of-type(even) .testy-content blockquote p {
+  color: black;
+  padding: 0;
+  margin: 0;
 }

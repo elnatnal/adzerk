@@ -15,8 +15,8 @@ function adzerk_testimonials() {
                             'hierarchical' => false, // set to true to "nest" like pages
 
                             'menu_position' => 8, // where on the menu it should appear; 5 = below posts, 10 = below media, etc
-                            'supports' => array( 'title','excerpt','editor','thumbnail' ),
-			    'taxonomies' => array('category'),
+                            'supports' => array( 'title','excerpt','editor','thumbnail'),
+			       'taxonomies' => array('category'),
                             'register_meta_box_cb' => 'add_testimonial_metaboxes'
                             )
                       );
