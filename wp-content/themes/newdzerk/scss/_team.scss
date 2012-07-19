@@ -1,0 +1,42 @@
+.teammate{
+	display:inline-block;
+	padding:1.5em 0 1.75em 0;
+	border-bottom:2px solid $gray4;
+	
+	h2{
+		margin-top:0;
+	}
+	
+	h4{
+		color:$blue3;
+		font-weight:300;
+		font-size:1em;
+		margin-top:.9em;
+	}
+}
+
+.team-info {
+	a, a:visited{
+		text-decoration:none;
+		color:$orange;
+	}
+	
+	a:hover, a:active{
+		color:darken($orange, 20);
+	}
+
+	img.wp-post-image{
+		height:em(170);
+		width:em(170);
+	}
+	
+	img.tweet-logo{
+		border:none;
+		float:left;
+		padding-right:em(5);
+	}
+
+}
+.team-content{
+	float:right;
+}

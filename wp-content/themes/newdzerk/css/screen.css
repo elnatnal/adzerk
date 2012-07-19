@@ -4005,3 +4005,39 @@ section.testimonial:nth-of-type(even) .testy-content blockquote p {
   padding: 0;
   margin: 0;
 }
+
+.teammate {
+  display: inline-block;
+  padding: 1.5em 0 1.75em 0;
+  border-bottom: 2px solid #efefef;
+}
+.teammate h2 {
+  margin-top: 0;
+}
+.teammate h4 {
+  color: #138caa;
+  font-weight: 300;
+  font-size: 1em;
+  margin-top: .9em;
+}
+
+.team-info a, .team-info a:visited {
+  text-decoration: none;
+  color: #e35525;
+}
+.team-info a:hover, .team-info a:active {
+  color: #903212;
+}
+.team-info img.wp-post-image {
+  height: 10.625em;
+  width: 10.625em;
+}
+.team-info img.tweet-logo {
+  border: none;
+  float: left;
+  padding-right: 0.313em;
+}
+
+.team-content {
+  float: right;
+}

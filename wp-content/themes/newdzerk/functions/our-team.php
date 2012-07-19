@@ -1,55 +1,58 @@
 <?php 
 
-// Custom Content Type for Portfolio Items
+// Custom Content Type for Team Members
 // -------------------------------------------------- //
 
 
-function adzerk_testimonials() {
+function adzerk_team() {
 
-  register_post_type( 'testimonial',
+  register_post_type( 'team',
                       array(
-                            'labels' => array('name' => __( 'Testimonials' ), 'singular_name' => __( 'Testimonial' )),
-                            'description' => 'Customers say nice things. We like to share the nice things.',
+                            'labels' => array('name' => __( 'Team' ), 'singular_name' => __( 'Team Member' )),
+                            'description' => 'Who works here? _______ works here! And they are proud of it.',
                             'public' => true,
                             'has_archive' => false,
                             'hierarchical' => false, // set to true to "nest" like pages
 
-                            'menu_position' => 8, // where on the menu it should appear; 5 = below posts, 10 = below media, etc
-                            'supports' => array( 'title','excerpt','editor','thumbnail'),
+                            'menu_position' => 7, // where on the menu it should appear; 5 = below posts, 10 = below media, etc
+                            'supports' => array( 'title','editor','thumbnail', 'custom-fields'),
 			       'taxonomies' => array('category'),
-                            'register_meta_box_cb' => 'add_testimonial_metaboxes'
+                            'register_meta_box_cb' => 'add_team_metaboxes'
                             )
-                      );
+                      ); }
 
-}
 
-add_action( 'init', 'adzerk_testimonials' );
+add_action( 'init', 'adzerk_team' );
+set_post_thumbnail_size( 170, 170 );
+
+//POSITION META BOX BEGIN
+//--------------------------------------
 
 // Call different custom meta boxes
-$testy_meta_boxes = array();
+$teammate_position_meta_boxes = array();
 
 // titles
-$testy_meta_boxes[] = array(
-    'id' => 'testimonial-meta',
-    'title' => 'Testimonialer Title',
-    'pages' => array('testimonial'), // multiple post types
+$teammate_position_meta_boxes[] = array(
+    'id' => 'teammate-position_meta',
+    'title' => 'Teammate Position',
+    'pages' => array('team'), // multiple post types
     'context' => 'side',
     'priority' => 'default',
     'fields' => array(
         array(
-            'name' => 'Title',
-            'desc' => 'Example: CEO of Awesomeness',
-            'id' => 'testimonial-meta-text',
+            'name' => 'Position',
+            'desc' => 'Example: Professional Adzerker',
+            'id' => 'teammmate-position-meta-text',
             'type' => 'text'
         )
     )
 );
 
-foreach ($testy_meta_boxes as $meta_box) {
-    $mytesty_box = new Testy_meta_box($meta_box);
+foreach ($teammate_position_meta_boxes as $meta_box) {
+    $myteammate_position_box = new Teammate_position_meta_box($meta_box);
 }
 
-class Testy_meta_box {
+class Teammate_position_meta_box {
 
     protected $_meta_box;
 
@@ -73,7 +76,7 @@ class Testy_meta_box {
         global $post;
 
         // Use nonce for verification
-        echo '<input type="hidden" name="mytheme_meta_box_nonce" value="', wp_create_nonce(basename(__FILE__)), '" />';
+        echo '<input type="hidden" name="teammate_position_meta_box_nonce" value="', wp_create_nonce(basename(__FILE__)), '" />';
 
         echo '<table class="form-table">';
 
@@ -116,11 +119,10 @@ class Testy_meta_box {
         echo '</table>';
     }
 
-
     // Save data from meta box
     function save($post_id) {
         // verify nonce
-        if (!wp_verify_nonce($_POST['mytheme_meta_box_nonce'], basename(__FILE__))) {
+        if (!wp_verify_nonce($_POST['teammate_position_meta_box_nonce'], basename(__FILE__))) {
             return $post_id;
         }
 
@@ -150,10 +152,10 @@ class Testy_meta_box {
         }
     }
 }
- 
 
-
-// Custom thumbnail sizes for use with portfolio items
+// Custom thumbnail sizes for use with teammate items
 add_image_size( 'profile-pic', 170, 170 );
+
+
 
 ?>

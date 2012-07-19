@@ -7,22 +7,7 @@
         if ( is_readable($locale_file) )
             require_once($locale_file);
 	
-	// Add RSS links to <head> section
-	automatic_feed_links();
-	
-	// Load jQuery
-	if ( !function_exists(core_mods) ) {
-		function core_mods() {
-			if ( !is_admin() ) {
-				wp_deregister_script('jquery');
-				wp_register_script('jquery', ("//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"), false);
-				wp_enqueue_script('jquery');
-			}
-		}
-		core_mods();
-	}
-
-	// Clean up the <head>
+// Clean up the <head>
 	function removeHeadLinks() {
     	remove_action('wp_head', 'rsd_link');
     	remove_action('wp_head', 'wlwmanifest_link');
@@ -105,7 +90,7 @@
             global $post;
 
             // Use nonce for verification
-            echo '<input type="hidden" name="mytheme_meta_box_nonce" value="', wp_create_nonce(basename(__FILE__)), '" />';
+            echo '<input type="hidden" name="mytheme2_meta_box_nonce" value="', wp_create_nonce(basename(__FILE__)), '" />';
 
             echo '<table class="form-table">';
 
@@ -151,7 +136,7 @@
         // Save data from meta box
         function save($post_id) {
             // verify nonce
-            if (!wp_verify_nonce($_POST['mytheme_meta_box_nonce'], basename(__FILE__))) {
+            if (!wp_verify_nonce($_POST['mytheme2_meta_box_nonce'], basename(__FILE__))) {
                 return $post_id;
             }
 
@@ -187,6 +172,7 @@
 
     // Custom Content Type for Team Mates
     require_once('functions/testimonials.php');
+    require_once('functions/our-team.php');
 
 
 add_theme_support('post-thumbnails');
@@ -201,4 +187,36 @@ function the_slug($echo=true){
 }
 
 
+// LATEST POST BY AUTHOR
+
+function latest_posts_by_author($array) {
+       extract(shortcode_atts(array('author' => 'admin', 'show' => 5, 'excerpt' => 'false'), $array));
+ 
+       global $wpdb;
+              $table = $wpdb->prefix . 'users';
+              $result = $wpdb->get_results('SELECT ID FROM '.$table.' WHERE user_login = "'.$author.'"');
+              $id = $result[0]->ID;
+              $table = $wpdb->prefix . 'posts';
+              $result = $wpdb->get_results('SELECT * FROM '.$table.' WHERE post_author = '.$id.' AND post_status = "publish" AND post_type = "post" ORDER BY post_date DESC');
+                     $i = 0;
+                            $html = '<ul>';
+                                   foreach ($result as $numpost) {
+                                                 $html .= '<h5><a href="'.get_permalink($numpost->ID).'">'.$numpost->post_title.'</a></h5>';
+                                                        if($excerpt == 'true'){
+                                                               $html .= '<p>'.$numpost->post_excerpt.'</p> <br /> <a class="readmore" href="'.get_permalink($numpost->ID).'">Read Post</a>';
+                                                        }
+                                                               $html .= '</li>';
+                                                        $i++;
+                                                 if($i == $show){
+                                                        break;
+                                                 }
+                                          }
+                                          $html .= '</ul>';
+ 
+                                          return $html;
+                                   }
+ 
+add_shortcode('latestbyauthor', 'latest_posts_by_author');
+
+// END LATEST POST BY AUTHOR
 ?>
