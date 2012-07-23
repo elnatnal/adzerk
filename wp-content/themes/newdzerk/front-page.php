@@ -1,29 +1,55 @@
 <?php get_header(); ?>
 
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			
-		<article class="post" id="post-<?php the_ID(); ?>">
+<h1 class="sassytext">Adzerk helps you in three simple steps</h1>
+<img src="<?php bloginfo('template_directory'); ?>/imgs/adzerk-infographic.jpg" width="1034" height="420" alt="Adzerk Infographic" class="home-infographic">
 
-			<h2><?php the_title(); ?></h2>
+<hr />
+<section class="frontpage-descriptions d-all">
+       <div class="d1-d2">
+              <h2>For Publishers</h2>
+              <p>Publishers use adOS to manage all of their ad inventory from direct sales to networks to house ads.</p>
+              <button>
+                     <a href="#">
+                            Find out more
+                     </a>
+              </button<>
+       </div>
 
-			<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
+       <div class="d4-d6">
+              <h2>For Networks</h2>
+              <p>Ad networks use adOS to manage their business from delivery to publishers to payout.</p>
+              <button>
+                     <a href="#">
+                            Find out more
+                     </a>
+              </button<>
+       </div>
 
-			<div class="entry">
+       <div class="d8-d9">
+              <h2>Adzerk loves Developers </h2>
+              <p>Did we mention our full API? Adzerk sure does love Developers.</p>
+              <button>
+                     <a href="#">
+                            Find out more
+                     </a>
+              </button<>
+       </div>
+</section>
 
-				<?php the_content(); ?>
+<hr />
 
-				<?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
 
-			</div>
 
-			<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+<section id="timeline" class="d-all">
+       <h2>About Adzerk <span class="subtext">&emsp;We're a startup in Durham, NC and we're into a little bit of everything. Here's what we've been doing lately:</span></h2>
 
-		</article>
-		
-		<?php comments_template(); ?>
 
-		<?php endwhile; endif; ?>
+<?php echo $mf_timeline->get_timeline(); ?>
+</section>
 
-<?php get_sidebar(); ?>
+
+
+
+
 
 <?php get_footer(); ?>

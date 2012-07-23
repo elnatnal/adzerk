@@ -57,9 +57,10 @@ h2 span.subtext {
 	font-style: normal;
 	font-weight: 400;
 	font-family: gesta;
-	font-size: em(16);
+	font-size: .5em;
+	text-transform:none;
 }
-h2.subtext a:link {
+h2 span.subtext a:link {
 	color: $blue3;
 }
 h3 {
@@ -222,3 +223,4 @@ aside {
 		}
 	}
 }
+

@@ -65,10 +65,11 @@ h2 span.subtext {
   font-style: normal;
   font-weight: 400;
   font-family: gesta;
-  font-size: 1em;
+  font-size: .5em;
+  text-transform: none;
 }
 
-h2.subtext a:link {
+h2 span.subtext a:link {
   color: #138caa;
 }
 
@@ -3843,8 +3844,301 @@ aside.job-openings li:before {
   color: #000;
 }
 
-.isfor-video {
+.home-infographic {
+  border: none;
+  margin: -2.5em 0 3em 0;
+}
+
+.frontpage-descriptions {
+  margin-bottom: 2em;
+}
+.frontpage-descriptions button {
+  margin-left: 25%;
+}
+.frontpage-descriptions button a {
+  font-size: 1.5em;
+  width: 10em;
+  padding-left: 0;
+  padding: .5em 0 .5em 0;
+}
+
+.timeline {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: gesta;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: black;
+  position: relative;
+  margin: 0px auto;
+  padding: 0px;
+  width: 100%;
+}
+
+.timeline a.timeline_spine {
+  display: block;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 0px;
+}
+
+.timeline .section {
+  clear: both;
+  margin: 0px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
+  overflow: hidden;
+  position: relative;
+  z-index: 99;
+}
+
+.timeline .section:only-child, .timeline .section:last-child {
+  padding-bottom: 20px;
+}
+
+.timeline .section .title {
+  display: block;
+  margin: 0px auto 20px auto;
+  width: auto;
+  text-align: center;
+}
+
+.timeline .section .title a {
+  background: #cdcdcd;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: black;
+  display: inline-block;
+  line-height: 0;
+  padding: 15px 20px 15px 20px;
+  text-decoration: none;
+}
+
+.timeline .section .title a:hover {
+  background: #efefef;
+  text-decoration: underline;
+}
+
+.timeline .section ol.events {
+  clear: both;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.timeline .section ol.events li.event {
+  margin: 0px 0px 20px 0px;
+  padding: 0px;
+  position: relative;
+  width: 50%;
+}
+
+.timeline .section ol.events li.event:nth-child(1n+2), .timeline .section ol.events li.event:first-child {
+  clear: left;
+  float: left;
+}
+
+.timeline .section ol.events li.event:nth-child(2n+2) {
+  clear: right;
   float: right;
+}
+
+.timeline .section ol.events li.event.featured {
+  clear: both;
+  float: none;
+  padding: 20px 0px 0px 0px;
+  width: 100%;
+}
+
+.timeline .section ol.events li.event .event_container {
+  background: #f9f9f9;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  overflow: hidden;
+  width: 80%;
+}
+
+.timeline .section ol.events li.event .event_container p {
+  font-size: 14px;
+  line-height: 23px;
+  font-family: gesta;
+  font-style: normal;
+  font-weight: 400;
+  color: #666666;
+  margin: 0px 0px 15px 0px;
+}
+
+.timeline .section ol.events li.event .event_container p:only-child,
+.timeline .section ol.events li.event .event_container p:last-child {
+  margin-bottom: 0px;
+}
+
+.timeline .section ol.events li.event .event_container h3 a {
+  color: black;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-decoration: none;
+}
+.timeline .section ol.events li.event .event_container a.moretag {
+  font-weight: 500;
+  color: #14526a;
+  font-size: 1em;
+  text-decoration: none;
+}
+.timeline .section ol.events li.event .event_container a.moretag:hover {
+  text-decoration: underline;
+}
+
+.timeline .section ol.events li.event .event_container .event_title {
+  padding: 10px;
+  overflow: hidden;
+}
+
+.timeline .section ol.events li.event .event_container .event_content {
+  clear: both;
+  padding: 0px 10px 10px 10px;
+}
+
+.timeline .section ol.events li.event .event_container .event_title .profile_image {
+  border: 0px;
+  float: left;
+  margin-right: 10px;
+}
+
+.timeline .section ol.events li.event .event_container .event_title span.subtitle {
+  color: #808080;
+  display: block;
+  font-size: 11px;
+  line-height: 12px;
+  margin: 0px 0px 0px 0px;
+  width: auto;
+}
+
+.timeline .section ol.events li.event .event_container .event_title h3 {
+  font-size: 14px;
+  line-height: 15px;
+  margin: 0px 0px 2px 0px;
+  text-transform: none;
+  display: inline;
+}
+
+.timeline .section ol.events li.event.wp .event_container .event_title h3 {
+  margin-top: 0px;
+}
+
+.timeline .section ol.events li.event .event_pointer {
+  background: transparent url(../imgs/box_pointer.png) no-repeat;
+  display: block;
+  height: 15px;
+  position: absolute;
+  top: 20px;
+  width: 18px;
+  z-index: 99;
+}
+
+/* Left Column */
+.timeline .section ol.events li.event:nth-child(1n+2) .event_container,
+.timeline .section ol.events li.event:first-child .event_container {
+  float: right;
+  margin-right: 12px;
+}
+
+.timeline .section ol.events li.event:nth-child(1n+2) .event_pointer,
+.timeline .section ol.events li.event:first-child .event_pointer {
+  background-position: 0px 0px;
+  right: -5px;
+}
+
+/* Right Column */
+.timeline .section ol.events li.event:nth-child(2n+2) {
+  margin-top: 20px;
+}
+
+.timeline .section ol.events li.event:nth-child(2n+2) .event_container {
+  float: left;
+  margin-left: 17px;
+}
+
+.timeline .section ol.events li.event:nth-child(2n+2) .event_pointer {
+  background-position: 0px -15px;
+  left: 0px;
+}
+
+/* Featured Event */
+.timeline .section ol.events li.event.featured .event_container {
+  float: none;
+  margin: 0px 64px 35px 65px;
+  width: auto;
+}
+
+.timeline .section ol.events li.event.featured .event_pointer {
+  background-position: 0px -30px;
+  height: 22px;
+  left: 1px;
+  margin: 0px auto;
+  top: -1px;
+}
+
+.timeline .section ol.events li.event.featured .event_container p {
+  text-align: center;
+}
+
+.timeline .section ol.events li.event.featured .event_container .event_title {
+  padding: 20px 20px 30px 20px;
+  text-align: center;
+}
+
+.timeline .section ol.events li.event.featured .event_container .event_title h3 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.timeline .section ol.events li.event.featured .event_container .event_content {
+  padding: 0px 20px 30px 20px;
+}
+
+.timeline ol.timeline_nav {
+  position: absolute;
+  list-style: none;
+  right: 0px;
+  top: 45px;
+  z-index: 99;
+}
+
+.timeline ol.timeline_nav li {
+  border-left: 5px solid #c7d0e3;
+  padding: 5px 0px 5px 7px;
+  margin: 0px 0px 10px 0px;
+  width: auto;
+}
+
+.timeline ol.timeline_nav li.current {
+  border-left: 4px solid #6179af;
+}
+
+.timeline ol.timeline_nav li:only-child, .timeline ol.timeline_nav li:last-child {
+  margin-bottom: 0px;
+}
+
+.timeline ol.timeline_nav li a {
+  color: #c7d0e3;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.timeline ol.timeline_nav li a:hover {
+  text-decoration: none;
+}
+
+.timeline ol.timeline_nav li.current a {
+  color: #6179af;
+  font-weight: 600;
 }
 
 section#publishers, section#networks, section#advertisers {
@@ -3920,6 +4214,69 @@ button.get-started a strong {
 
 aside.pricing h4 {
   margin-top: 1em;
+}
+
+.isfor-video {
+  float: right;
+}
+
+.teammate {
+  display: inline-block;
+  padding: 1.5em 0 1.75em 0;
+  border-bottom: 2px solid #efefef;
+}
+.teammate h2 {
+  margin-top: 0;
+}
+.teammate h4 {
+  color: #138caa;
+  font-weight: 300;
+  font-size: 1em;
+  margin-top: .9em;
+}
+
+.team-info a, .team-info a:visited {
+  text-decoration: none;
+  color: #e35525;
+}
+.team-info a:hover, .team-info a:active {
+  color: #903212;
+}
+.team-info img.wp-post-image {
+  height: 10.625em;
+  width: 10.625em;
+}
+.team-info img.tweet-logo {
+  border: none;
+  float: left;
+  padding-right: 0.313em;
+}
+
+.mate-content {
+  float: right;
+  color: #666666;
+}
+
+.directoradvisor h2 {
+  margin-bottom: .5em;
+}
+
+.dirad {
+  float: left;
+  width: 19.375em;
+  margin-right: 1.875em;
+}
+.dirad .wp-post-image {
+  width: 19.375em;
+}
+.dirad p {
+  color: #666666;
+  font-size: .85em;
+  line-height: 1.75em;
+}
+
+.dirad:nth-of-type(last) {
+  margin-right: 0;
 }
 
 .position {
@@ -4004,40 +4361,4 @@ section.testimonial:nth-of-type(even) .testy-content blockquote p {
   color: black;
   padding: 0;
   margin: 0;
-}
-
-.teammate {
-  display: inline-block;
-  padding: 1.5em 0 1.75em 0;
-  border-bottom: 2px solid #efefef;
-}
-.teammate h2 {
-  margin-top: 0;
-}
-.teammate h4 {
-  color: #138caa;
-  font-weight: 300;
-  font-size: 1em;
-  margin-top: .9em;
-}
-
-.team-info a, .team-info a:visited {
-  text-decoration: none;
-  color: #e35525;
-}
-.team-info a:hover, .team-info a:active {
-  color: #903212;
-}
-.team-info img.wp-post-image {
-  height: 10.625em;
-  width: 10.625em;
-}
-.team-info img.tweet-logo {
-  border: none;
-  float: left;
-  padding-right: 0.313em;
-}
-
-.team-content {
-  float: right;
 }

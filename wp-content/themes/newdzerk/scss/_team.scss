@@ -37,6 +37,33 @@
 	}
 
 }
-.team-content{
+.mate-content{
 	float:right;
+	color:$gray1;
+}
+
+.directoradvisor{
+	h2{
+		margin-bottom:.5em;
+	}
+}
+
+.dirad{
+	float:left;
+	width:em(310);
+	margin-right:em(30);
+	
+	.wp-post-image{
+		width:em(310);
+	}
+	
+	p{
+		color:$gray1;
+		font-size:.85em;
+		line-height:1.75em;
+	}
+}
+
+.dirad:nth-of-type(last){
+	margin-right:0;
 }

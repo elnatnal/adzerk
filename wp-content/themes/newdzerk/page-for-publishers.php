@@ -1,8 +1,13 @@
 <?php get_header(); ?>
 <hgroup>
-       <h1 class="sassytext">Adzerk is for</h1>
-       <h1>Publishers</h1>
+       <?php $sassy = get_post_meta($post->ID, "adzerk-sassy-text", true); ?>
+       <h1 class="sassytext">
+          <?php echo $sassy; ?>
+       </h1>
+       <h1><?php the_title(); ?></h1>
 </hgroup>
+
+
 
 <section id="intro d-all">
        <div class="left">

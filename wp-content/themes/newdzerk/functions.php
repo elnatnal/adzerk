@@ -219,4 +219,13 @@ function latest_posts_by_author($array) {
 add_shortcode('latestbyauthor', 'latest_posts_by_author');
 
 // END LATEST POST BY AUTHOR
+
+// Puts link in excerpts more tag
+function new_excerpt_more($more) {
+       global $post;
+	return '<a class="moretag" href="'. get_permalink($post->ID) . '">...Read more</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
+
 ?>

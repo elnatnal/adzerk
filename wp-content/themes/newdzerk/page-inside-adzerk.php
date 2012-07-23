@@ -1,21 +1,33 @@
 <?php get_header(); ?>
 <hgroup>
-       <h1 class="sassytext">Adzerk is for</h1>
-       <h1>Publishers</h1>
+       <?php $sassy = get_post_meta($post->ID, "adzerk-sassy-text", true); ?>
+       <h1 class="sassytext">
+          <?php echo $sassy; ?>
+       </h1>
+       <h1><?php the_title(); ?></h1>
 </hgroup>
 
-<section id="intro d-all">
-       <div class="left">
-              <h3><em>adOS is the best solution for running your network.</em></h3>
-              <p>adOS is your ad network management platform. You'll have a publisher portal to share logins with your publishers and adOS will even help you calculate payouts to your publishers and generate the Paypal mass pay file. Our super easy <strong>three step process</strong> will have you serving ads in minutes.</p>
-              
-              <button>
-                     <a href="#">See Plans and Pricing</a>
-              </button>
+<section id="inside-adzerk-intro d-all">
+       <div id="news-and-announcements">
+              <h3>News and Announcements</h3>
+              <p>Here are the latest postings about us and what we are doing around the office and world community. <a href="#">Read Posts</a></p>
+       </div>
+       
+       <div id="product-blog">
+              <h3>Product Blog</h3>
+              <p>We roll out new features like every day here. We're just chalk full of'em. Look at what's being implemented now! <a href="#">Read Posts</a></p>
        </div>
 
+       <div id="team-blog">
+              <h3>Team Blog</h3>
+              <p>Here's where we rant, rave and talk about random opportunities. It's cool. Warning: sometimes we curse.<a href="#">Read Posts</a></p>
+       </div>
        
-       <iframe class="isfor-video d6-d9" src="http://player.vimeo.com/video/14510432" width="393" height="217" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+       <div id="run-of-network">
+              <h3>Run of Network</h3>
+              <p>Just how do you run an ad network? Check out tips, tricks and wisdom about ad tech and the ad industry.<a href="#">Read Posts</a></p>
+       </div>
+
 
 </section>
 

@@ -43,4 +43,38 @@
                <?php endwhile; ?>
      <?php endif; ?>
 
+
+
+     <div class="directoradvisor">
+            <h2>Board of Directors and Advisors</h2>
+     <?php query_posts('post_type=team&category_name=directors-and-advisors'); ?>
+     <?php if (have_posts()) : ?>
+                    <?php while (have_posts()) : the_post(); ?>    
+
+             <div class="<?php the_slug();?> dirad">
+                           <?php echo get_the_post_thumbnail( $post->ID, '322',true ); ?> <br />
+
+     		        <div class="diradvis-content">
+                                  <h4><?php the_title(); ?></h4>
+                                  <?php $diradvis_position = get_post_meta($post->ID, 'teammmate-position-meta-text', true);
+                                          if (empty ($diradvis_position)) {
+                                                 echo " ";
+                                          } else {
+                                                 echo 
+                                                 "<h5>" . $diradvis_position . "</h5>";
+                                         }
+                                          ?>
+                                  <?php the_content(); ?> 
+                           </div>
+                    </div>
+                    <?php endwhile; ?>
+          <?php endif; ?>
+      </div>
+
+
+
+
+
+
+
 <?php get_footer(); ?>

@@ -17,7 +17,7 @@
 
               <div class="price-packages">
                      <div class="bronze-support">
-                            <img src="http://placekitten.com/100/100"> <br />
+                            <img src="http://adzerk-www.s3.amazonaws.com/ados/100x120_bronzesupport.jpg"> <br />
                             <h6>Support</h6>
                             <ul>
                                    <li>Robust Documentation</li>
@@ -28,7 +28,7 @@
                        </div>    
                      
                        <div class="white-label">
-                              <img src="http://placekitten.com/100/100"> <br />
+                              <img src="http://adzerk-www.s3.amazonaws.com/ados/100x120_whitelabel.jpg"> <br />
                               <h6>White Label</h6>
                               <ul>
                                      <li>100% Skinnable Interface</li>
@@ -54,7 +54,7 @@
 
               <div class="price-packages">
                      <div class="network-tools">
-                            <img src="http://placekitten.com/100/100"> <br />
+                            <img src="http://adzerk-www.s3.amazonaws.com/ados/100x120_network.jpg"> <br />
                             <h6>Network Tools</h6>
                             <ul>
                                    <li>Advertiser Portal</li>
@@ -65,7 +65,7 @@
                        </div>
 
                      <div class="silver-support">
-                            <img src="http://placekitten.com/100/100"> <br />
+                            <img src="http://adzerk-www.s3.amazonaws.com/ados/100x120_silversupport.jpg"> <br />
                             <h6>Support</h6>
                             <ul>
                                    <li>Robust Documentation</li>
@@ -76,7 +76,7 @@
                        </div>    
                      
                        <div class="white-label">
-                              <img src="http://placekitten.com/100/100"> <br />
+                              <img src="http://adzerk-www.s3.amazonaws.com/ados/100x120_whitelabel.jpg"> <br />
                               <h6>White Label</h6>
                               <ul>
                                      <li>100% Skinnable Interface</li>
@@ -90,55 +90,6 @@
                      <a href="#"><strong>Get Started Now</strong> <br />
                                    with our super easy wizard!
                      </a>
-                  </button>
-       </section>
-
-
-       <section id="advertisers">
-              <h2>Pricing for Advertisers</h2>
-              <h4>Get Started free up to 100 million impressions</h4>
-              <p class="gray">
-                     Advertiser packages include adOS's great features, including:
-              </p>
-
-              <div class="price-packages">
-                     <div class="advertiser-mode">
-                            <img src="http://placekitten.com/100/100"> <br />
-                            <h6>Advertiser Mode</h6>
-                            <ul>
-                                   <li>Advertiser Portal</li>
-                                   <li>Publisher Portal</li>
-                                   <li>Site Payout Management</li>
-                                   <li>Earnings Calculation</li>
-                            </ul>
-                       </div>    
-
-                     <div class="bronze-support">
-                            <img src="http://placekitten.com/100/100"> <br />
-                            <h6>Support</h6>
-                            <ul>
-                                   <li>Robust Documentation</li>
-                                   <li>Live Chat</li>
-                                   <li>Phone</li>
-                                   <li>Email</li>
-                            </ul>
-                       </div>    
-                     
-                       <div class="white-label">
-                              <img src="http://placekitten.com/100/100"> <br />
-                              <h6>White Label</h6>
-                              <ul>
-                                     <li>100% Skinnable Interface</li>
-                                     <li>CNAME-ing</li>
-                                     <li>API</li>
-                              </ul>
-                         </div>
-                  </div>
-                     
-                  <button class="get-started">
-                         <a href="#"><strong>Get Started Now</strong> <br />
-                                with our super easy wizard!
-                          </a>
                   </button>
        </section>
 </div>
@@ -156,9 +107,8 @@
                      <li><strong>For Publishers</strong><br />
                             100 million impressions/month and up</li>
               </ul>
-              
               <h3>This is Ron.</h3>
-              <img src="http://placekitten.com/265/265">
+              <img src="<?php bloginfo('template_directory'); ?>/imgs/this-is-ron.jpg" width="265" height="265" alt="This Is Ron">
               <p>He's super friendly, and he loves to talk enterprise customers about all their needs. It's what he does all day everyday. Shoot him an email, he'd love to hear from you.</p>
               
               <button><a href="mailto:ron@adzerk.com">Get Enterprise Pricing</a></button>

@@ -39,8 +39,8 @@
                      
               <section class="bottom-logo d9">
                      <h2>ADZERK</h2>
-                     <p>406 Blackwell St. <br />
-                            Suite B034 <br />
+                     <p>303 South Roxboro St<br />
+                            Suite 30<br />
                             Durham, NC 27701 <br />
                      </p>
 
@@ -54,8 +54,10 @@
        </div>
 	</footer>
 
-<!-- jQuery is called via the Wordpress-friendly way via functions.php -->
-<script src="<?php bloginfo('template_directory'); ?>/_/js/flexie.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/flexie.js"></script>
+
 
 <script>
 
