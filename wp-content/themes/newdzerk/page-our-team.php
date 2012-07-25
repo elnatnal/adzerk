@@ -35,13 +35,19 @@
                </section>
         </div>
 
-        <aside class="d8-d9">
-                     <h4>Recent Post</h4>
-               <?php echo do_shortcode('[latestbyauthor author="admin" show="1"]'); ?>
-       </aside>
+         <aside class="d8-d9">
+                      <h4>Recent Post</h4>
+                      <?php $author_id = get_post_meta($post->ID, 'author-id', true); ?>
+                      <?php echo $author_id ?>
+        </aside>
+
+ <?php endwhile; ?>
+
+ <?php endif; ?>
+
+
+
 </div>
-               <?php endwhile; ?>
-     <?php endif; ?>
 
 
 

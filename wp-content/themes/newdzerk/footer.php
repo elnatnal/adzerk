@@ -38,7 +38,7 @@
               </section>
                      
               <section class="bottom-logo d9">
-                     <h2>ADZERK</h2>
+                     <h2><a href="<?php bloginfo('name'); ?>">ADZERK</a></h2>
                      <p>303 South Roxboro St<br />
                             Suite 30<br />
                             Durham, NC 27701 <br />
@@ -58,7 +58,52 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/flexie.js"></script>
 
+       <?php
 
+       global $post;     // if outside the loop
+
+       if ( is_page('features')) { ?>
+              <script type="text/javascript">
+                  $(function() {
+                      var offset = $("#sidebar-features").offset();
+                      var topPadding = 15;
+                      $(window).scroll(function() {
+                          if ($(window).scrollTop() > offset.top) {
+                              $("#sidebar-features").stop().animate({
+                                  marginTop: $(window).scrollTop() - offset.top + topPadding
+                              });
+                          } else {
+                              $("#sidebar-features").stop().animate({
+                                  marginTop: 0
+                              });
+                          };
+                      });
+                  });
+              </script>
+              
+              <script>
+              $(document).ready(function() {
+                 $('a[href*=#]').bind('click', function(e) {
+              	e.preventDefault(); //prevent the "normal" behaviour which would be a "hard" jump
+
+              	var target = $(this).attr("href"); //Get the target
+
+              	// perform animated scrolling by getting top-position of target-element and set it as scroll target
+              	$('html, body').stop().animate({ scrollTop: $(target).offset().top - 20 }, 400, function() {
+              	     location.hash = target;  //attach the hash (#jumptarget) to the pageurl
+              	});
+
+              	return false;
+                 });
+              });
+       	</script>
+       	
+              
+              <?php 
+       } else {
+           // This is not a subpage
+       }
+       ?>
 <script>
 
   var _gaq = _gaq || [];

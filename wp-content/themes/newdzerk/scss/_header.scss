@@ -8,8 +8,6 @@
 @import "config";
 @import url("/css/normalize.css");
 
-
-
 body {
 	background:url('../imgs/main-head.jpg') repeat-x;
 	font-size: 16px;
@@ -38,13 +36,15 @@ header{
 
 #searchform{
 	display:inline-block;	
+	position:relative;
+	top:em(-7);
 	
 }
 
 
 /*   BUTTON START   */
 
-.button, #searchsubmit { 
+.button { 
     position: relative; 
 	font-size:em(13);
 	line-height:em(15);
@@ -77,36 +77,77 @@ header{
 }
 
 #searchsubmit{
+	font-size:em(13);
+	line-height:em(15);
+    overflow: visible; 
+    display: inline-block; 
+    padding: 0.5em 1em; 
+    margin: 0;
+    text-decoration: none; 
+    color: white; 
+    white-space: nowrap; 
+    cursor: pointer; 
+	
+    background-color: $blue2;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from($blue3), to($blue2));
+    background-image: -moz-linear-gradient($blue3, $blue2);
+    background-image: -o-linear-gradient($blue3, $blue2);
+    background-image: linear-gradient($blue3, $blue2);
+    -webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    -o-background-clip: padding-box; 
+    /*background-clip: padding-box;*/ /* commented out due to Opera 11.10 bug */
+    -webkit-border-radius: 0 .5em .5em 0; 
+    -moz-border-radius: 0 .5em .5em 0; 
+    border-radius: 0 .5em .5em 0; 
+    /* IE hacks */
+    zoom: 1; 
+    *display: inline; 
 	border:none;
 	outline:none;
-	-webkit-border-radius: 0.1em; 
-    -moz-border-radius: 0.1em; 
-    border-radius: 0.1em; 
-    
 }
 
 
+
+
 input#s{
+	-webkit-border-radius: .5em 0 0 .5em; 
+    -moz-border-radius: .5em 0 0 .5em; 
+    border-radius: .5em 0 0 .5em;
+	height:24px;
+	width:em(220);
+	margin-right:em(-6);
+    -webkit-appearance:none;
+	border:none;
+	position:relative;
+	top:-1px;
 	
 }
 
 .button:hover,
 .button:focus,
-.button:active, #searchsubmit {
+.button:active {
     text-decoration: none; 
     color: #fff; 
     background: darken($orange, 10%);
 }
 
+#searchsubmit:hover, #searchsubmit:focus, #searchsubmit:active{
+	background:$blue2;
+}
 /* overrides extra padding on button elements in Firefox */
 .button::-moz-focus-inner, #searchsubmit::-moz-focus-inner {
     padding: 0;
     border: 0;
 }
-.button.pill, #searchsubmit {
+.button.pill{
     -webkit-border-radius: .5em; 
     -moz-border-radius: .5em; 
-    border-radius: .5em; 
+    border-radius: .5em;
+ 	width:4.5em;
+	text-decoration:none;
+	text-align:center;
+	
 }
 
 .button-group {

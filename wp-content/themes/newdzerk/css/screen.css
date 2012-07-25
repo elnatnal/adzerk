@@ -208,6 +208,10 @@ p.gray a:hover {
   color: #666666;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 aside {
   font-size: 0.875em;
 }
@@ -226,7 +230,6 @@ aside ul strong {
   color: #000;
 }
 aside ul li {
-  list-style-type: none;
   margin-left: 0;
   line-height: 1.438em;
   margin-top: 0.625em;
@@ -3527,10 +3530,12 @@ header {
 
 #searchform {
   display: inline-block;
+  position: relative;
+  top: -0.438em;
 }
 
 /*   BUTTON START   */
-.button, #searchsubmit {
+.button {
   position: relative;
   font-size: 0.813em;
   line-height: 0.938em;
@@ -3564,19 +3569,59 @@ header {
 }
 
 #searchsubmit {
+  font-size: 0.813em;
+  line-height: 0.938em;
+  overflow: visible;
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: #14526a;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#138caa), to(#14526a));
+  background-image: -moz-linear-gradient(#138caa, #14526a);
+  background-image: -o-linear-gradient(#138caa, #14526a);
+  background-image: linear-gradient(#138caa, #14526a);
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  -o-background-clip: padding-box;
+  /*background-clip: padding-box;*/
+  /* commented out due to Opera 11.10 bug */
+  -webkit-border-radius: 0 .5em .5em 0;
+  -moz-border-radius: 0 .5em .5em 0;
+  border-radius: 0 .5em .5em 0;
+  /* IE hacks */
+  zoom: 1;
+  *display: inline;
   border: none;
   outline: none;
-  -webkit-border-radius: 0.1em;
-  -moz-border-radius: 0.1em;
-  border-radius: 0.1em;
+}
+
+input#s {
+  -webkit-border-radius: .5em 0 0 .5em;
+  -moz-border-radius: .5em 0 0 .5em;
+  border-radius: .5em 0 0 .5em;
+  height: 24px;
+  width: 13.75em;
+  margin-right: -0.375em;
+  -webkit-appearance: none;
+  border: none;
+  position: relative;
+  top: -1px;
 }
 
 .button:hover,
 .button:focus,
-.button:active, #searchsubmit {
+.button:active {
   text-decoration: none;
   color: #fff;
   background: #bd4218;
+}
+
+#searchsubmit:hover, #searchsubmit:focus, #searchsubmit:active {
+  background: #14526a;
 }
 
 /* overrides extra padding on button elements in Firefox */
@@ -3585,10 +3630,13 @@ header {
   border: 0;
 }
 
-.button.pill, #searchsubmit {
+.button.pill {
   -webkit-border-radius: .5em;
   -moz-border-radius: .5em;
   border-radius: .5em;
+  width: 4.5em;
+  text-decoration: none;
+  text-align: center;
 }
 
 .button-group {
@@ -3807,6 +3855,8 @@ aside.job-openings li:before {
   padding-bottom: 1.875em;
   padding-top: -0.313em;
   margin-top: 3em;
+  width: 101.5%;
+  margin-left: -13px;
 }
 #footer hr {
   width: 96%;
@@ -4139,6 +4189,212 @@ aside.job-openings li:before {
 .timeline ol.timeline_nav li.current a {
   color: #6179af;
   font-weight: 600;
+}
+
+aside.features {
+  border-top: 1px solid #e35525;
+}
+aside.features ul:nth-of-type(1) {
+  margin-top: .1em;
+}
+aside.features ul {
+  text-indent: .5em;
+  margin-top: 0;
+  display: block;
+}
+aside.features li ul {
+  text-indent: 1.5em;
+}
+aside.features li {
+  border-bottom: 1px solid #cdcdcd;
+  margin-bottom: 0;
+  margin-top: 0 !important;
+}
+aside.features li ul li:nth-of-type(4) {
+  border-bottom: none;
+}
+aside.features a:link, aside.features a:visited, aside.features a {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  padding: .35em 0;
+  display: block;
+  margin: 0;
+}
+aside.features a:hover, aside.features a:active {
+  background-color: #efefef;
+  color: #14526a;
+}
+
+.features-main section {
+  margin-left: 2em;
+}
+.features-main h2 {
+  margin: .75em 0 .5em 0;
+}
+.features-main ul, .features-main p {
+  color: #666666;
+}
+.features-main span.orange {
+  color: #e35525;
+}
+
+#fastest-ad-code, #for-networks, #for-publishers, #campaign-trafficking, #reporting, #worry-free {
+  padding-bottom: 3em;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+#fastest-ad-code {
+  height: 18.75em;
+  padding-bottom: 2em;
+}
+#fastest-ad-code h2 {
+  margin-top: 0;
+}
+#fastest-ad-code img {
+  float: left;
+  margin-right: 2.25em;
+  margin-top: 0;
+}
+#fastest-ad-code h4 {
+  margin-top: 1.75em;
+}
+
+#for-networks {
+  padding-bottom: 0em;
+}
+#for-networks div {
+  display: block;
+  padding: .5em 0;
+}
+
+#skinnable-interface img, #publisher-portal img {
+  float: right;
+  margin-left: 1em;
+}
+
+#site-payout-management img, #advertiser-portal img {
+  float: left;
+  margin-right: 1em;
+}
+
+#skinnable-interface h4 {
+  margin-top: -1.25em;
+}
+
+#site-payout-management h4 {
+  margin-top: -1em;
+  margin-left: 13.4em;
+}
+
+#publisher-portal {
+  margin-top: 1em;
+}
+#publisher-portal h4 {
+  margin-top: -1em;
+}
+
+#advertiser-portal h4 {
+  margin-top: -1.125em;
+  margin-left: 13.4em;
+}
+
+#campaign-trafficking {
+  height: 56em;
+}
+
+#flight-delivery-options ul {
+  padding-left: 0;
+}
+
+#robust-targeting-options ul {
+  padding-left: 0;
+  padding-right: 2em;
+}
+
+#worry-free {
+  height: 25em;
+}
+
+#always-up, #technical-support, #scalable, #ad-ops-support {
+  width: 18.75em;
+  float: left;
+  margin-right: 3em;
+}
+#always-up h4, #technical-support h4, #scalable h4, #ad-ops-support h4 {
+  margin-top: -0.938em;
+}
+
+#full-api, #ad-tech-marketplace, #flight-delivery-options, #passbacks, #tracking-options {
+  width: 18.75em;
+  float: left;
+  margin-right: 3em;
+}
+#full-api ul, #ad-tech-marketplace ul, #flight-delivery-options ul, #passbacks ul, #tracking-options ul {
+  padding-left: 0;
+}
+
+/*  FEATURE ICONS  */
+h4:before {
+  position: relative;
+  top: 0.563em;
+  padding-right: .35em;
+}
+
+#skinnable-interface h4:before {
+  content: url("../imgs/icons/skinnable-ui.gif");
+}
+
+#site-payout-management h4:before {
+  content: url("../imgs/icons/site-payout-management.gif");
+}
+
+#publisher-portal h4:before {
+  content: url("../imgs/icons/publisher-portal.gif");
+}
+
+#advertiser-portal h4:before {
+  content: url("../imgs/icons/advertiser-portal.gif");
+}
+
+#robust-targeting-options h4:before {
+  content: url("../imgs/icons/robust-targeting-options.gif");
+}
+
+#flight-delivery-options h4:before {
+  content: url("../imgs/icons/flight-delivery-options.gif");
+}
+
+#passbacks h4:before {
+  content: url("../imgs/icons/passbacks.gif");
+}
+
+#tracking-options h4:before {
+  content: url("../imgs/icons/tracking-options.gif");
+}
+
+#always-up h4:before, #technical-support h4:before, #scalable h4:before, #ad-ops-support h4:before {
+  content: url("../imgs/icons/check.gif");
+}
+
+#full-api h4:before {
+  content: url("../imgs/icons/full-api.gif");
+}
+
+#fast-easy-interface h4:before {
+  content: url("../imgs/icons/fast-easy-interface.gif");
+}
+
+#ad-tech-marketplace h4:before {
+  content: url("../imgs/icons/ad-tech-marketplace.gif");
+}
+
+#partnered h4:before {
+  content: url("../imgs/icons/partnered.gif");
+}
+
+#other-features h4:before {
+  content: url("../imgs/icons/other-features.gif");
 }
 
 section#publishers, section#networks, section#advertisers {

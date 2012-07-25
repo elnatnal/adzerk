@@ -27,7 +27,7 @@
 
        <div class="d8-d9">
               <h2>Adzerk loves Developers </h2>
-              <p>Did we mention our full API? Adzerk sure does love Developers.</p>
+              <p>Did we mention our full API? Execute on your idea without rewriting an ad server from the ground up.</p>
               <button>
                      <a href="#">
                             Find out more

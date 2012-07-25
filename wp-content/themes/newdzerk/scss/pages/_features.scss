@@ -1,0 +1,236 @@
+aside.features{
+	border-top:1px solid $orange;
+
+	ul:nth-of-type(1){
+		margin-top:.1em;
+	}
+	ul{
+		text-indent:.5em;
+		margin-top:0;
+		display:block;
+	}
+	li ul{
+		text-indent:1.5em;
+	}
+	
+	li{
+		border-bottom: 1px solid $gray3;
+		margin-bottom:0;
+		margin-top:0 !important;
+	}
+	
+	li ul li:nth-of-type(4){
+		border-bottom:none;
+	}
+	
+	a:link, a:visited, a{
+		text-decoration:none;
+		height:100%;
+		width:100%;
+		padding:.35em 0;
+		display:block;
+		margin:0;
+		
+	}
+	
+	a:hover, a:active{
+		background-color:$gray4;
+		color:$blue2;
+	}
+}
+
+.features-main{
+	section{
+		margin-left:2em;
+	}
+
+	h2{
+		margin:.75em 0 .5em 0;
+	}	
+	
+	ul, p{
+		color:$gray1;
+	}
+
+	span.orange{
+		color:$orange;
+	}
+
+}
+
+#fastest-ad-code, #for-networks, #for-publishers, #campaign-trafficking, #reporting, #worry-free {
+	padding-bottom:3em;
+	border-bottom:1px solid $gray3;
+}
+
+#fastest-ad-code{
+	height:em(300);
+	padding-bottom:2em;
+		
+	h2{
+		margin-top:0;
+	}
+	
+	img{
+		float:left;
+		margin-right:2.25em;
+		margin-top:0;
+	}
+	
+	h4{
+		margin-top:1.75em;
+	}
+}
+
+#for-networks{
+	padding-bottom:0em;
+	
+	div{
+		display:block;
+		padding:.5em 0;
+		
+	}
+}
+
+#skinnable-interface, #publisher-portal{
+	img{
+		float:right;
+		margin-left:1em;
+	}
+}
+
+#site-payout-management, #advertiser-portal{
+	img{
+		float:left;
+		margin-right:1em;
+	}
+}
+
+#skinnable-interface h4{
+	margin-top:em(-20);
+}
+
+#site-payout-management h4{
+		margin-top:-1em;
+		margin-left:13.4em;
+}
+
+#publisher-portal{
+	margin-top:1em;
+	
+	h4{
+		margin-top:em(-16);
+	}
+}
+
+#advertiser-portal h4{
+	margin-top:em(-18);
+	margin-left:13.4em;
+}
+
+#campaign-trafficking{
+	height:56em;
+}
+
+#flight-delivery-options ul{
+	padding-left:0;
+}
+
+#robust-targeting-options ul{
+	padding-left:0;
+	padding-right:2em;
+}
+
+#worry-free{
+	height:25em;
+}
+
+#always-up, #technical-support, #scalable, #ad-ops-support{
+	width:em(300);
+	float:left;
+	margin-right:3em;
+	
+	h4{
+		margin-top:em(-15);
+	}
+}
+
+#full-api, #ad-tech-marketplace, #flight-delivery-options, #passbacks, #tracking-options{
+	width:em(300);
+	float:left;
+	margin-right:3em;
+	
+	ul{
+		padding-left:0;
+	}
+}
+
+
+/*  FEATURE ICONS  */
+
+h4:before{
+	position:relative;
+	top:em(9);
+	padding-right:.35em;
+}
+
+#skinnable-interface h4:before{
+		content:url('../imgs/icons/skinnable-ui.gif');
+}
+
+#site-payout-management h4:before{
+		content:url('../imgs/icons/site-payout-management.gif');
+}
+
+#publisher-portal h4:before{
+		content:url('../imgs/icons/publisher-portal.gif');
+}
+
+#advertiser-portal h4:before{
+		content:url('../imgs/icons/advertiser-portal.gif');
+}
+
+#robust-targeting-options h4:before{
+		content:url('../imgs/icons/robust-targeting-options.gif');
+}
+
+#flight-delivery-options h4:before{
+		content:url('../imgs/icons/flight-delivery-options.gif');
+}
+
+#passbacks h4:before{
+		content:url('../imgs/icons/passbacks.gif');
+}
+
+#tracking-options h4:before{
+		content:url('../imgs/icons/tracking-options.gif');
+}
+
+#always-up h4:before, #technical-support h4:before, #scalable h4:before, #ad-ops-support h4:before{
+		content:url('../imgs/icons/check.gif');
+}
+#full-api h4:before{
+		content:url('../imgs/icons/full-api.gif');
+}
+
+#fast-easy-interface h4:before{
+		content:url('../imgs/icons/fast-easy-interface.gif');
+}
+
+#ad-tech-marketplace h4:before{
+		content:url('../imgs/icons/ad-tech-marketplace.gif');
+}
+
+#partnered h4:before{
+		content:url('../imgs/icons/partnered.gif');
+}
+
+#other-features h4:before{
+		content:url('../imgs/icons/other-features.gif');
+}
+
+
+
+
+
+

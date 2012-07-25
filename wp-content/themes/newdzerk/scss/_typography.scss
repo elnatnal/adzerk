@@ -195,6 +195,9 @@ p.gray {
 
 }
 
+ul li{
+	list-style-type:none;
+}
 
 aside {
 	font-size: em(14);
@@ -216,7 +219,6 @@ aside {
 			}
 			
 		li{
-			list-style-type:none;
 			margin-left:0;
 			line-height:em(23);
 			margin-top:em(10);
