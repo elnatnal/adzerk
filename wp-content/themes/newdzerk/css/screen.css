@@ -4341,24 +4341,28 @@ h4:before {
   padding-right: .35em;
 }
 
-#skinnable-interface h4:before {
+#skinnable-interface h4:before, #built-for li.skinnable-ui h4:before {
   content: url("../imgs/icons/skinnable-ui.gif");
 }
 
-#site-payout-management h4:before {
+#site-payout-management h4:before, #built-for li.site-payout-management h4:before {
   content: url("../imgs/icons/site-payout-management.gif");
 }
 
-#publisher-portal h4:before {
+#publisher-portal h4:before, #built-for li.publisher-portal h4:before {
   content: url("../imgs/icons/publisher-portal.gif");
 }
 
-#advertiser-portal h4:before {
+#advertiser-portal h4:before, #built-for li.advertiser-portal h4:before {
   content: url("../imgs/icons/advertiser-portal.gif");
 }
 
-#robust-targeting-options h4:before {
+#robust-targeting-options h4:before, #built-for li.robust-targeting-options h4:before {
   content: url("../imgs/icons/robust-targeting-options.gif");
+}
+
+#built-for li.fast-accurate-reporting h4:before {
+  content: url("../imgs/icons/fast-accurate-reporting.gif");
 }
 
 #flight-delivery-options h4:before {
@@ -4470,10 +4474,6 @@ button.get-started a strong {
 
 aside.pricing h4 {
   margin-top: 1em;
-}
-
-.isfor-video {
-  float: right;
 }
 
 .teammate {
@@ -4617,4 +4617,219 @@ section.testimonial:nth-of-type(even) .testy-content blockquote p {
   color: black;
   padding: 0;
   margin: 0;
+}
+
+.page-id-29 section {
+  display: block;
+}
+
+#intro {
+  border-bottom: 1px solid #efefef;
+  height: 17em;
+  margin-bottom: 1em;
+}
+#intro button {
+  width: 26em;
+  height: 3.5em;
+}
+#intro button a {
+  position: relative;
+  top: .35em;
+  font-size: 1.65em;
+}
+#intro h4 {
+  font-size: 1.5em;
+}
+#intro div {
+  width: 36.25em;
+  display: block;
+  float: left;
+}
+#intro .isfor-video {
+  float: right;
+}
+
+#built-for {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+}
+#built-for ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+#built-for p {
+  color: #8e8e8e;
+}
+#built-for li {
+  width: 20.06em;
+  float: left;
+  margin-right: 2.188em;
+}
+#built-for li a:link, #built-for li a:visited {
+  text-decoration: none;
+  color: #666666;
+}
+#built-for li strong {
+  font-weight: 500;
+}
+#built-for li:nth-of-type(3n+3) {
+  margin-right: 0;
+}
+#built-for button {
+  background: #cdcdcd;
+  font-size: .95em;
+  padding: 0.625em;
+  margin: 0 41%;
+  margin-top: 0.563em;
+}
+#built-for button:hover, #built-for button:active, #built-for button:focus {
+  background: #8e8e8e;
+}
+
+.arrow-after:after {
+  content: url("../imgs/icons/arrow-after.gif");
+  position: relative;
+  padding-left: .5em;
+}
+
+section#customers {
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 1em;
+  padding-bottom: 0;
+}
+section#customers h2 {
+  padding-bottom: 1em;
+}
+
+#cust-testimonials {
+  color: #8e8e8e;
+}
+#cust-testimonials h2 {
+  padding-bottom: 2em;
+}
+#cust-testimonials blockquote {
+  font-family: gesta;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.75em;
+  line-height: 1.25em;
+  color: black;
+  margin-top: -1em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#cust-testimonials {
+  padding-right: 2em;
+}
+#cust-testimonials .testy-info {
+  height: 14.688em;
+}
+#cust-testimonials .testy-info img {
+  height: 6.5em;
+  width: 6.5em;
+}
+#cust-testimonials .testimonial {
+  margin-top: 1em;
+}
+#cust-testimonials .testimonial:nth-of-type(1) {
+  margin-top: 0;
+}
+#cust-testimonials .testimonial:nth-of-type(odd) .testy-info {
+  float: left;
+  padding-right: 1.5em;
+}
+#cust-testimonials .testimonial:nth-of-type(even) .testy-info {
+  float: right;
+  padding-left: 1.5em;
+}
+#cust-testimonials .testimonial:nth-of-type(even) .testy-content {
+  text-align: right;
+}
+
+aside#powered-by-ados {
+  float: right;
+  width: 12.5em;
+  border-left: 1px solid #efefef;
+  padding-left: 2em;
+  text-align: center;
+  height: 57.813em;
+}
+
+#world-class-ad-serving h2 {
+  margin-bottom: .5em;
+}
+
+.for-blank-pricing {
+  background: #efefef;
+  float: left;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding: 0.938em;
+  padding-right: 0;
+}
+.for-blank-pricing h4, .for-blank-pricing p.gray, .for-blank-pricing div.network-tools {
+  margin-left: 0.938em;
+}
+.for-blank-pricing button.get-started {
+  margin-top: .5em;
+  margin-left: 33%;
+}
+.for-blank-pricing .price-packages {
+  margin-left: 1em;
+  font-size: 0.875em;
+}
+.for-blank-pricing .price-packages div {
+  width: 12.5em;
+  float: left;
+  margin-right: 1.563em;
+  color: #8e8e8e;
+  padding-left: 0;
+  display: inline-block;
+}
+.for-blank-pricing .price-packages div:nth-of-type(3) {
+  margin-right: 0;
+}
+.for-blank-pricing ul {
+  padding-left: 0;
+}
+.for-blank-pricing h6 {
+  color: black;
+}
+.for-blank-pricing li {
+  margin-left: -1.25em;
+}
+.for-blank-pricing li:before {
+  content: url("../imgs/icons/check-forblank.gif");
+  top: 0.188em;
+  padding-right: .35em;
+  position: relative;
+}
+
+#world-class-ad-serving aside.enterprise {
+  margin-left: 0 !important;
+}
+#world-class-ad-serving aside.enterprise blockquote {
+  margin-left: 0.938em;
+  color: #14526a;
+  line-height: 1.313em;
+  margin-top: -0.625em;
+  padding-top: 0;
+}
+#world-class-ad-serving aside.enterprise h4, #world-class-ad-serving aside.enterprise p, #world-class-ad-serving aside.enterprise img, #world-class-ad-serving aside.enterprise p.ron {
+  margin-left: 0.938em;
+}
+#world-class-ad-serving aside.enterprise h4 {
+  font-size: 1.125em;
+  margin-top: 1.6em;
+}
+#world-class-ad-serving aside.enterprise img {
+  float: left;
+  margin-right: .5em;
+  margin-left: 0;
+}
+#world-class-ad-serving aside.enterprise button {
+  margin: -0.25em 0 1.125em 5.45em;
 }

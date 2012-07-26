@@ -60,7 +60,7 @@
 
        <?php
 
-       global $post;     // if outside the loop
+       global $post;
 
        if ( is_page('features')) { ?>
               <script type="text/javascript">
@@ -84,13 +84,12 @@
               <script>
               $(document).ready(function() {
                  $('a[href*=#]').bind('click', function(e) {
-              	e.preventDefault(); //prevent the "normal" behaviour which would be a "hard" jump
+              	e.preventDefault();
 
-              	var target = $(this).attr("href"); //Get the target
+              	var target = $(this).attr("href");
 
-              	// perform animated scrolling by getting top-position of target-element and set it as scroll target
               	$('html, body').stop().animate({ scrollTop: $(target).offset().top - 20 }, 400, function() {
-              	     location.hash = target;  //attach the hash (#jumptarget) to the pageurl
+              	     location.hash = target;
               	});
 
               	return false;
@@ -101,7 +100,6 @@
               
               <?php 
        } else {
-           // This is not a subpage
        }
        ?>
 <script>

@@ -174,24 +174,28 @@ h4:before{
 	padding-right:.35em;
 }
 
-#skinnable-interface h4:before{
+#skinnable-interface h4:before, #built-for li.skinnable-ui h4:before{
 		content:url('../imgs/icons/skinnable-ui.gif');
 }
 
-#site-payout-management h4:before{
+#site-payout-management h4:before, #built-for li.site-payout-management h4:before{
 		content:url('../imgs/icons/site-payout-management.gif');
 }
 
-#publisher-portal h4:before{
+#publisher-portal h4:before, #built-for li.publisher-portal h4:before{
 		content:url('../imgs/icons/publisher-portal.gif');
 }
 
-#advertiser-portal h4:before{
+#advertiser-portal h4:before,#built-for li.advertiser-portal h4:before{
 		content:url('../imgs/icons/advertiser-portal.gif');
 }
 
-#robust-targeting-options h4:before{
+#robust-targeting-options h4:before, #built-for li.robust-targeting-options h4:before{
 		content:url('../imgs/icons/robust-targeting-options.gif');
+}
+
+#built-for li.fast-accurate-reporting h4:before{
+	content:url('../imgs/icons/fast-accurate-reporting.gif');
 }
 
 #flight-delivery-options h4:before{
