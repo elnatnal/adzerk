@@ -1,11 +1,11 @@
 .blog-left{
-	width:em(257);
+	width:13.2em;
 	float:left;
-	margin-right:em(30);
 	
 	.date-meta{
 		width:em(70);
 		font-weight:700;
+		margin-left:-6.5em;
 				
 		h5.date-top{
 			font-family:proxima-nova-extra-condensed;
@@ -20,7 +20,7 @@
 			font-family:proxima-nova-extra-condensed;
 			text-transform:uppercase;
 			text-align:center;
-			color:$blue3;
+			color:$blue2;
 			font-size:em(36);
 			line-height:0;
 			margin-top:.5em;
@@ -30,31 +30,131 @@
 }
 
 .blog-left .more-meta{
+	position:relative;
+	top:-6.25em;
 	
 	img{
 
 	}
 
 	.tags{
-		
+		padding-top:1em;
 	}
 
 	.author{
-		img{width:em(80);}
+		padding-top:1em;
+		
+		img{width:em(80); border:2px solid $gray2;margin-right:.5em;}
+		
+		p{
+			display:inline-block;
+			line-height:em(20);
+			color:$gray2;
+		}
 		
 	}
 	
 	.article-source{
+		padding-top:1em;
 		
+		h4{
+			margin-bottom:.5em;
+		}
+		
+		a{
+			text-decoration:none;
+		}
 	}
 }
 
 .blog-right{
-	width:456em;
+	width:28.5em;
 	float:left;
+	position:relative;
+	top:em(-23);
 }
 
 .blog-list-container{
 	width:em(753);
 	display:block;
+
+	article{
+		min-height:em(400);
+	}
+}
+
+
+.inside-adzerk-blog-summary .blog-summary{
+	width:em(250);
+	float:left;
+	margin-right:em(32);
+	font-size:em(15);
+	line-height:em(25);
+	color:$gray2;
+	
+	h4{
+		font-size:em(18);
+	}
+}
+
+.inside-adzerk-blog-summary{
+	height:em(128);
+	margin-bottom:3em;
+	padding:1.5em 0;
+	border-top:1px solid $gray4;
+	border-bottom:1px solid $gray4;
+
+	.blue3{
+		h4, a{color:$blue3;}
+	}
+
+	.blue2{
+		h4, a{color:$blue2;}
+	}
+
+	.blue1{
+		h4, a{color:$blue1;}
+	}
+
+	.orange{
+		h4, a{color:$orange;}
+	}
+	
+	a, a:link, a:visited{
+		text-decoration:none;
+		font-weight:bold;
+	}
+	
+	a:hover, a:active, a:focus{
+		text-decoration:underline;
+	}
+	
+}
+
+.blog-summary:nth-of-type(4){
+	margin-right:0;
+}
+
+.blog-right{
+	h2{
+		margin-top:em(9);
+		padding-bottom:1.25em;
+	}
+	
+	h2 a, h2 a:visited, h2 a:link{
+		text-decoration:none;
+		color:$blue1;
+	}
+	
+	h2 a:hover, h2 a:active, h2 a:focus{
+		color:$blue2;
+	}
+}
+
+.side-meta-caps{
+	color:$gray3;
+	text-transform:uppercase;
+	margin:0;
+	font-size:em(12);
+	padding-bottom:1em;
 }

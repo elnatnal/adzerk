@@ -17,15 +17,35 @@
     
     if (function_exists('register_sidebar')) {
     	register_sidebar(array(
-    		'name' => __('Sidebar Widgets','html5reset' ),
-    		'id'   => 'sidebar-widgets',
-    		'description'   => __( 'These are widgets for the sidebar.','html5reset' ),
+    		'name' => __('Global Blog Sidebar','html5reset' ),
+    		'id'   => 'global-blog-widgets',
+    		'description'   => __( 'These are widgets for general blog posts.','html5reset' ),
+    		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    		'after_widget'  => '</div>',
+    		'before_title'  => '<h4>',
+    		'after_title'   => '</h4>'
+    	));
+
+    	register_sidebar(array(
+    		'name' => __('Press and Media Sidebar','html5reset' ),
+    		'id'   => 'press-and-media-widgets',
+    		'description'   => __( 'These are widgets for the Press and Media page.','html5reset' ),
     		'before_widget' => '<div id="%1$s" class="widget %2$s">',
     		'after_widget'  => '</div>',
     		'before_title'  => '<h2>',
     		'after_title'   => '</h2>'
     	));
-    }
+
+    	register_sidebar(array(
+    		'name' => __('Inside Adzerk','html5reset' ),
+    		'id'   => 'inside-adzerk-widgets',
+    		'description'   => __( 'These are widgets for the Inside Adzerk sidebar','html5reset' ),
+    		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    		'after_widget'  => '</div>',
+    		'before_title'  => '<h2>',
+    		'after_title'   => '</h2>'
+    	));
+   }
     
     add_theme_support( 'post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'status', 'audio', 'chat', 'video')); // Add 3.1 post format theme support.
 

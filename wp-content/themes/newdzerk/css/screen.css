@@ -3496,6 +3496,10 @@ button:hover, button:active {
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.07, #114155), color-stop(0.54, #114155));
 }
 
+.clear {
+  clear: both;
+}
+
 /*   
  *	Theme Name: Newdzerk
  *	Description: A Wordpress theme for Adzerk's new site
@@ -3849,6 +3853,10 @@ aside.job-openings li:before {
   content: "–  ";
 }
 
+aside.blog {
+  margin-left: -2em;
+}
+
 #footer {
   background-color: #092937;
   height: 15.625em;
@@ -3895,13 +3903,13 @@ aside.job-openings li:before {
 }
 
 .blog-left {
-  width: 16.063em;
+  width: 13.2em;
   float: left;
-  margin-right: 1.875em;
 }
 .blog-left .date-meta {
   width: 4.375em;
   font-weight: 700;
+  margin-left: -6.5em;
 }
 .blog-left .date-meta h5.date-top {
   font-family: proxima-nova-extra-condensed;
@@ -3915,24 +3923,118 @@ aside.job-openings li:before {
   font-family: proxima-nova-extra-condensed;
   text-transform: uppercase;
   text-align: center;
-  color: #138caa;
+  color: #14526a;
   font-size: 2.25em;
   line-height: 0;
   margin-top: .5em;
 }
 
+.blog-left .more-meta {
+  position: relative;
+  top: -6.25em;
+}
+.blog-left .more-meta .tags {
+  padding-top: 1em;
+}
+.blog-left .more-meta .author {
+  padding-top: 1em;
+}
 .blog-left .more-meta .author img {
   width: 5em;
+  border: 2px solid #8e8e8e;
+  margin-right: .5em;
+}
+.blog-left .more-meta .author p {
+  display: inline-block;
+  line-height: 1.25em;
+  color: #8e8e8e;
+}
+.blog-left .more-meta .article-source {
+  padding-top: 1em;
+}
+.blog-left .more-meta .article-source h4 {
+  margin-bottom: .5em;
+}
+.blog-left .more-meta .article-source a {
+  text-decoration: none;
 }
 
 .blog-right {
-  width: 456em;
+  width: 28.5em;
   float: left;
+  position: relative;
+  top: -1.438em;
 }
 
 .blog-list-container {
   width: 47.063em;
   display: block;
+}
+.blog-list-container article {
+  min-height: 25em;
+}
+
+.inside-adzerk-blog-summary .blog-summary {
+  width: 15.625em;
+  float: left;
+  margin-right: 2em;
+  font-size: 0.938em;
+  line-height: 1.563em;
+  color: #8e8e8e;
+}
+.inside-adzerk-blog-summary .blog-summary h4 {
+  font-size: 1.125em;
+}
+
+.inside-adzerk-blog-summary {
+  height: 8em;
+  margin-bottom: 3em;
+  padding: 1.5em 0;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+.inside-adzerk-blog-summary .blue3 h4, .inside-adzerk-blog-summary .blue3 a {
+  color: #138caa;
+}
+.inside-adzerk-blog-summary .blue2 h4, .inside-adzerk-blog-summary .blue2 a {
+  color: #14526a;
+}
+.inside-adzerk-blog-summary .blue1 h4, .inside-adzerk-blog-summary .blue1 a {
+  color: #092937;
+}
+.inside-adzerk-blog-summary .orange h4, .inside-adzerk-blog-summary .orange a {
+  color: #e35525;
+}
+.inside-adzerk-blog-summary a, .inside-adzerk-blog-summary a:link, .inside-adzerk-blog-summary a:visited {
+  text-decoration: none;
+  font-weight: bold;
+}
+.inside-adzerk-blog-summary a:hover, .inside-adzerk-blog-summary a:active, .inside-adzerk-blog-summary a:focus {
+  text-decoration: underline;
+}
+
+.blog-summary:nth-of-type(4) {
+  margin-right: 0;
+}
+
+.blog-right h2 {
+  margin-top: 0.563em;
+  padding-bottom: 1.25em;
+}
+.blog-right h2 a, .blog-right h2 a:visited, .blog-right h2 a:link {
+  text-decoration: none;
+  color: #092937;
+}
+.blog-right h2 a:hover, .blog-right h2 a:active, .blog-right h2 a:focus {
+  color: #14526a;
+}
+
+.side-meta-caps {
+  color: #cdcdcd;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 0.75em;
+  padding-bottom: 1em;
 }
 
 .home-infographic {
