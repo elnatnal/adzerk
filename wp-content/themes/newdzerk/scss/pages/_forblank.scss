@@ -51,7 +51,7 @@
 	li{
 		width:20.06em;
 		float:left;
-		margin-right:em(35);
+		margin-right:2.09em;
 
 		a:link, a:visited{
 			text-decoration:none;
@@ -163,6 +163,12 @@ aside#powered-by-ados{
 	padding-left:2em;
 	text-align:center;
 	height:em(925);
+	
+	img{
+		max-width:em(180);
+		border:none;
+		outline:none;
+	}
 }
 
 #world-class-ad-serving h2{

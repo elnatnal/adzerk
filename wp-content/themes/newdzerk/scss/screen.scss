@@ -9,10 +9,13 @@
 @import "gridset";
 @import "global";
 
+
+
 // Components
 @import 'header';
-@import "sidebars";
+@import 'sidebars';
 @import 'footer';
+@import 'blog';
 
 // Pages
 @import 'pages/frontpage';

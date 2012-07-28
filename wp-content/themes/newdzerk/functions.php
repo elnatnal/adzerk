@@ -49,7 +49,7 @@
     $meta_boxes[] = array(
         'id' => 'sassy-header-text',
         'title' => 'Sassy Header Text',
-        'pages' => array('post', 'page', 'link'), // multiple post types
+        'pages' => array('page'), // multiple post types
         'context' => 'side',
         'priority' => 'default',
         'fields' => array(
@@ -173,9 +173,11 @@
     // Custom Content Type for Team Mates
     require_once('functions/testimonials.php');
     require_once('functions/our-team.php');
+    require_once('functions/blog.php');
 
 
 add_theme_support('post-thumbnails');
+set_post_thumbnail_size( 170, 170 );
 
 function the_slug($echo=true){
   $slug = basename(get_permalink());

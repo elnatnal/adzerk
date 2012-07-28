@@ -3894,6 +3894,47 @@ aside.job-openings li:before {
   color: #000;
 }
 
+.blog-left {
+  width: 16.063em;
+  float: left;
+  margin-right: 1.875em;
+}
+.blog-left .date-meta {
+  width: 4.375em;
+  font-weight: 700;
+}
+.blog-left .date-meta h5.date-top {
+  font-family: proxima-nova-extra-condensed;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.125em;
+  color: #cdcdcd;
+  margin-bottom: 0;
+}
+.blog-left .date-meta h5.date-bottom {
+  font-family: proxima-nova-extra-condensed;
+  text-transform: uppercase;
+  text-align: center;
+  color: #138caa;
+  font-size: 2.25em;
+  line-height: 0;
+  margin-top: .5em;
+}
+
+.blog-left .more-meta .author img {
+  width: 5em;
+}
+
+.blog-right {
+  width: 456em;
+  float: left;
+}
+
+.blog-list-container {
+  width: 47.063em;
+  display: block;
+}
+
 .home-infographic {
   border: none;
   margin: -2.5em 0 3em 0;
@@ -4557,6 +4598,9 @@ section.testimonial {
   margin: .5em 0;
   border-bottom: 2px solid #efefef;
 }
+section.testimonial .testy-info img {
+  width: 10.625em;
+}
 
 section.testimonial:nth-of-type(last) {
   border-bottom: none;
@@ -4664,7 +4708,7 @@ section.testimonial:nth-of-type(even) .testy-content blockquote p {
 #built-for li {
   width: 20.06em;
   float: left;
-  margin-right: 2.188em;
+  margin-right: 2.09em;
 }
 #built-for li a:link, #built-for li a:visited {
   text-decoration: none;
@@ -4755,6 +4799,11 @@ aside#powered-by-ados {
   padding-left: 2em;
   text-align: center;
   height: 57.813em;
+}
+aside#powered-by-ados img {
+  max-width: 11.25em;
+  border: none;
+  outline: none;
 }
 
 #world-class-ad-serving h2 {

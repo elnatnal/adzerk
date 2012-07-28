@@ -1,0 +1,60 @@
+.blog-left{
+	width:em(257);
+	float:left;
+	margin-right:em(30);
+	
+	.date-meta{
+		width:em(70);
+		font-weight:700;
+				
+		h5.date-top{
+			font-family:proxima-nova-extra-condensed;
+			text-transform:uppercase;
+			text-align:center;
+			font-size:em(18);					
+			color:$gray3;
+			margin-bottom:0;
+		}
+			
+		h5.date-bottom{
+			font-family:proxima-nova-extra-condensed;
+			text-transform:uppercase;
+			text-align:center;
+			color:$blue3;
+			font-size:em(36);
+			line-height:0;
+			margin-top:.5em;
+		}
+		
+	}
+}
+
+.blog-left .more-meta{
+	
+	img{
+
+	}
+
+	.tags{
+		
+	}
+
+	.author{
+		img{width:em(80);}
+		
+	}
+	
+	.article-source{
+		
+	}
+}
+
+.blog-right{
+	width:456em;
+	float:left;
+}
+
+.blog-list-container{
+	width:em(753);
+	display:block;
+}

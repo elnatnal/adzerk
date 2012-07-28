@@ -5,6 +5,10 @@ section.testimonial{
 	min-height:em(235);
 	margin:.5em 0;
 	border-bottom:2px solid $gray4;
+	
+	.testy-info img{
+			width:em(170);
+	}
 }
 
 section.testimonial:nth-of-type(last){
