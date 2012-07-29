@@ -12,7 +12,7 @@
                <?php endwhile; ?>
      <?php endif; ?>
      <button>
-            <a href="/team-blog">Read more Team Blogs</a>
+            <a href="team-blog">Read more Team Blogs</a>
      </button>
 </div>
 

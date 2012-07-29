@@ -134,7 +134,7 @@ if ( is_category( 'product-blog' )){ ?>
        	<?php endwhile; ?>
 
               <button class="see-more">
-                     <a href="/news-and-announcements">See More posts from News and Announcements</a>
+                     <a href="news-and-announcements">See More posts from News and Announcements</a>
               </button>
 
        	<?php else : ?>
@@ -221,7 +221,7 @@ if ( is_category( 'product-blog' )){ ?>
               	<?php endwhile; ?>
 
                      <button class="see-more">
-                            <a href="/product-blog">See More posts from the Product Blog</a>
+                            <a href="product-blog">See More posts from the Product Blog</a>
                      </button>
 
               	<?php else : ?>

@@ -1,33 +1,34 @@
 .blog-left{
 	width:13.2em;
 	float:left;
-	
-	.date-meta{
-		width:em(70);
-		font-weight:700;
-		margin-left:-6.5em;
-				
-		h5.date-top{
-			font-family:proxima-nova-extra-condensed;
-			text-transform:uppercase;
-			text-align:center;
-			font-size:em(14);					
-			color:$gray3;
-			margin-bottom:0;
-		}
-			
-		h5.date-bottom{
-			font-family:proxima-nova-extra-condensed;
-			text-transform:uppercase;
-			text-align:center;
-			color:$blue2;
-			font-size:1.75em;
-			line-height:0;
-			margin-top:.3em;
-		}
-		
-	}
 }
+
+.date-meta{
+	width:em(70);
+	font-weight:700;
+	margin-left:-6.5em;
+			
+	h5.date-top{
+		font-family:proxima-nova-extra-condensed;
+		text-transform:uppercase;
+		text-align:center;
+		font-size:em(14);					
+		color:$gray3;
+		margin-bottom:0;
+	}
+		
+	h5.date-bottom{
+		font-family:proxima-nova-extra-condensed;
+		text-transform:uppercase;
+		text-align:center;
+		color:$blue2;
+		font-size:1.75em;
+		line-height:0;
+		margin-top:.3em;
+	}
+	
+}
+
 
 .blog-left .more-meta{
 	position:relative;
@@ -360,6 +361,99 @@ aside.sidebar .from-run-of-network{
 
 }
 
-.entry-content{
+.date-meta{
+	width:em(70);
+	font-weight:700;
+	margin-left:-6.5em;
+			
+	h5.date-top{
+		font-family:proxima-nova-extra-condensed;
+		text-transform:uppercase;
+		text-align:center;
+		font-size:em(14);					
+		color:$gray3;
+		margin-bottom:0;
+	}
+		
+	h5.date-bottom{
+		font-family:proxima-nova-extra-condensed;
+		text-transform:uppercase;
+		text-align:center;
+		color:$blue2;
+		font-size:1.75em;
+		line-height:0;
+		margin-top:.3em;
+	}
 	
+}
+
+.blog-post-container .post-meta{
+	position:relative;
+	padding-top:1em;
+	margin-top:1.5em;
+	border-top:1px solid $gray3;
+	min-height:em(113);
+
+	.tags{
+		float:left;
+		margin-right:em(30);
+		padding-top:1em;
+	}
+	
+	.twitter-button iframe{
+		position:absolute;
+		top:1.5em;
+		right:0;
+		border:transparent;
+	}
+
+	.author{
+		padding-top:1em;
+		margin-right:em(30);
+		float:left;
+		
+		img{width:em(80); border:2px solid $gray2;margin-right:.5em;}
+		
+		p{
+			display:inline-block;
+			line-height:em(20);
+			color:$gray2;
+		}
+		
+	}
+	
+	.article-source{
+		width:em(100);
+		padding-top:1em;
+		float:left;
+		margin-right:em(30);
+
+		h4{
+			margin-bottom:.5em;
+			line-height:2em;
+		}
+		
+		a{
+			text-decoration:none;
+		}
+	}
+	
+	button.back-to-parent{
+		position:absolute;
+		bottom:0;
+		right:0;
+		font-size:.75em;
+		padding:.5em;
+		background:$gray2;
+	}
+
+ 	button.back-to-parent:hover, button.back-to-parent:active, button.back-to-parent:focus {
+		background:$gray1;
+	}
+}
+
+
+
+.entry-content{
+	margin-top:em(-75);
 }

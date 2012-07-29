@@ -3873,8 +3873,8 @@ aside.sidebar h3 {
 
 #footer {
   background-color: #092937;
-  height: 15.625em;
-  padding-bottom: 1.875em;
+  min-height: 15.625em;
+  padding-bottom: 3.125em;
   padding-top: -0.313em;
   margin-top: 3em;
   width: 101.5%;
@@ -3911,6 +3911,20 @@ aside.sidebar h3 {
   -webkit-border-radius: 0px 0px 10px 10px;
   border: 0px solid #800000;
 }
+.bottom-logo h2 a, .bottom-logo h2 a:link, .bottom-logo h2 a:visited {
+  text-decoration: none;
+}
+.bottom-logo h2 a:hover, .bottom-logo h2 a:active, .bottom-logo h2 a:focus {
+  color: #e35525;
+  text-decoration: none !important;
+}
+.bottom-logo p a, .bottom-logo p a:link, .bottom-logo p a:visited {
+  line-height: 1.5em;
+  text-decoration: none;
+}
+.bottom-logo p a:hover, .bottom-logo p a:focus, .bottom-logo p a:active {
+  text-decoration: underline;
+}
 
 #footer .bottom-logo p {
   color: #000;
@@ -3920,12 +3934,13 @@ aside.sidebar h3 {
   width: 13.2em;
   float: left;
 }
-.blog-left .date-meta {
+
+.date-meta {
   width: 4.375em;
   font-weight: 700;
   margin-left: -6.5em;
 }
-.blog-left .date-meta h5.date-top {
+.date-meta h5.date-top {
   font-family: proxima-nova-extra-condensed;
   text-transform: uppercase;
   text-align: center;
@@ -3933,7 +3948,7 @@ aside.sidebar h3 {
   color: #cdcdcd;
   margin-bottom: 0;
 }
-.blog-left .date-meta h5.date-bottom {
+.date-meta h5.date-bottom {
   font-family: proxima-nova-extra-condensed;
   text-transform: uppercase;
   text-align: center;
@@ -4237,6 +4252,91 @@ aside.sidebar .from-run-of-network button:hover, aside.sidebar .from-run-of-netw
   background: #051921;
   background: #051921;
   background: #051921;
+}
+
+.date-meta {
+  width: 4.375em;
+  font-weight: 700;
+  margin-left: -6.5em;
+}
+.date-meta h5.date-top {
+  font-family: proxima-nova-extra-condensed;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.875em;
+  color: #cdcdcd;
+  margin-bottom: 0;
+}
+.date-meta h5.date-bottom {
+  font-family: proxima-nova-extra-condensed;
+  text-transform: uppercase;
+  text-align: center;
+  color: #14526a;
+  font-size: 1.75em;
+  line-height: 0;
+  margin-top: .3em;
+}
+
+.blog-post-container .post-meta {
+  position: relative;
+  padding-top: 1em;
+  margin-top: 1.5em;
+  border-top: 1px solid #cdcdcd;
+  min-height: 7.063em;
+}
+.blog-post-container .post-meta .tags {
+  float: left;
+  margin-right: 1.875em;
+  padding-top: 1em;
+}
+.blog-post-container .post-meta .twitter-button iframe {
+  position: absolute;
+  top: 1.5em;
+  right: 0;
+  border: transparent;
+}
+.blog-post-container .post-meta .author {
+  padding-top: 1em;
+  margin-right: 1.875em;
+  float: left;
+}
+.blog-post-container .post-meta .author img {
+  width: 5em;
+  border: 2px solid #8e8e8e;
+  margin-right: .5em;
+}
+.blog-post-container .post-meta .author p {
+  display: inline-block;
+  line-height: 1.25em;
+  color: #8e8e8e;
+}
+.blog-post-container .post-meta .article-source {
+  width: 6.25em;
+  padding-top: 1em;
+  float: left;
+  margin-right: 1.875em;
+}
+.blog-post-container .post-meta .article-source h4 {
+  margin-bottom: .5em;
+  line-height: 2em;
+}
+.blog-post-container .post-meta .article-source a {
+  text-decoration: none;
+}
+.blog-post-container .post-meta button.back-to-parent {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: .75em;
+  padding: .5em;
+  background: #8e8e8e;
+}
+.blog-post-container .post-meta button.back-to-parent:hover, .blog-post-container .post-meta button.back-to-parent:active, .blog-post-container .post-meta button.back-to-parent:focus {
+  background: #666666;
+}
+
+.entry-content {
+  margin-top: -4.688em;
 }
 
 .home-infographic {

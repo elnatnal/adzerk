@@ -1,11 +1,12 @@
 #footer{
 	background-color:$blue1;
-	height:em(250);
-	padding-bottom:em(30);
+	min-height:em(250);
+	padding-bottom:em(50);
 	padding-top:em(-5);
 	margin-top:3em;
 	width:101.5%;
 	margin-left:-13px;
+	
 	
 	hr{
 		width:96%;
@@ -39,6 +40,24 @@
 	-moz-border-radius: 0px 0px 10px 10px; 
 	-webkit-border-radius: 0px 0px 10px 10px; 
 	border: 0px solid #800000;
+
+	h2 a, h2 a:link, h2 a:visited{
+		text-decoration:none;
+	}
+	
+	h2 a:hover, h2 a:active, h2 a:focus{
+		color:$orange;
+		text-decoration:none !important;
+	}
+
+	p a, p a:link, p a:visited{
+		line-height:1.5em;
+		text-decoration:none;
+	}
+	
+	p a:hover, p a:focus, p a:active{
+		text-decoration:underline;
+	}
 }
 #footer .bottom-logo p{
 	color:#000;

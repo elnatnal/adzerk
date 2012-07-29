@@ -25,8 +25,12 @@
               <section class="social d6-d8">
                      <h3>Connect with Us</h3>
                      <div class="newsletter-sign-up">
-                            <form></form>
-                            <button>Sign Up</button>
+                            <form action="http://lfov.net/webrecorder/f" method="post" name="Subscribe to Blog">
+                            <input type="hidden" name="formid" value="25efc106-0e17-4823-b436-8f703ea7b6af"/>
+                            <input type="hidden" name="cid" value="LF_af4faade"/>
+                            <p><label for="email">Enter your email</label><br /><input type="text" name="email" id="email" /></p>
+                            <button class="submit"><input type="submit" name="Add Registration" value="Submit"></button>
+                            </form>
                      </div>               
        
                     <hr>
@@ -39,9 +43,9 @@
                      
               <section class="bottom-logo d9">
                      <h2><a href="<?php bloginfo('name'); ?>">ADZERK</a></h2>
-                     <p>303 South Roxboro St<br />
+                     <p><a href="https://maps.google.com/maps?hl=en&safe=off&z=16&q=303+South+Roxboro+St+Suite+30+Durham,+NC+27701">303 South Roxboro St<br />
                             Suite 30<br />
-                            Durham, NC 27701 <br />
+                            Durham, NC 27701 </a><br />
                      </p>
 
               </section>

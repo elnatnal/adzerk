@@ -1,39 +1,15 @@
-<div id="sidebar" class="d8-d9">
+<aside class="blog sidebar d8-d9">
+    <?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('global-blog-sidebar')) : else : ?>
 
-    <?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('General Blog Widget')) : else : ?>
-    
-        <!-- All this stuff in here only shows up if you DON'T have any widgets active in this zone -->
-
-    	<?php get_search_form(); ?>
-    
-    	<?php wp_list_pages('title_li=<h2>Pages</h2>' ); ?>
-    
-    	<h2>Archives</h2>
-    	<ul>
-    		<?php wp_get_archives('type=monthly'); ?>
-    	</ul>
-        
-        <h2>Categories</h2>
-        <ul>
-    	   <?php wp_list_categories('show_count=1&title_li='); ?>
-        </ul>
-        
-    	<?php wp_list_bookmarks(); ?>
-    
-    	<h2>Meta</h2>
-    	<ul>
-    		<?php wp_register(); ?>
-    		<li><?php wp_loginout(); ?></li>
-    		<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress</a></li>
-    		<?php wp_meta(); ?>
-    	</ul>
-    	
-    	<h2>Subscribe</h2>
-    	<ul>
-    		<li><a href="<?php bloginfo('rss2_url'); ?>">Entries (RSS)</a></li>
-    		<li><a href="<?php bloginfo('comments_rss2_url'); ?>">Comments (RSS)</a></li>
-    	</ul>
-	
-	<?php endif; ?>
-
-</div>
+                  <div class="newsletter">
+                         <h4>Sign up for our newsletter</h4>
+                         <form action="http://lfov.net/webrecorder/f" method="post" name="Subscribe to Blog">
+                         <input type="hidden" name="formid" value="25efc106-0e17-4823-b436-8f703ea7b6af"/>
+                         <input type="hidden" name="cid" value="LF_af4faade"/>
+                         <p><label for="email">Email:</label><input type="text" name="email" id="email" /></p>
+                         <p><label for="last_name">Last Name:</label><input type="text" name="last_name" id="last_name" /></p>
+                         <p><label for="first_name">First Name:</label><input type="text" name="first_name" id="first_name" /></p>
+                         <p class="submit"><input type="submit" name="Add Registration" value="Submit"></p>
+                         </form>
+                  </div>
+           </aside>

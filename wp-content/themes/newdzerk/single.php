@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php
 
-if ( is_category( 'product-blog' )){ ?>    
+if ( in_category( 'product-blog' )){ ?>    
            <hgroup>
                   <h1 class="sassytext">
                      Well, isn't that nifty and new
@@ -50,9 +50,9 @@ if ( is_category( 'product-blog' )){ ?>
                             <h5 class="date-bottom"><?php the_time('Y'); ?></h5>
                      </div>
                      
-			<h2 class="entry-title"><?php the_title(); ?></h2>
 
 			<div class="entry-content">
+       			<h2 class="entry-title"><?php the_title(); ?></h2>
 				
 				<?php the_content(); ?>
 
@@ -60,18 +60,83 @@ if ( is_category( 'product-blog' )){ ?>
 				
 				<?php the_tags( 'Tags: ', ', ', ''); ?>
 			
-				<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
+                            <div class="post-meta">
+                                   <div class="author">
+                                          <h6 class="side-meta-caps">Posted by</h6></h6>
+                                          <img src="<?php bloginfo('template_directory') ?>/imgs/authors/<?php the_author_meta('ID')?>.jpg" alt="<?php the_author(); ?>" title="<?php the_author(); ?>" />
+                                                 <p><?php the_author_meta('first_name' ); ?><br /> 
+                                                 <?php the_author_meta('last_name' ); ?></p>
+                                   </div>
+
+                                   <div class="tags">
+                                          <?php 
+                                          if(has_tag()) { ?>
+                                                 <h6 class="side-meta-caps">Tags</h6>
+                                                 <?php the_tags(''); ?>
+                                          <?php } else {}
+                                          ?>
+                                   </div>
+
+                                   <?php 
+                                        $article_source = get_post_meta($post->ID, "article-source-url", true);
+                                        $article_title = get_post_meta($post->ID, "article-source-name", true); ?>
+
+                                          <?php if ($article_title) : ?>
+                                                 <div class="article-source">
+                                                        <h6 class="side-meta-caps">Article Source</h6>
+                                                        <a href="<?php echo $article_source; ?>"><?php echo $article_title; ?></a></h3>
+                                                 </div>
+                                   <?php endif; ?>
+
+                                   <div class="twitter-button"><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://dev.twitter.com" data-via="adzerk" data-lang="en">Tweet</a>
+                                   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                                   </div>
+
+
+                                   <?php
+
+                                   if ( in_category( 'product-blog' )){ ?>    
+                                          <button class="back-to-parent">
+                                                 <a href="product-blog">Back to All Posts</a>
+                                          </button>
+
+                                   <?php } elseif ( in_category( 'news-and-announcements' ) ) { ?>	
+                                          <button class="back-to-parent">
+                                                 <a href="news-and-announcements">Back to All Posts</a>
+                                          </button>
+
+                                   <?php } elseif ( in_category( 'team-blog' )) { ?>
+                                          <button class="back-to-parent">
+                                                 <a href="team-blog">Back to All Posts</a>
+                                          </button>
+                                   <?php } elseif ( in_category( 'press-and-media' ) ) { ?>
+                                          <button class="back-to-parent">
+                                                 <a href="press-and-media">Back to All Posts</a>
+                                          </button>
+                                   <?php } else { ?>
+                                          <button class="back-to-parent">
+                                                 <a href="inside-adzerk">Back to All Posts</a>
+                                          </button>
+
+                                   <?php } ?>
+
+                                   </div>
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
+                            </div>
 
 			</div>
-			
-			<?php edit_post_link('Edit this entry','','.'); ?>
-			
 		</article>
-
-	<?php comments_template(); ?>
 
 	<?php endwhile; endif; ?>
 </div>
-<?php get_sidebar(); ?>
+<?php get_sidebar('globalblogsidebar'); ?>
 
 <?php get_footer(); ?>
