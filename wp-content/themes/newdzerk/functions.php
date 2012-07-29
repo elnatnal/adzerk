@@ -196,6 +196,7 @@
     require_once('functions/blog.php');
 
 
+
 add_theme_support('post-thumbnails');
 set_post_thumbnail_size( 170, 170 );
 
@@ -209,45 +210,10 @@ function the_slug($echo=true){
 }
 
 
-// LATEST POST BY AUTHOR
-
-function latest_posts_by_author($array) {
-       extract(shortcode_atts(array('author' => 'admin', 'show' => 5, 'excerpt' => 'false'), $array));
- 
-       global $wpdb;
-              $table = $wpdb->prefix . 'users';
-              $result = $wpdb->get_results('SELECT ID FROM '.$table.' WHERE user_login = "'.$author.'"');
-              $id = $result[0]->ID;
-              $table = $wpdb->prefix . 'posts';
-              $result = $wpdb->get_results('SELECT * FROM '.$table.' WHERE post_author = '.$id.' AND post_status = "publish" AND post_type = "post" ORDER BY post_date DESC');
-                     $i = 0;
-                            $html = '<ul>';
-                                   foreach ($result as $numpost) {
-                                                 $html .= '<h5><a href="'.get_permalink($numpost->ID).'">'.$numpost->post_title.'</a></h5>';
-                                                        if($excerpt == 'true'){
-                                                               $html .= '<p>'.$numpost->post_excerpt.'</p> <br /> <a class="readmore" href="'.get_permalink($numpost->ID).'">Read Post</a>';
-                                                        }
-                                                               $html .= '</li>';
-                                                        $i++;
-                                                 if($i == $show){
-                                                        break;
-                                                 }
-                                          }
-                                          $html .= '</ul>';
- 
-                                          return $html;
-                                   }
- 
-add_shortcode('latestbyauthor', 'latest_posts_by_author');
-
-// END LATEST POST BY AUTHOR
-
 // Puts link in excerpts more tag
 function new_excerpt_more($more) {
        global $post;
 	return '<a class="moretag" href="'. get_permalink($post->ID) . '">...Read more</a>';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
-
-
 ?>

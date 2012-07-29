@@ -30,7 +30,6 @@ class MF_Timeline {
 		// Action Hooks
 		add_action( 'admin_menu', array( &$this, 'admin_menu' ) );
 		add_action( 'admin_init', array( &$this, 'mf_timeline_admin_init') );
-		add_action( 'wp_print_styles', array( &$this, 'mf_timeline_styles' ) );
 		add_action( 'init', array( &$this, 'mf_timeline_js' ) );
 		add_action( 'admin_head', array( &$this, 'load_tiny_mce' ) );
 		
