@@ -71,8 +71,8 @@
                                          }
                                           ?>
                                   <?php the_content(); ?> 
-                           </div>
-                    </div>
+                     </div>
+             </div>
                     <?php endwhile; ?>
           <?php endif; ?>
       </div>

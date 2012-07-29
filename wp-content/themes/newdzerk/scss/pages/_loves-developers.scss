@@ -1,0 +1,47 @@
+.full-api{
+	float:left;
+	width:em(475);
+	margin-right:em(30);
+}
+
+section.developer-resources{
+	min-height:em(365);
+	border-bottom:1px solid $gray4;
+	padding-bottom:1em;
+	margin-bottom:1em;
+}
+
+.full-api img, .git-up-with-us img{
+	float:left;
+	display:inline-block;
+	margin-right:1em;
+	border:none;
+}
+
+.git-up-with-us{
+	width:em(475);
+	float:left
+}
+
+.full-api button, .git-up-with-us button{
+	position:relative;
+	bottom:0;
+	left:em(50);
+	font-size:.75em;
+	padding:.5em 2em;
+	width:30em;
+	background:$gray2;
+	text-transform:uppercase;
+}	
+
+.full-api button{
+	left:em(60);
+}
+
+.git-up-with-us button{
+	left:em(93);
+	top:em(19);
+}
+ 	.full-api button:hover, .full-api button:active,.full-api button:focus, .git-up-with-us button:hover,.git-up-with-us button:active,.git-up-with-us button:focus {
+		background:$gray1;
+	}
