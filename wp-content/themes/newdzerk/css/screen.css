@@ -3500,6 +3500,14 @@ button:hover, button:active {
   clear: both;
 }
 
+hr {
+  outline: none;
+  border: none;
+  color: #efefef;
+  height: 2px;
+  width: 100%;
+}
+
 /*   
  *	Theme Name: Newdzerk
  *	Description: A Wordpress theme for Adzerk's new site
@@ -3857,6 +3865,12 @@ aside.blog {
   margin-left: -2em;
 }
 
+aside.sidebar h3 {
+  line-height: 1.5em;
+  margin-top: .5em;
+  padding-bottom: .75em;
+}
+
 #footer {
   background-color: #092937;
   height: 15.625em;
@@ -3915,7 +3929,7 @@ aside.blog {
   font-family: proxima-nova-extra-condensed;
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.125em;
+  font-size: 0.875em;
   color: #cdcdcd;
   margin-bottom: 0;
 }
@@ -3924,14 +3938,17 @@ aside.blog {
   text-transform: uppercase;
   text-align: center;
   color: #14526a;
-  font-size: 2.25em;
+  font-size: 1.75em;
   line-height: 0;
-  margin-top: .5em;
+  margin-top: .3em;
 }
 
 .blog-left .more-meta {
   position: relative;
   top: -6.25em;
+}
+.blog-left .more-meta div {
+  margin-bottom: 1em;
 }
 .blog-left .more-meta .tags {
   padding-top: 1em;
@@ -3971,7 +3988,10 @@ aside.blog {
   display: block;
 }
 .blog-list-container article {
-  min-height: 25em;
+  min-height: 26.875em;
+  padding: 1em 0;
+  border-bottom: 2px solid #efefef;
+  margin-right: 4.5em;
 }
 
 .inside-adzerk-blog-summary .blog-summary {
@@ -3993,18 +4013,6 @@ aside.blog {
   border-top: 1px solid #efefef;
   border-bottom: 1px solid #efefef;
 }
-.inside-adzerk-blog-summary .blue3 h4, .inside-adzerk-blog-summary .blue3 a {
-  color: #138caa;
-}
-.inside-adzerk-blog-summary .blue2 h4, .inside-adzerk-blog-summary .blue2 a {
-  color: #14526a;
-}
-.inside-adzerk-blog-summary .blue1 h4, .inside-adzerk-blog-summary .blue1 a {
-  color: #092937;
-}
-.inside-adzerk-blog-summary .orange h4, .inside-adzerk-blog-summary .orange a {
-  color: #e35525;
-}
 .inside-adzerk-blog-summary a, .inside-adzerk-blog-summary a:link, .inside-adzerk-blog-summary a:visited {
   text-decoration: none;
   font-weight: bold;
@@ -4013,13 +4021,29 @@ aside.blog {
   text-decoration: underline;
 }
 
+.blue3 h4, .blue3 a {
+  color: #138caa;
+}
+
+.blue2 h4, .blue2 a {
+  color: #14526a;
+}
+
+.blue1 h4, .blue1 a {
+  color: #092937;
+}
+
+.orange h4, .orange a {
+  color: #e35525;
+}
+
 .blog-summary:nth-of-type(4) {
   margin-right: 0;
 }
 
 .blog-right h2 {
-  margin-top: 0.563em;
   padding-bottom: 1.25em;
+  margin-top: -1px;
 }
 .blog-right h2 a, .blog-right h2 a:visited, .blog-right h2 a:link {
   text-decoration: none;
@@ -4035,6 +4059,184 @@ aside.blog {
   margin: 0;
   font-size: 0.75em;
   padding-bottom: 1em;
+}
+
+.blog-list-container article {
+  margin-bottom: 2em;
+}
+
+h4.blue2 {
+  color: #14526a;
+  font-size: 1.25em;
+  padding-bottom: .5em;
+}
+
+h4.blue1 {
+  color: #092937;
+  font-size: 1.125em;
+  padding-bottom: .5em;
+}
+
+h4.orange {
+  color: #e35525;
+  font-size: 1.25em;
+  padding-bottom: .5em;
+}
+
+.from-news-and-announcements h2 a, .from-news-and-announcements h2 a:visited, .from-news-and-announcements h2 a:link {
+  color: #138caa;
+}
+.from-news-and-announcements h4.blue3 {
+  color: #138caa;
+  font-size: 1.125em;
+  padding-bottom: .5em;
+}
+.from-news-and-announcements button.see-more {
+  padding: 1.5em 2em;
+  font-size: 1.15em;
+  margin-left: 4.063em;
+  position: relative;
+  margin-bottom: 0;
+  background-image: linear-gradient(bottom, #0b5365 7%, #138caa 54%);
+  background-image: -o-linear-gradient(bottom, #0b5365 7%, #138caa 54%);
+  background-image: -moz-linear-gradient(bottom, #0b5365 7%, #138caa 54%);
+  background-image: -webkit-linear-gradient(bottom, #0b5365 7%, #138caa 54%);
+  background-image: -ms-linear-gradient(bottom, #0b5365 7%, #138caa 54%);
+}
+.from-news-and-announcements button.see-more a, .from-news-and-announcements button.see-more a:visited, .from-news-and-announcements button.see-more a:link {
+  line-height: 0;
+  color: white;
+}
+.from-news-and-announcements button.see-more:hover, .from-news-and-announcements button.see-more:active, .from-news-and-announcements button.see-more:focus {
+  background: #0b5365;
+  background: #0b5365;
+  background: #0b5365;
+  background: #0b5365;
+  background: #0b5365;
+}
+
+.blog-list-container button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: .75em;
+  padding: .5em;
+  margin-bottom: -2em;
+  background: #8e8e8e;
+}
+
+.blog-list-container button:hover, .blog-list-container button:active, .blog-list-container button:focus {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: .75em;
+  padding: .5em;
+  margin-bottom: -2em;
+  background: #666666;
+}
+
+aside.sidebar .from-the-team-blog {
+  color: #8e8e8e;
+}
+aside.sidebar .from-the-team-blog h3 a, aside.sidebar .from-the-team-blog h3 a:visited, aside.sidebar .from-the-team-blog h3 a:link {
+  color: #14526a;
+  text-decoration: none;
+  line-height: 0.938em;
+}
+aside.sidebar .from-the-team-blog h3 a:hover, aside.sidebar .from-the-team-blog h3 a:active, aside.sidebar .from-the-team-blog h3 a:focus {
+  color: #14526a;
+  text-decoration: underline;
+}
+aside.sidebar .from-the-team-blog h4.blue2 {
+  color: #14526a;
+  font-size: 1.125em;
+  padding-bottom: .5em;
+  margin-top: .5em;
+}
+aside.sidebar .from-the-team-blog button {
+  height: 1.875em;
+  padding: 1em 2em;
+  margin-left: 1.063em;
+  margin-top: 1.25em;
+}
+aside.sidebar .from-the-team-blog button a {
+  line-height: 0;
+}
+
+aside.sidebar .from-run-of-network {
+  color: #8e8e8e;
+}
+aside.sidebar .from-run-of-network a, aside.sidebar .from-run-of-network a:visited, aside.sidebar .from-run-of-network a:link {
+  color: #8e8e8e;
+}
+aside.sidebar .from-run-of-network h3 a, aside.sidebar .from-run-of-network h3 a:visited, aside.sidebar .from-run-of-network h3 a:link {
+  color: #e35525;
+  text-decoration: none;
+  line-height: 0.938em;
+}
+aside.sidebar .from-run-of-network h3 a:hover, aside.sidebar .from-run-of-network h3 a:active, aside.sidebar .from-run-of-network h3 a:focus {
+  color: #e35525;
+  text-decoration: underline;
+}
+aside.sidebar .from-run-of-network h4.orange {
+  color: #e35525;
+  font-size: 1.125em;
+  padding-bottom: .5em;
+  margin-top: .5em;
+}
+aside.sidebar .from-run-of-network button {
+  height: 1.875em;
+  padding: 1em 2em;
+  margin-left: 1.125em;
+  margin-top: 1.25em;
+  background-image: linear-gradient(bottom, #a63a15 7%, #e35525 54%);
+  background-image: -o-linear-gradient(bottom, #a63a15 7%, #e35525 54%);
+  background-image: -moz-linear-gradient(bottom, #a63a15 7%, #e35525 54%);
+  background-image: -webkit-linear-gradient(bottom, #a63a15 7%, #e35525 54%);
+  background-image: -ms-linear-gradient(bottom, #a63a15 7%, #e35525 54%);
+}
+aside.sidebar .from-run-of-network button a, aside.sidebar .from-run-of-network button a:visited, aside.sidebar .from-run-of-network button a:link {
+  line-height: 0;
+  color: white;
+}
+aside.sidebar .from-run-of-network button:hover, aside.sidebar .from-run-of-network button:active, aside.sidebar .from-run-of-network button:focus {
+  background: #a63a15;
+  background: #a63a15;
+  background: #a63a15;
+  background: #a63a15;
+  background: #a63a15;
+}
+
+.article-side {
+  border-bottom: 1px solid #cdcdcd;
+  padding: .15em 0 !important;
+}
+
+.from-the-product-blog {
+  margin-top: 1.75em;
+}
+.from-the-product-blog button.see-more {
+  padding: 1.5em 2em;
+  font-size: 1.15em;
+  margin-left: 4.063em;
+  position: relative;
+  margin-bottom: 0;
+  background-image: linear-gradient(bottom, #051921 7%, #092937 54%);
+  background-image: -o-linear-gradient(bottom, #051921 7%, #092937 54%);
+  background-image: -moz-linear-gradient(bottom, #051921 7%, #092937 54%);
+  background-image: -webkit-linear-gradient(bottom, #051921 7%, #092937 54%);
+  background-image: -ms-linear-gradient(bottom, #051921 7%, #092937 54%);
+}
+.from-the-product-blog button.see-more a, .from-the-product-blog button.see-more a:visited, .from-the-product-blog button.see-more a:link {
+  line-height: 0;
+  color: white;
+}
+.from-the-product-blog button.see-more:hover, .from-the-product-blog button.see-more:active, .from-the-product-blog button.see-more:focus {
+  background: #051921;
+  background: #051921;
+  background: #051921;
+  background: #051921;
+  background: #051921;
 }
 
 .home-infographic {

@@ -1,6 +1,6 @@
 <div id="sidebar" class="d8-d9">
 
-    <?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('Sidebar Widgets')) : else : ?>
+    <?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('General Blog Widget')) : else : ?>
     
         <!-- All this stuff in here only shows up if you DON'T have any widgets active in this zone -->
 

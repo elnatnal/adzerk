@@ -12,9 +12,6 @@
 			
 		<article class="post" id="post-<?php the_ID(); ?>" class="d1-d6">
 
-			<h2><?php the_title(); ?></h2>
-
-			<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
 
 			<div class="entry">
 
@@ -55,5 +52,5 @@
 
 
 
-
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>

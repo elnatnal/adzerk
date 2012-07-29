@@ -59,3 +59,11 @@ button:hover, button:active{
 .clear{
 	clear:both;
 }
+
+hr{
+	outline:none;
+	border:none;
+	color:$gray4;
+	height:2px;
+	width:100%;
+}

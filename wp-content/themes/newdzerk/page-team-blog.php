@@ -31,9 +31,10 @@
 
                                           <div class="tags">
                                                  <?php 
-                                                 if(has_tag()) {
-                                                        echo '<h6 class="side-meta-caps">Tags</h6>'.the_tags('Tags:', ', ').'';
-                                                 } else {}
+                                                 if(has_tag()) { ?>
+                                                        <h6 class="side-meta-caps">Tags</h6>
+                                                        <?php the_tags(''); ?>
+                                                 <?php } else {}
                                                  ?>
                                           </div>
 
@@ -69,6 +70,7 @@
                                           </button>			
                             </div>
        		</article>
+		<hr />
 
        	<?php endwhile; ?>
 
