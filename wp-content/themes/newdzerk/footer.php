@@ -58,12 +58,40 @@
        </div>
 	</footer>
 
+<div id="logo-popup" style="display: none; width: 600px;">
+       <h2>Looking for the Adzerk Logo</h2>
+       
+       <div>
+              <h4>Adzerk Logo (.eps)</h4>
+              <img src="http://placekitten.com/254/113/">
+              <button>
+                     <a href="#">Download</a>
+              </button>
+       </div>
+       
+       <div>
+              <h4>Adzerk Logo (.eps)</h4>
+              <img src="http://placekitten.com/254/113/">
+              <button>
+                     <a href="#">Download</a>
+              </button>
+       </div>
+       <div>
+              <h4>Adzerk Logo (.eps)</h4>
+              <img src="http://placekitten.com/254/113/">
+              <button>
+                     <a href="#">Download</a>
+              </button>
+       </div>
+</div>
+
+
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/flexie.js"></script>
 
-       <?php
-
+<?php
        global $post;
 
        if ( is_page('features')) { ?>
