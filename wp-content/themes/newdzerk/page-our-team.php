@@ -40,15 +40,10 @@
                       <?php $author_id = get_post_meta($post->ID, 'author-id', true); ?>
                       <?php echo do_shortcode('[latestbyauthor author="'.$author_id.'" show="5"]'); ?>
         </aside>
-
+</div>
  <?php endwhile; ?>
 
  <?php endif; ?>
-
-
-
-</div>
-
 
 
      <div class="directoradvisor">
@@ -78,6 +73,7 @@
       </div>
 
 
+</div>
 
 
 
