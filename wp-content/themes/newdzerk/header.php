@@ -88,9 +88,11 @@
 	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
 	<script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 	
+	
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
+
 
 	<?php wp_head(); ?>
 	
@@ -112,7 +114,10 @@
 		              
 		
 		       
-			<h1 class="logo d1"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
+			<h1 class="logo d1"><a href="<?php get_home_url(); ?>" class="ajax"><?php bloginfo('name'); ?></a></h1>
+			
+			</script>
+			
                      <nav role="navigation" class="main-nav d2-d9">
                             <ul>
                                    <?php wp_nav_menu( array('menu' => 'Header Menu' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>

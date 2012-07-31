@@ -13,7 +13,6 @@
 
 // Components
 @import 'header';
-@import 'nyroModal';
 @import 'sidebars';
 @import 'footer';
 @import 'blog';
@@ -29,3 +28,9 @@
 @import 'pages/loves-developers';
 @import 'pages/custom-themes';
 
+#cboxLoadedContent{
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border:5px solid rgba(0,0,0,.9);
+}

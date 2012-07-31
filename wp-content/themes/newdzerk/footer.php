@@ -58,38 +58,77 @@
        </div>
 	</footer>
 
-<div id="logo-popup" style="display: none; width: 600px;">
-       <h2>Looking for the Adzerk Logo</h2>
-       
-       <div>
-              <h4>Adzerk Logo (.eps)</h4>
-              <img src="http://placekitten.com/254/113/">
-              <button>
-                     <a href="#">Download</a>
-              </button>
-       </div>
-       
-       <div>
-              <h4>Adzerk Logo (.eps)</h4>
-              <img src="http://placekitten.com/254/113/">
-              <button>
-                     <a href="#">Download</a>
-              </button>
-       </div>
-       <div>
-              <h4>Adzerk Logo (.eps)</h4>
-              <img src="http://placekitten.com/254/113/">
-              <button>
-                     <a href="#">Download</a>
-              </button>
-       </div>
+<div style='display:none'>
+	<div id='inline_content' style='padding:10px; background:#fff;'>
+              <h2>Looking for the Adzerk Logo</h2>
+
+              <div>
+                     <h4>Adzerk Logo (.eps)</h4>
+                     <img src="http://placekitten.com/254/113/">
+                     <button>
+                            <a href="#">Download</a>
+                     </button>
+              </div>
+
+              <div>
+                     <h4>Adzerk Logo (.eps)</h4>
+                     <img src="http://placekitten.com/254/113/">
+                     <button>
+                            <a href="#">Download</a>
+                     </button>
+              </div>
+              <div>
+                     <h4>Adzerk Logo (.eps)</h4>
+                     <img src="http://placekitten.com/254/113/">
+                     <button>
+                            <a href="#">Download</a>
+                     </button>
+              </div>
+
+
+	</div>
 </div>
-
-
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/flexie.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/jquery.colorbox.js"></script>
+
+<script>
+
+$(document).ready(function() {
+    $('h1.logo a').bind('contextmenu',function(e) {
+	// check if right button is clicked
+	if(e.button === 2) {
+		e.preventDefault();
+	}
+});
+
+$(".iframe").colorbox({iframe:true, width:"1000px", height:"620px", style:"overflow:hidden;"});
+
+</script>
+
+
+<script>
+$(document).ready(function(){
+
+        $("#more-features-show").hide();
+        $("#more-show").show();
+
+    $("#more-show").click(function(){
+    $("#more-features-show").slideToggle();
+    });
+
+});
+
+
+</script>
+
+
+
+
+<!-- END IF FOR -->
+
 
 <?php
        global $post;
