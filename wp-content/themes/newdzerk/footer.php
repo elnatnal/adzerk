@@ -96,14 +96,6 @@
 
 <script>
 
-$(document).ready(function() {
-    $('h1.logo a').bind('contextmenu',function(e) {
-	// check if right button is clicked
-	if(e.button === 2) {
-		e.preventDefault();
-	}
-});
-
 $(".iframe").colorbox({iframe:true, width:"1000px", height:"620px", style:"overflow:hidden;"});
 
 </script>
