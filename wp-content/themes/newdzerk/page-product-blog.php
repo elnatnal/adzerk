@@ -64,10 +64,11 @@
        			       <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
 
        			       <div class="entry">
-                                          <?php echo substr(strip_tags($post->post_content), 0, 700);?>...
+                                          <?php echo substr(strip_tags($post->post_content), 0, 700);?>...<br />
                                           <button>
                                                  <a href="<?php the_permalink();?>">Read More</a>
-                                          </button>			
+                                          </button>	
+                                   </div>		
                             </div>
        		</article>
 		<hr />

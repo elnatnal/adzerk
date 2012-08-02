@@ -1,10 +1,10 @@
-.custom-theme{
+.custom-ados-themes-container .theme{
 	width:em(322);
 	float:left;
 	margin-right:em(30);
 	padding-bottom:1.5em;
 }
 
-.custom-theme:nth-of-type(3n+3){
+div.custom-ados-themes-container .theme:nth-of-type(3n+3) {
 	margin-right:0;
 }

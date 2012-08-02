@@ -32,8 +32,6 @@
                             <button class="submit"><input type="submit" name="Add Registration" value="Submit"></button>
                             </form>
                      </div>               
-       
-                    <hr>
                             
                      <ul>
                                    <?php wp_nav_menu( array('menu' => 'Footer Menu 4' , 'sort_column' => 'menu_order', 'container' => '', 'items_wrap' => '%3$s' )); ?>
