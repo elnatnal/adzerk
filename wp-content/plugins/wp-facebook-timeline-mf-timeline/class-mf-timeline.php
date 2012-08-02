@@ -905,7 +905,7 @@ class MF_Timeline {
 								
 											$html .= '<div class="event_content">';
 												$html .= apply_filters( 'the_content', $this->format_excerpt( $event['content'], 42, $event['excerpt'] ) );
-											$html .= '</div>';
+											$html .= '<a class="moretag" href="' . get_permalink( $event['id'] ) . '">Read post</a></div>';
 											
 										$html .= '</div>';
 									$html .= '</li>';
@@ -1061,7 +1061,7 @@ class MF_Timeline {
 	    $text = str_replace( ']]>', ']]&gt;', $text );
 	    $text = strip_tags( $text );
 	    $excerpt_length = apply_filters( 'excerpt_length', $length );
-	    $excerpt_more = apply_filters( 'excerpt_more', ' ' . '[...]' );
+	    $excerpt_more = apply_filters( 'excerpt_more', ' ' . '...' );
 	    $words = preg_split( "/[\n\r\t ]+/", $text, $excerpt_length + 1, PREG_SPLIT_NO_EMPTY );
 	    
 		if ( count( $words ) > $excerpt_length ) {
