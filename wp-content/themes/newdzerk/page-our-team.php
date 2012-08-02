@@ -21,7 +21,7 @@
                                            echo " ";
                                     } else {
                                            echo 
-                                           "<img src='wp-content/themes/newdzerk/imgs/twitter-logo.gif' alt='Twitter Logo' class='tweet-logo'><a href='http://twitter.com/" . $teammate_twitter . "'>@"
+                                           "<img src='./wp-content/themes/newdzerk/imgs/twitter-logo.gif' alt='Twitter Logo' class='tweet-logo'><a href='http://twitter.com/" . $teammate_twitter . "'>@"
                                                                    . $teammate_twitter . "</a>";
                                    }
                                     ?>                                           
