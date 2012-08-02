@@ -54,3 +54,54 @@ aside.sidebar h3{
 	margin-top:.5em;
 	padding-bottom:.75em;
 }
+
+aside.sidebar div.newsletter-sign-up {
+	padding-bottom:9px;
+	border-bottom:none;
+	
+	label{
+		color:$gray1;
+	}
+	input{
+		-webkit-border-radius: .5em; 
+    	-moz-border-radius: .5em; 
+    	border-radius: .5em;
+		height:24px;
+		width:em(400);
+		padding-left:.5em;
+    	-webkit-appearance:none;
+		border:none;
+		position:relative;
+		top:-1px;
+		border:1px solid $gray3;
+	}
+
+	button.submit{
+		position:relative;
+		top:-1em;
+		min-width:50px !important;
+		width:70px !important;
+		margin-left:0;
+		height:20px !important;
+		min-height:23px;
+		margin-top:.5em;
+		
+
+	}
+
+	button.submit input{
+		height:20px;
+		color:white;
+		font-family:gesta;
+		background-color:transparent;
+		top:1px;
+		font-size:12px;
+		min-width:50px;
+		width:70px!important;
+		padding:0;
+		border:none;
+		top:-9px;
+		left:-22px;
+	}
+
+}
