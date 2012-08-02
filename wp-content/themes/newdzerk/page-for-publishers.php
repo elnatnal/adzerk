@@ -86,7 +86,7 @@
 
        <h2>What our customers are saying</h2>
        <div id="cust-testimonials">
-       <?php query_posts('post_type=testimonial&category_name=important&posts_per_page=3&order=ASC'); ?>
+       <?php query_posts('post_type=testimonial&category_name=for_publishers&posts_per_page=3&order=ASC'); ?>
        <?php if (have_posts()) : ?>
                       <?php while (have_posts()) : the_post(); ?>    
 
