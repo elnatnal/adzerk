@@ -105,15 +105,16 @@ $(".custom-theme").colorbox({rel:'custom-theme', transition:"none", width:"1000p
 <script>
 $(document).ready(function(){
 
-        $("#more-features-show").hide();
-        $("#more-show").show();
 
-    $("#more-show").click(function(){
-    $("#more-features-show").slideToggle();
-    });
+$("#more-features-show").hide();
+$("#more-show").show();
 
+$("#more-show").click(function() {
+  $("#more-features-show").animate({ opacity: 1.0 },200).slideToggle(500, function() {
+    $("#more-show").text($(this).is(':visible') ? "Less Features" : "More Features");
+  });
 });
-
+});
 
 </script>
 

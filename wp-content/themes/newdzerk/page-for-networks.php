@@ -63,12 +63,10 @@
                      <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
                      <br /><a href="http://jonathanstephens.us/adzerk-iframes/#5" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
+       </ul>
 
-       <button id="more-show">
-          More Features
-       </button>
-<div id="more-features-show">
-
+<div>
+       <ul id="more-features-show">
                      <li class="advertiser-portal">
                             <h4>Advertiser Portal</h4> 
                             <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
@@ -86,8 +84,13 @@
                             <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
                             <br /><a href="http://jonathanstephens.us/adzerk-iframes/#5" class="arrow-after iframe"><strong>Read More</strong></a></p>
                      </li>
-</div>
               </ul>
+
+              <button id="more-show">
+                     More Features
+              </button>
+</div>
+
 
 
 </section>
