@@ -166,7 +166,7 @@
 }
 
 .blog-list-container article{
-	margin-bottom:2em;
+	margin-bottom:2em;padding-bottom:2.5em;
 }
 
 h4.blue2{color:$blue2;font-size:em(20);padding-bottom:.5em;}
@@ -214,22 +214,14 @@ h4.orange{color:$orange;font-size:em(20);padding-bottom:.5em;}
 	
 }
 .blog-list-container button{
-	position:absolute;
-	bottom:0;
-	right:0;
 	font-size:.75em;
 	padding:.5em;
-	margin-bottom:-2em;
 	background:$gray2;
+	float:right;
+	margin:em(27) 0;
 }
 
 .blog-list-container button:hover,.blog-list-container button:active,.blog-list-container button:focus {
-	position:absolute;
-	bottom:0;
-	right:0;
-	font-size:.75em;
-	padding:.5em;
-	margin-bottom:-2em;
 	background:$gray1;
 }
 
