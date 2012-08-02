@@ -97,7 +97,7 @@
 <script>
 
 $(".iframe").colorbox({iframe:true, width:"1000px", height:"620px", style:"overflow:hidden;"});
-$(".custom-theme").colorbox({iframe:true, width:"1000px", height:"620px", style:"overflow:hidden;"});
+$(".custom-theme").colorbox({rel:'custom-theme', transition:"none", width:"1000px", height:"620px", arrowKey:true, transition:"fade"});
 
 </script>
 

@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
-<h1 class="sassytext">Adzerk helps you in three simple steps</h1>
-<img src="<?php bloginfo('template_directory'); ?>/imgs/adzerk-infographic.jpg" width="1034" height="420" alt="Adzerk Infographic" class="home-infographic">
+<img src="<?php bloginfo('template_directory'); ?>/imgs/adzerk-infographic-ii.jpg" width="1034" height="420" alt="Adzerk Infographic" class="home-infographic">
 
 <hr />
 <section class="frontpage-descriptions d-all">
