@@ -7,7 +7,7 @@ button{
 	border:none;
 	margin:0 auto;
 	color:white;
-	
+	background-color:$blue2;
 	background-image: linear-gradient(bottom, rgb(17,65,85) 7%, rgb(20,82,105) 54%);
 	background-image: -o-linear-gradient(bottom, rgb(17,65,85) 7%, rgb(20,82,105) 54%);
 	background-image: -moz-linear-gradient(bottom, rgb(17,65,85) 7%, rgb(20,82,105) 54%);
@@ -41,6 +41,7 @@ button{
 }
 
 button:hover, button:active{
+	background-color:$blue1;
 	background-image: linear-gradient(bottom, rgb(17,65,85) 7%, rgb(17,65,85) 54%);
 	background-image: -o-linear-gradient(bottom, rgb(17,65,85) 7%, rgb(17,65,85) 54%);
 	background-image: -moz-linear-gradient(bottom, rgb(17,65,85) 7%, rgb(17,65,85) 54%);
