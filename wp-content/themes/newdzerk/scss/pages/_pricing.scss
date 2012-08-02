@@ -12,15 +12,6 @@ section#publishers, section#networks, section#advertisers {
 		padding: 1em 0;
 		margin-bottom:1.5em;
 				
-		display: -webkit-flexbox;
-	    display: -moz-flexbox;
-	    display: -ms-flexbox;
-	    display: -o-flexbox;
-	    -webkit-flex-flow: row;
-	    -moz-flex-flow: row;
-	    -ms-flex-flow: row;
-	    -o-flex-flow: row;
-	
 		border-radius: 5px; 
 		-moz-border-radius: 5px; 
 		-webkit-border-radius: 5px;
@@ -42,20 +33,16 @@ section#publishers, section#networks, section#advertisers {
 	.bronze-support, .white-label, .get-started, .network-tools, .silver-support, .advertiser-mode{
 		width:em(200);
 		display:block;
-		width: -webkit-flex(1 12.5em);
-		width: -moz-flex(1 12.5em);
-		width: -ms-flex(1 12.5em);
-		width: -o-flex(1 12.5em); 
-		-webkit-flex-align: center;
-		-moz-flex-align: center; 
-		-ms-flex-align: center;
-		-o-flex-align: center; 
-		box-flex:center;
+		float:left;
+		margin-right:em(20);
 	} 
 }
 
 section#publishers{
 	padding-top:0;
+	padding-bottom:em(92);
+	margin-bottom:em(7);
+	border-bottom:1px solid $gray4;
 	
 	h2{
 		margin-top:0;
@@ -66,6 +53,7 @@ button.get-started {
 	padding:.75em;
 	min-width:em(300);
 	min-height:5em;
+	margin-left:36%;
 	
 	a{
 		display:block;		
