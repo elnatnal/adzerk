@@ -58,9 +58,9 @@
 
 <div style='display:none'>
 	<div id='inline_content' style='padding:10px; background:#fff;'>
-              <h2>Looking for the Adzerk Logo</h2>
+              <h2>Looking for the Adzerk Logo?</h2>
 
-              <div>
+              <div class="pop-logo">
                      <h4>Adzerk Logo (.eps)</h4>
                      <img src="http://placekitten.com/254/113/">
                      <button>
@@ -68,14 +68,14 @@
                      </button>
               </div>
 
-              <div>
+              <div class="pop-logo">
                      <h4>Adzerk Logo (.eps)</h4>
                      <img src="http://placekitten.com/254/113/">
                      <button>
                             <a href="#">Download</a>
                      </button>
               </div>
-              <div>
+              <div class="pop-logo">
                      <h4>Adzerk Logo (.eps)</h4>
                      <img src="http://placekitten.com/254/113/">
                      <button>
@@ -95,31 +95,28 @@
 <script>
 
 $(".iframe").colorbox({iframe:true, width:"1000px", height:"620px", style:"overflow:hidden;"});
+$(".inline").colorbox({inline:true, width:"50%"});
 $(".custom-theme").colorbox({rel:'custom-theme', transition:"none", width:"1000px", height:"620px", arrowKey:true, transition:"fade"});
 
 </script>
 
+<?php
+wp_reset_query();
+if ( is_page( '9','29' ) ) { ?>
+       <script>
+       $(document).ready(function(){
+              $("#more-features-show").hide();
+              $("#more-show").show();
 
-<script>
-$(document).ready(function(){
-
-
-$("#more-features-show").hide();
-$("#more-show").show();
-
-$("#more-show").click(function() {
-  $("#more-features-show").animate({ opacity: 1.0 },200).slideToggle(500, function() {
-    $("#more-show").text($(this).is(':visible') ? "Less Features" : "More Features");
-  });
-});
-});
+              $("#more-show").click(function() {
+              $("#more-features-show").animate({ opacity: 1.0 },200).slideToggle(500, function() {
+              $("#more-show").text($(this).is(':visible') ? "Less Features" : "More Features");
+                     });
+              });
+       });
 
 </script>
-
-
-
-
-<!-- END IF FOR -->
+<?php } ?>
 
 <?php
        global $post;

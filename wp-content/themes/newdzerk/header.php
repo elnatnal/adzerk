@@ -114,7 +114,7 @@
 		              
 		
 		       
-			<h1 class="logo d1"><a href="<?php get_home_url(); ?>" class="ajax"><?php bloginfo('name'); ?></a></h1>
+			<h1 class="logo d1"><a href="#inline_content" class="inline"><?php bloginfo('name'); ?></a></h1>
 			
 			</script>
 			

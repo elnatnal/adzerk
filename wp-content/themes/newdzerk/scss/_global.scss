@@ -109,3 +109,28 @@ hr{
         #cboxClose:hover{background-position:bottom center;background-position-x:-16px;}
 
 /* COLORBOX END */
+
+.pop-logo{
+	float:left;
+	margin-right:8px;
+	text-align:center;
+	width:218px;
+	margin-top:21px;
+	
+	img{
+		width:72%;
+		border:none;
+	}
+	
+	button{
+		width:120px;
+		height:34px;
+		margin-bottom:25px;
+		
+		a{
+			position:relative;
+			top:6px;
+			font-size:14px;
+		}
+	}
+}
