@@ -136,7 +136,8 @@ if ( in_category( 'product-blog' )){ ?>
 		</article>
 
 	<?php endwhile; endif; ?>
-</div>
 <?php get_sidebar('globalblogsidebar'); ?>
+</div>
+
 
 <?php get_footer(); ?>
