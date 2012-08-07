@@ -102,5 +102,54 @@ aside.sidebar div.newsletter-sign-up {
 		top:-9px;
 		left:-22px;
 	}
+}
 
+
+.bottom-ad-sidebar{
+	background:$gray4;
+	margin:0;
+	padding:1.5em;
+	padding-bottom:0;
+	border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;
+	display:inline-block;
+	margin-top:3em;
+	width:95.5%;
+	height:193px;
+	
+	h2{
+		font-family:gesta;
+		font-size:3.5em;
+		text-transform:none;
+		font-weight:300;
+		color:black;
+		line-height:53px;
+	}
+	
+	button{
+		float:right;
+		position:relative;
+		top:-84px;
+		right:10px;
+		width:290px;
+		padding:1em 0;
+		font-size:25px;
+		border-radius: 15px; 
+		-moz-border-radius: 15px; 
+		-webkit-border-radius: 15px;
+		
+		background-color:$orange;
+		
+		background-image: linear-gradient(bottom, darken($orange, 15%) 7%, $orange 54%);
+		background-image: -o-linear-gradient(bottom, darken($orange, 15%) 7%, $orange 54%);
+		background-image: -moz-linear-gradient(bottom, darken($orange, 15%) 7%, $orange 54%);
+		background-image: -webkit-linear-gradient(bottom, darken($orange, 15%) 7%, $orange 54%);
+		background-image: -ms-linear-gradient(bottom, darken($orange, 15%) 7%, $orange 54%);
+	}
+
+	button:hover, button:active, button:focus{
+		background:darken($orange, 15%);
+	}
+	
 }

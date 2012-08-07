@@ -1,3 +1,4 @@
+<?php dynamic_sidebar('bottom-ad-sidebar'); ?>
 </div>
 	<footer id="footer" class="d-all">
 	       <div class="wrapper">       
@@ -40,7 +41,7 @@
               </section>
                      
               <section class="bottom-logo d9">
-                     <h2><a href="<?php bloginfo('name'); ?>">ADZERK</a></h2>
+                     <h2><a href="<?php home_url(); ?>">ADZERK</a></h2>
                      <p><a href="https://maps.google.com/maps?hl=en&safe=off&z=16&q=303+South+Roxboro+St+Suite+30+Durham,+NC+27701">303 South Roxboro St<br />
                             Suite 30<br />
                             Durham, NC 27701 </a><br />

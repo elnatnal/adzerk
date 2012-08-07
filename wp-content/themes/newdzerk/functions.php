@@ -45,6 +45,16 @@
     		'before_title'  => '<h2>',
     		'after_title'   => '</h2>'
     	));
+    	register_sidebar(array(
+    		'name' => __('Bottom Ad Sidebar','html5reset' ),
+    		'id'   => 'bottom-ad-sidebar',
+    		'description'   => __( 'These are widgets for the Bottom Ad sidebar','html5reset' ),
+    		'before_widget' => '<div id="%1$s" class="widget %2$s bottom-ad-sidebar">',
+    		'after_widget'  => '</div>',
+    		'before_title'  => '<h2>',
+    		'after_title'   => '</h2>'
+    	));
+
    }
     
     add_theme_support( 'post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'status', 'audio', 'chat', 'video')); // Add 3.1 post format theme support.
