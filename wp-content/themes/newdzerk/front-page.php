@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<img src="<?php bloginfo('template_directory'); ?>/imgs/adzerk-infographic-ii.jpg" width="1034" height="420" alt="Adzerk Infographic" class="home-infographic">
+<img src="<?php bloginfo('template_directory'); ?>/imgs/adzerk-infographic-iii.jpg" width="1034" height="420" alt="Adzerk Infographic" class="home-infographic">
 
 <hr />
 <section class="frontpage-descriptions d-all">
@@ -11,7 +11,7 @@
                      <a href="#">
                             Find out more
                      </a>
-              </button<>
+              </button>
        </div>
 
        <div class="d4-d6">
@@ -21,7 +21,7 @@
                      <a href="#">
                             Find out more
                      </a>
-              </button<>
+              </button>
        </div>
 
        <div class="d8-d9">
@@ -31,7 +31,7 @@
                      <a href="#">
                             Find out more
                      </a>
-              </button<>
+              </button>
        </div>
 </section>
 
