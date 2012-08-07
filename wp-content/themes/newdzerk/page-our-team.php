@@ -17,11 +17,12 @@
                       <div class="team-info d1">
                              <?php echo get_the_post_thumbnail( $post->ID, '170',true ); ?> <br />
                              <?php $teammate_twitter = get_post_meta($post->ID, 'teammmate-twitter-meta-text', true);
+                                   $bloginfo = get_bloginfo( 'stylesheet_directory' );
                                     if (empty ($teammate_twitter)) {
                                            echo " ";
                                     } else {
                                            echo 
-                                           "<img src='./wp-content/themes/newdzerk/imgs/twitter-logo.gif' alt='Twitter Logo' class='tweet-logo'><a href='http://twitter.com/" . $teammate_twitter . "'>@"
+                                           "<img src='". $bloginfo ."/imgs/twitter-logo.gif' alt='Twitter Logo' class='tweet-logo'><a href='http://twitter.com/" . $teammate_twitter . "'>@"
                                                                    . $teammate_twitter . "</a>";
                                    }
                                     ?>                                           
