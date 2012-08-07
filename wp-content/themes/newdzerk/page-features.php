@@ -47,7 +47,7 @@
 <div class="features-main d2-d9">
 
 <section id="fastest-ad-code">
-       <h2>Fastest Ad Code in the World <span class="subtext">&emsp;No, seriously, <a href="#">we've clocked it.</a></span></h2>
+       <h2>Fastest Ad Code in the World <span class="subtext">&emsp;No, seriously, <a href="<?php echo home_url(); ?>/product-blog/new-feature-the-fastest-ad-code-in-the-world">we've clocked it.</a></span></h2>
        <img src="http://placekitten.com/253/163/">
        <div>
               <h4>Our ad code is flexible and fast. We can serve:</h4>
