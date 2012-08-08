@@ -28,27 +28,28 @@
        <h2>Built for Networks <span class="subtext">&emsp;adOS is your all&ndash;in&ndash;one network management platform</h2>
 
        <ul>
-              <li class="skinnable-ui">
+							<li class="skinnable-ui">
                      <h4>Skinnable UI</h4>
-                     <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
+                     <p>With the White Label app, you can upload any custom CSS, JavaScript, and footer markup to make your adOS look like you own website. 
                      <br /><a href="http://jonathanstephens.us/adzerk-iframes/#0" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
               <li class="site-payout-management">
                      <h4>Site Payout Management</h4>
-                     <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
+                     <p>Calculate earnings, make adjustments, and mark sent payments for your Network's sites, all in one place.
                      <br /><a href="http://jonathanstephens.us/adzerk-iframes/#1" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
+
               <li class="publisher-portal">
-                     <h4>Publisher Portal</h4>
-                     <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
+                     <h4>Forecasting Reports</h4>
+                     <p>Forecast earnings based on impression trends. 
                      <br /><a href="http://jonathanstephens.us/adzerk-iframes/#2" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
               <li class="advertiser-portal">
                      <h4>Advertiser Portal</h4> 
-                     <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
+										 <p>Give Advertiser customers the ability to login, run reports, and upload Creatives to be used in Campaigns (with the Advertiser Creative Management app). 
                      <br /><a href="http://jonathanstephens.us/adzerk-iframes/#3" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
@@ -64,7 +65,7 @@
                      <br /><a href="http://jonathanstephens.us/adzerk-iframes/#5" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
        </ul>
-
+<!-- hide this until we have more features for pubs
 <div>
        <ul id="more-features-show">
                      <li class="advertiser-portal">
@@ -89,7 +90,7 @@
               <button id="more-show">
                      More Features
               </button>
-</div>
+</div>-->
 
 
 
