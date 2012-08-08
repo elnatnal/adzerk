@@ -99,13 +99,15 @@
        <aside id="powered-by-ados">
               <h2>Networks powered by adOS</h2>
               <ul>
-                     <li><img src="http://placekitten.com/178/35"></li>
-                     <li><img src="http://placekitten.com/178/45"></li>
-                     <li><img src="http://placekitten.com/178/80"></li>
-                     <li><img src="http://placekitten.com/178/25"></li>
-                     <li><img src="http://placekitten.com/178/45"></li>
-                     <li><img src="http://placekitten.com/178/65"></li>
-                     <li><img src="http://placekitten.com/178/42"></li>
+                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/stackexchange_color_lg.png"></li>
+                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/campingusa_color_sm.png"></li>
+                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/digicreative_color_sm.png"></li>
+                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/planapple_color_sm.png"></li>
+                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/radiox_color_sm.png"></li>
+                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/reversemortgage_color_sm.png"></li>
+                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/sno_color_sm.png"></li>
+                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/statsheet_color_lg.png"></li>
+                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/tastebuds_color_sm.png"></li>
               </ul>
        </aside>
 
