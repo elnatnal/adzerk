@@ -10,89 +10,39 @@
 
 <div class="custom-ados-themes-container">
        <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/400.jpg" title="Theme Name II"><img src="http://placekitten.com/322/160"></a>
-             <h4>Theme Name I</h4>
+             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/hotchalk.jpg" title="Hotchalk"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/feature_lightbox/hotchalk.jpg"></a>
+             <h4>Hotchalk</h4>
        </div>
 
        <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/402.jpg" title="Theme Name II"><img src="http://placehold.it/322x160"></a>
-             <h4>Theme Name II</h4>
+             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/adbase.jpg" title="Adbase"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/feature_lightbox/adbase.jpg"></a>
+             <h4>Adbase</h4>
        </div>
 
        <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/404.jpg" title="Theme Name II"><img src="http://placekitten.com/322/160"></a>
-             <h4>Theme Name I</h4>
+             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/builtAds.jpg" title="Built Ads"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/feature_lightbox/builtAds.jpg"></a>
+             <h4>Built Ads</h4>
        </div>
 
        <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/408.jpg" title="Theme Name II"><img src="http://placehold.it/322x160"></a>
-             <h4>Theme Name II</h4>
+             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/litbreaker.jpg" title="Litbreaker"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/feature_lightbox/litbreaker.jpg"></a>
+             <h4>Litbreaker</h4>
        </div>
 
        <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/410.jpg" title="Theme Name II"><img src="http://placekitten.com/322/160"></a>
-             <h4>Theme Name I</h4>
+             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/messageSpace.jpg" title="Message Space"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/feature_lightbox/messageSpace.jpg"></a>
+             <h4>Message Space</h4>
        </div>
 
        <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/400.jpg" title="Theme Name II"><img src="http://placehold.it/322x160"></a>
-             <h4>Theme Name II</h4>
+             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/muslimAdNetwork.jpg" title="Muslim Ad Network"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/feature_lightbox/muslimAdNetwork.jpg"></a>
+             <h4>Muslim Ad Network</h4>
        </div>
 
        <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/402.jpg" title="Theme Name II"><img src="http://placekitten.com/322/160"></a>
-             <h4>Theme Name I</h4>
+             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/netSportsMedia.jpg" title="Net Sports Media"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/feature_lightbox/netsportsMedia.jpg"></a>
+             <h4>Net Sports Media</h4>
        </div>
-
-       <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/404.jpg" title="Theme Name II"><img src="http://placehold.it/322x160"></a>
-             <h4>Theme Name II</h4>
-       </div>
-
-       <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/408.jpg" title="Theme Name II"><img src="http://placekitten.com/322/160"></a>
-             <h4>Theme Name I</h4>
-       </div>
-
-       <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/410.jpg" title="Theme Name II"><img src="http://placehold.it/322x160"></a>
-             <h4>Theme Name II</h4>
-       </div>
-
-       <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/400.jpg" title="Theme Name II"><img src="http://placekitten.com/322/160"></a>
-             <h4>Theme Name I</h4>
-       </div>
-
-       <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/402.jpg" title="Theme Name II"><img src="http://placehold.it/322x160"></a>
-             <h4>Theme Name II</h4>
-       </div>
-
-       <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/404.jpg" title="Theme Name II"><img src="http://placekitten.com/322/160"></a>
-             <h4>Theme Name I</h4>
-       </div>
-
-       <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/408.jpg" title="Theme Name II"><img src="http://placehold.it/322x160"></a>
-             <h4>Theme Name II</h4>
-       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </div>
 
