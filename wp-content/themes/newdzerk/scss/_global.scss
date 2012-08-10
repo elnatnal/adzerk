@@ -134,3 +134,22 @@ hr{
 		}
 	}
 }
+
+
+section.fourohfour {
+	background:url('../imgs/fourohfour-viking.jpg') no-repeat top left;
+	height:em(450);
+	margin-top:-8em;
+
+	ul{
+		margin-top:-.5em;
+		margin-bottom:-.5em;
+	}
+	.blue3{
+		color:$blue3;
+		}
+	
+	h3{
+		line-height:1.263em;
+	}
+}
