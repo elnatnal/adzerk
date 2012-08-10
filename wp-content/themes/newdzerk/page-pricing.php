@@ -102,8 +102,8 @@
               <ul class="blue">
                      <li><strong>For Networks</strong><br />
                             20 million impressions/month and up</li>
-                     <li><strong>For Advertisers</strong><br />
-                            100 million impressions/month and up</li>
+                    <!-- <li><strong>For Advertisers</strong><br />
+                            100 million impressions/month and up</li> -->
                      <li><strong>For Publishers</strong><br />
                             100 million impressions/month and up</li>
               </ul>
