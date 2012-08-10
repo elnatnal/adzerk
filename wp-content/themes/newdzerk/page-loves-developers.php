@@ -65,5 +65,6 @@
 
 
 
+       <?php dynamic_sidebar('jobs-sidebar'); ?>
 
 <?php get_footer(); ?>

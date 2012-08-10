@@ -88,5 +88,5 @@
 
 
 
-
+<?php dynamic_sidebar('pricing-sidebar'); ?>
 <?php get_footer(); ?>

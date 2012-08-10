@@ -1,4 +1,3 @@
-<?php dynamic_sidebar('bottom-ad-sidebar'); ?>
 </div>
 	<footer id="footer" class="d-all">
 	       <div class="wrapper">       

@@ -114,4 +114,6 @@
               <button><a href="mailto:ron@adzerk.com">Get Enterprise Pricing</a></button>
               </div>
        </aside>
+       
+<?php dynamic_sidebar('pricing-sidebar'); ?>       
 <?php get_footer(); ?>

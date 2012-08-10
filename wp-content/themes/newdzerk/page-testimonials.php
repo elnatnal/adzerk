@@ -34,5 +34,5 @@
 </div>
 
 <?php get_sidebar('testimonials'); ?>
-
+<?php dynamic_sidebar('pricing-sidebar'); ?>
 <?php get_footer(); ?>

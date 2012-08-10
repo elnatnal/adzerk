@@ -74,8 +74,10 @@
       </div>
 
 
-</div>
 
+      <?php dynamic_sidebar('jobs-sidebar'); ?>
+
+</div>
 
 
 

@@ -64,6 +64,24 @@
 	line-height:1.5em;
 }
 
+#footer .bottom-logo h2{
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+
+	background: url('../imgs/logo-blue.png') no-repeat scroll top left;
+	background: url('../imgs/logo-blue.svg') no-repeat scroll top left;
+	width: 183px;
+	height: 63px;
+	margin-top:.4em;
+	background-size:94%;
+	margin-left:10px;
+
+	a{
+		display:block;
+	}
+}
+
 .newsletter-sign-up {
 	margin-top:-14px;
 	width:180px;

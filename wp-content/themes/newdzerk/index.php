@@ -233,4 +233,5 @@ if ( is_category( 'product-blog' )){ ?>
 
 
 
+
 <?php get_footer(); ?>

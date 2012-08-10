@@ -112,10 +112,18 @@
        <h2>What our customers are saying</h2>
        <div id="cust-testimonials">
        <?php query_posts('post_type=testimonial&category_name=for_networks&posts_per_page=3&order=ASC'); ?>
+       <?php
+       add_filter( 'post_thumbnail_html', 'remove_thumbnail_dimensions', 10 );
+
+       function remove_thumbnail_dimensions( $html ) {
+           $html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
+           return $html;
+       }
+       ?>
        <?php if (have_posts()) : ?>
                       <?php while (have_posts()) : the_post(); ?>    
 
-                      
+
                       <div class="testimonial <?php the_slug();?> d1-d8">
                              <div class="testy-info">
                                     <?php echo get_the_post_thumbnail(); ?> <br />
