@@ -61,23 +61,23 @@
               <h2>Looking for the Adzerk Logo?</h2>
 
               <div class="pop-logo">
-                     <h4>Adzerk Logo (.eps)</h4>
-                     <img src="http://placekitten.com/254/113/">
+                     <h4>Adzerk Logo (.png)</h4>
+                     <img src="http://adzerk-www.s3.amazonaws.com/resources/adzerk-logo.png">
                      <button>
                             <a href="#">Download</a>
                      </button>
               </div>
 
               <div class="pop-logo">
-                     <h4>Adzerk Logo (.eps)</h4>
-                     <img src="http://placekitten.com/254/113/">
+                     <h4>adOS Blue Logo (.png)</h4>
+                     <img src="http://adzerk-www.s3.amazonaws.com/resources/adOs_logo_blue.png">
                      <button>
                             <a href="#">Download</a>
                      </button>
               </div>
               <div class="pop-logo">
-                     <h4>Adzerk Logo (.eps)</h4>
-                     <img src="http://placekitten.com/254/113/">
+                     <h4>adOS White Logo (.png)</h4>
+                     <img src="http://adzerk-www.s3.amazonaws.com/resources/adOS_logo_white.png">
                      <button>
                             <a href="#">Download</a>
                      </button>
