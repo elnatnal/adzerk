@@ -210,7 +210,7 @@ h4:before{
 		content:url('../imgs/icons/tracking-options.gif');
 }
 
-#always-up h4:before, #technical-support h4:before, #scalable h4:before, #ad-ops-support h4:before{
+#always-up h4:before, #technical-eupport h4:before, #scalable h4:before, #ad-ops-support h4:before{
 		content:url('../imgs/icons/check.gif');
 }
 #full-api h4:before{
@@ -223,6 +223,14 @@ h4:before{
 
 #ad-tech-marketplace h4:before{
 		content:url('../imgs/icons/ad-tech-marketplace.gif');
+}
+
+#support h4:before{
+    content:url('../imgs/icons/support.gif');
+}
+
+#forecasting h4:before{
+    content:url('../imgs/icons/forecasting.gif');
 }
 
 #partnered h4:before{
