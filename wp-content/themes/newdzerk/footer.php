@@ -40,7 +40,7 @@
               </section>
                      
               <section class="bottom-logo d9">
-                     <h2><a href="<?php home_url(); ?>">ADZERK</a></h2>
+                     <h2><a href="<?php echo home_url(); ?>">ADZERK</a></h2>
                      <p><a href="https://maps.google.com/maps?hl=en&safe=off&z=16&q=303+South+Roxboro+St+Suite+30+Durham,+NC+27701">303 South Roxboro St<br />
                             Suite 30<br />
                             Durham, NC 27701 </a><br />
@@ -50,7 +50,7 @@
 			
 			<section class="copyright d-all">
 			       <small>Copyright Adzerk Inc. <?php echo date("Y"); echo " " ?> &copy;<br />
-			       <a href="#">Privacy Policy for Ad Serving</a>&ensp;|&ensp;<a href="#">Privacy Policy for Customers</a>
+			       <a href="http://help.adzerk.com/questions/7745-Privacy-Policy-for-Ad-Serving">Privacy Policy for Ad Serving</a>&ensp;|&ensp;<a href="http://help.adzerk.com/questions/6562-Privacy-Policy-for-Customers">Privacy Policy for Customers</a>
 			       </small>
 		</section>
        </div>
@@ -109,7 +109,7 @@ if ( is_page( '9','29' ) ) { ?>
               $("#more-show").show();
 
               $("#more-show").click(function() {
-              $("#more-features-show").animate({ opacity: 1.0 },200).slideToggle(500, function() {
+              $("#more-features-show").animate({ opacity: 1.0 },275).slideToggle(500, function() {
               $("#more-show").text($(this).is(':visible') ? "Less Features" : "More Features");
                      });
               });

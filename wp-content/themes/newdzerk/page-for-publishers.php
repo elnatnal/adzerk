@@ -18,7 +18,7 @@
               <p>adOS is your ad network management platform. You'll have a publisher portal to share logins with your publishers and adOS will even help you calculate payouts to your publishers and generate the Paypal mass pay file. Our super easy <strong>three step process</strong> will have you serving ads in minutes.</p>
               
               <button>
-                     <a href="#">See Plans and Pricing</a>
+                     <a href="#world-class-ad-serving">See Plans and Pricing</a>
               </button>
        </div>
 </section>
@@ -66,7 +66,7 @@
               </li>
        </ul>
 <!-- hide this until we have more features for pubs
-<div>
+<div class="morefeaturesdiv">
        <ul id="more-features-show">
                      <li class="advertiser-portal">
                             <h4>Advertiser Portal</h4> 
@@ -91,34 +91,39 @@
                      More Features
               </button>
 </div>-->
-
-
-
 </section>
+
 <section id="customers" class="d-all">
        <aside id="powered-by-ados">
-              <h2>Networks powered by adOS</h2>
+              <h2>Publishers powered by adOS</h2>
               <ul>
                      <li><img src="http://adzerk-www.s3.amazonaws.com/resources/stackexchange_color_lg.png"></li>
                      <li><img src="http://adzerk-www.s3.amazonaws.com/resources/campingusa_color_sm.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/digicreative_color_sm.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/planapple_color_sm.png"></li>
+                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/digicreative.png"></li>
+                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/planapple.png"></li>
                      <li><img src="http://adzerk-www.s3.amazonaws.com/resources/radiox_color_sm.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/reversemortgage_color_sm.png"></li>
+                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/reversemortgagedaily.png"></li>
                      <li><img src="http://adzerk-www.s3.amazonaws.com/resources/sno_color_sm.png"></li>
                      <li><img src="http://adzerk-www.s3.amazonaws.com/resources/statsheet_color_lg.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/tastebuds_color_sm.png"></li>
+                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/tastebuds.png"></li>
               </ul>
        </aside>
 
        <h2>What our customers are saying</h2>
        <div id="cust-testimonials">
        <?php query_posts('post_type=testimonial&category_name=for_publishers&posts_per_page=3&order=ASC'); ?>
+       <?php
+       add_filter( 'post_thumbnail_html', 'remove_thumbnail_dimensions', 10 );
+
+       function remove_thumbnail_dimensions( $html ) {
+           $html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
+           return $html;
+       }
+       ?>
        <?php if (have_posts()) : ?>
                       <?php while (have_posts()) : the_post(); ?>    
 
-                      
-                      <div class="testimonial <?php the_slug();?> d1-d8">
+                            <div class="testimonial <?php the_slug();?> d1-d8">
                              <div class="testy-info">
                                     <?php echo get_the_post_thumbnail(); ?> <br />
         		               <h4><?php the_title(); ?></h4>
@@ -184,7 +189,7 @@
                   </div>
 
                   <button class="get-started">
-                     <a href="#"><strong>Get Started Now</strong> <br />
+                     <a href="http://new.adzerk.com/signup"><strong>Get Started Now</strong> <br />
                                    with our super easy wizard!
                      </a>
                   </button>
