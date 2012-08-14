@@ -713,9 +713,9 @@ class MF_Timeline {
 			$results = $wpdb->get_results( $query, 'ARRAY_A' );
 			
 			foreach($results as $post) {
-				$year = date( 'Y', strtotime( $post['date'] ) );
+				$date_group = date( 'F Y', strtotime( $post['date'] ) );
 				$post['source'] = 'wp';
-				$posts[$year][] = $post;
+				$posts[$date_group][] = $post;
 			}
 		
 			return $posts;
@@ -763,7 +763,7 @@ class MF_Timeline {
 				
 			if( is_object($json) && isset( $json->results ) ) {
 				foreach( $json->results as $result ) {
-					$year = date( 'Y', strtotime( $result->created_at ) );
+					$year = date( 'F Y', strtotime( $result->created_at ) );
 					
 					$row['content'] = (string) $result->text;
 					$row['date'] = (string) $result->created_at;
@@ -771,7 +771,7 @@ class MF_Timeline {
 					$row['author_image'] = (string) $result->profile_image_url;
 					$row['source'] = 'twitter';
 					
-					$tweets[$year][] = $row;
+					$tweets[$date_group][] = $row;
 				}
 			}
 			
@@ -797,9 +797,9 @@ class MF_Timeline {
 		
 		if( !empty( $results ) ) {
 			foreach( $results as $story ) {
-				$year = date( 'Y', strtotime( $story['date'] ) );
+				$date_group = date( 'F Y', strtotime( $story['date'] ) );
 				$story['source'] = 'timeline_stories';
-				$stories[$year][] = $story;
+				$stories[$date_group][] = $story;
 			}
 			
 			return $stories;
@@ -829,12 +829,12 @@ class MF_Timeline {
 		// Process each of the contents we have attempted to grab and combine them as events by year.
 		foreach( $contents as $content ) {
 			if( is_array ( $content ) ) {
-				foreach ( $content as $year => $values ) {
-					if( empty( $events[$year] ) || !isset( $events[$year] ) ) {
-						$events[$year] = $values;
+				foreach ( $content as $date_group => $values ) {
+					if( empty( $events[$date_group] ) || !isset( $events[$date_group] ) ) {
+						$events[$date_group] = $values;
 					}
 					else {
-						$events[$year] = array_merge( $events[$year], $values);
+						$events[$date_group] = array_merge( $events[$date_group], $values);
 					}
 				}
 			}
@@ -844,8 +844,8 @@ class MF_Timeline {
 			usort( $event, array( &$this, 'sort_events_by_date' ) );
 		}
 		
-		krsort( $events ); // Sort the years numeric
-		
+		uksort( &$events, array( &$this, 'sort_date_groups' ) );
+
 		return $events;
 	}
 	
@@ -859,7 +859,23 @@ class MF_Timeline {
 	public function sort_events_by_date( $elem1, $elem2 ) {
 		return strtotime( $elem2['date'] ) - strtotime( $elem1['date'] );
 	}
-	
+
+	/**
+	 * Sort date groups
+	 * Sorts the date groups (month/year) in descending order.
+	 *
+	 * @return int the calculation.
+	 * @author Nate Kohari
+	 **/
+	public function sort_date_groups($group1, $group2) {
+		$months = array('January' => 1, 'February' => 2, 'March' => 3, 'April' => 4, 'May' => 5, 'June' => 6, 'July' => 7, 'August' => 8, 'September' => 9, 'October' => 10, 'November' => 11, 'December' => 12);
+		$tokens1 = explode(' ', $group1);
+		$tokens2 = explode(' ', $group2);
+		$date1 = mktime(0, 0, 0, $months[$tokens1[0]], 1, $tokens1[1]);
+		$date2 = mktime(0, 0, 0, $months[$tokens2[0]], 1, $tokens2[1]);
+		return $date2 - $date1;
+	}
+
 	/**
 	 * Get Timeline
 	 * Output the timeline html to the page. This function can be called either via a shortcode or within a theme's template page.
@@ -873,10 +889,11 @@ class MF_Timeline {
 		$html = '<div class="timeline">';
 			$html .= '<a href="#" class="timeline_spine"></a>';
 			
-			foreach( $events as $year=>$timeline_events ) {
-				$html .= '<div class="section" id="' . $year . '">';
+			foreach( $events as $date_group=>$timeline_events ) {
+				$group_id = str_replace(' ', '_', $date_group);
+				$html .= '<div class="section" id="' . $group_id . '">';
 					$html .= '<div class="title">';
-						$html .= '<a href="#">' . $year . '</a>';
+						$html .= '<a href="#">' . $date_group . '</a>';
 					$html .= '</div>';
 					
 					$html .= '<ol class="events">';
@@ -968,18 +985,19 @@ class MF_Timeline {
 	 * Get Timeline Nav
 	 * Outputs the timeline navigation menu and enqueues the the Javascript
 	 *
-	 * @param $years array an array of years
+	 * @param $date_groups array an array of date groups
 	 *
 	 * @return void
 	 * @author Matt Fairbrass
 	 **/
-	public function get_timeline_nav( $years ) {
+	public function get_timeline_nav( $date_groups ) {
 		$options = get_option( 'mf_timeline' );
 		
 		if( $options['options']['timeline_nav'] == 1 ) {
 			$html = '<ol class="timeline_nav">';
-				foreach( $years as $year ) {
-					$html .= '<li id="menu_year_' . $year . '"><a href="#' . $year . '">' . $year . '</a></li>';
+				foreach( $date_groups as $date_group ) {
+					$date_group_id = str_replace(' ', '_', $date_group);
+					$html .= '<li id="menu_year_' . $date_group_id . '"><a href="#' . $date_group_id . '">' . $date_group . '</a></li>';
 				}
 			$html .= '</ol>';
 			$html .= '<script type="text/javascript" src="' . plugins_url( 'scripts/js/jquery.mf_timeline.min.js', __FILE__ ) . '"></script>';
