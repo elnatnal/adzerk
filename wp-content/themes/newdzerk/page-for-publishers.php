@@ -25,7 +25,7 @@
 
 
 <section id="built-for" class="d-all">
-       <h2>Built for Networks <span class="subtext">&emsp;adOS is your all&ndash;in&ndash;one network management platform</h2>
+       <h2>Built for Publishers <span class="subtext">&emsp;adOS is your all&ndash;in&ndash;one network management platform</h2>
 
        <ul>
 							<li class="skinnable-ui">

@@ -62,22 +62,14 @@
 	<meta name="google-site-verification" content="">
 	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
 	
-	<meta name="author" content="Your Name Here">
-	<meta name="Copyright" content="Copyright Your Name Here 2011. All Rights Reserved.">
+	<meta name="author" content="Adzerk">
+	<meta name="Copyright" content="Copyright Adzerk 2012. All Rights Reserved.">
 
 	<!-- Dublin Core Metadata : http://dublincore.org/ -->
-	<meta name="DC.title" content="Project Name">
-	<meta name="DC.subject" content="What you're about.">
-	<meta name="DC.creator" content="Who made this site.">
-	
-	<!--  Mobile Viewport meta tag
-	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
-	device-width : Occupy full width of the screen in its current orientation
-	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
-	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width -->
-	<!-- Uncomment to use; use thoughtfully!
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	-->
+	<meta name="DC.title" content="Adzerk">
+	<meta name="DC.subject" content="Online Ad Serving">
+	<meta name="DC.creator" content="jonathanstephens.us">
+
 	
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/_/img/apple-touch-icon.png">

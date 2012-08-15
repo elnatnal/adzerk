@@ -65,31 +65,31 @@
               </li>
        </ul>
 
-<div>
-       <ul id="more-features-show">
-                     <li class="advertiser-portal">
-                            <h4>Advertiser Portal</h4> 
-                            <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
-                            <br /><a href="http://jonathanstephens.us/adzerk-iframes/#3" class="arrow-after iframe"><strong>Read More</strong></a></p>
-                     </li>
+       <div class="morefeaturesdiv">
+              <ul id="more-features-show">
+                            <li class="advertiser-portal">
+                                   <h4>Flight Delivery Options</h4> 
+                                   <p>Flight settings are completely configurable- only add the options that each particular Flight needs, including Rates, Targeting Options, Day parting, Frequency capping, and Distribution Options like Companion Ads. 
+                                   <br /><a href="http://jonathanstephens.us/adzerk-iframes/#3" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                            </li>
 
-                     <li class="robust-targeting-options">
-                            <h4>Robust Targeting Options</h4>
-                            <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
-                            <br /><a href="http://jonathanstephens.us/adzerk-iframes/#4" class="arrow-after iframe"><strong>Read More</strong></a></p>
-                     </li>
+                            <li class="robust-targeting-options">
+                                   <h4>Robust Support Options</h4>
+                                   <p>Get 30 days of free chat and email support to help you get set up, and then choose one of our four support packages, including live chat, phone, email support, help documentation, and always a rapid turnaround rate. 
+                                   <br /><a href="http://jonathanstephens.us/adzerk-iframes/#4" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                            </li>
 
-                     <li class="fast-accurate-reporting">
-                            <h4>Fast &amp; Accurate Reporting</h4>
-                            <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
-                            <br /><a href="http://jonathanstephens.us/adzerk-iframes/#5" class="arrow-after iframe"><strong>Read More</strong></a></p>
-                     </li>
-              </ul>
+                            <li class="fast-accurate-reporting">
+                                   <h4>Forecast Earnings</h4>
+                                   <p>Our Forecasting options allow you to forecast based on Channel, Ad type, Site, Zone, Location, and Keyword. 
+                                   <br /><a href="http://jonathanstephens.us/adzerk-iframes/#5" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                            </li>
+                     </ul>
 
-              <button id="more-show">
-                     More Features
-              </button>
-</div>
+                     <button id="more-show">
+                            More Features
+                     </button>
+       </div>
 
 
 

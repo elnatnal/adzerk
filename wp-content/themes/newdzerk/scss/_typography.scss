@@ -99,10 +99,14 @@ h4 {
 	font-weight: 700;
 	font-style: normal;
 	font-size: em(16);
-	line-height:0;
+	line-height:em(20);
 	color: rgba(0, 0, 0, 1.00);
 	margin-top:.75em;
 }
+.testy-info h4{
+	line-height:0;
+}
+
 #footer h3 {
 	font-style: normal;
 	font-weight: 700;
