@@ -96,9 +96,12 @@ h4 {
   font-weight: 700;
   font-style: normal;
   font-size: 1em;
-  line-height: 0;
+  line-height: 1.25em;
   color: black;
   margin-top: .75em; }
+
+.testy-info h4 {
+  line-height: 0; }
 
 #footer h3 {
   font-style: normal;
@@ -3239,18 +3242,18 @@ aside.job-openings li:before {
   content: "–  "; }
 
 aside.blog {
-  margin-left: -2em; }
+  margin-left: -3em; }
 
 aside.sidebar h3 {
   line-height: 1.5em;
   padding-bottom: .75em; }
 
-aside.sidebar div.newsletter-sign-up {
+aside.sidebar div.newsletter-sign-up, aside.press-and-media div.newsletter {
   border-bottom: none;
   margin-top: 0; }
-  aside.sidebar div.newsletter-sign-up label {
+  aside.sidebar div.newsletter-sign-up label, aside.press-and-media div.newsletter label {
     color: #666666; }
-  aside.sidebar div.newsletter-sign-up input {
+  aside.sidebar div.newsletter-sign-up input, aside.press-and-media div.newsletter input {
     -webkit-border-radius: .5em;
     -moz-border-radius: .5em;
     border-radius: .5em;
@@ -3262,7 +3265,7 @@ aside.sidebar div.newsletter-sign-up {
     position: relative;
     top: -1px;
     border: 1px solid #cdcdcd; }
-  aside.sidebar div.newsletter-sign-up button.submit {
+  aside.sidebar div.newsletter-sign-up button.submit, aside.press-and-media div.newsletter button.submit {
     position: relative;
     top: -1em;
     min-width: 50px !important;
@@ -3271,7 +3274,7 @@ aside.sidebar div.newsletter-sign-up {
     height: 20px !important;
     min-height: 23px;
     margin-top: .5em; }
-  aside.sidebar div.newsletter-sign-up button.submit input {
+  aside.sidebar div.newsletter-sign-up button.submit input, aside.press-and-media div.newsletter button.submit input {
     height: 20px;
     color: white;
     font-family: gesta;
@@ -3284,6 +3287,9 @@ aside.sidebar div.newsletter-sign-up {
     border: none;
     top: -9px;
     left: -22px; }
+
+aside.press-and-media div.newsletter input {
+  width: 16em; }
 
 .bottom-ad-sidebar {
   background: #efefef;
@@ -3700,11 +3706,12 @@ aside.sidebar .from-run-of-network {
 
 .timeline .section {
   clear: both;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 65px 0px 0px;
   padding: 20px 0px 0px 0px;
   overflow: hidden;
   position: relative;
-  z-index: 99; }
+  z-index: 99;
+  margin-left: -71px; }
 
 .timeline .section:only-child, .timeline .section:last-child {
   padding-bottom: 20px; }
@@ -3988,7 +3995,7 @@ aside.features {
 
 #site-payout-management h4 {
   margin-top: -1em;
-  margin-left: 13.4em; }
+  margin-left: 20em; }
 
 #publisher-portal {
   margin-top: 1em; }
@@ -3997,7 +4004,7 @@ aside.features {
 
 #advertiser-portal h4 {
   margin-top: -1.125em;
-  margin-left: 13.4em; }
+  margin-left: 20em; }
 
 #campaign-trafficking {
   height: 56em; }
@@ -4291,7 +4298,8 @@ section.testimonial:nth-of-type(even) .testy-content {
   #built-for li {
     width: 20.06em;
     float: left;
-    margin-right: 2.09em; }
+    margin-right: 2.09em;
+    min-height: 226px; }
     #built-for li a:link, #built-for li a:visited {
       text-decoration: none;
       color: #666666; }
@@ -4364,7 +4372,8 @@ aside#powered-by-ados {
   aside#powered-by-ados img {
     max-width: 11.25em;
     border: none;
-    outline: none; }
+    outline: none;
+    margin-top: 1em; }
 
 #world-class-ad-serving h2 {
   margin-bottom: .5em; }
