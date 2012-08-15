@@ -20,12 +20,12 @@
        </div>
 
        <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/builtAds_sm.jpg" title="Built Ads"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/themes/builtAds_sm.jpg"></a>
+             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/builtAds.jpg" title="Built Ads"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/themes/builtAds_sm.jpg"></a>
              <h4>Built Ads</h4>
        </div>
 
        <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/litbreaker_sm.jpg" title="Litbreaker"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/themes/litbreaker_sm.jpg"></a>
+             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/litbreaker.jpg" title="Litbreaker"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/themes/litbreaker_sm.jpg"></a>
              <h4>Litbreaker</h4>
        </div>
 
