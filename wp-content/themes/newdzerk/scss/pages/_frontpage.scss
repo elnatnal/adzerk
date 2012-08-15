@@ -57,11 +57,12 @@
 
 .timeline .section {
 	clear: both;
-	margin: 0px 0px 0px 0px;
+	margin: 0px 65px 0px 0px;
 	padding: 20px 0px 0px 0px;
 	overflow: hidden;
 	position: relative;
 	z-index: 99;
+	margin-left:-71px;
 }
 
 .timeline .section:only-child, .timeline .section:last-child {
