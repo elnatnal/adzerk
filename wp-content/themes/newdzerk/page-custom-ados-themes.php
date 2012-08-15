@@ -40,7 +40,7 @@
        </div>
 
        <div class="theme">
-             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/netSportsMedia.jpg" title="Net Sports Media"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/themes/netSportsMedia_sm.jpg"></a>
+             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/netsportsMedia.jpg" title="Net Sports Media"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/themes/netsportsMedia_sm.jpg"></a>
              <h4>Net Sports Media</h4>
        </div>
 
