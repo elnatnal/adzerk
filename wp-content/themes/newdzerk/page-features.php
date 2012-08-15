@@ -48,7 +48,7 @@
 
 <section id="fastest-ad-code">
        <h2>Fastest Ad Code in the World <span class="subtext">&emsp;No, seriously, <a href="<?php echo home_url(); ?>/product-blog/new-feature-the-fastest-ad-code-in-the-world">we've clocked it.</a></span></h2>
-       <img src="http://placekitten.com/253/163/">
+       <img src="http://adzerk-www.s3.amazonaws.com/marketing_site/fastest.jpg" alt="Ad request sizes are less than 25% of OpenX ad requests" />
        <div>
               <h4>Our ad code is flexible and fast. We can serve:</h4>
               <ul>
@@ -66,25 +66,25 @@
 <section id="for-networks">
        <h2>For Networks</h2>
        <div id="skinnable-interface">
-              <img src="http://placekitten.com/193/136">
+              <img src="http://adzerk-www.s3.amazonaws.com/marketing_site/skinnable.jpg" alt="adOs' user interface is completely customizeable" />
               <h4>Skinnable Interface</h4>
               <p>adOS's user interface is completely customizable. You can upload your own CSS, Javascript, and HTML files to make any and every part of the app match your own site's look and feel. Better yet, you can have us do it for you! Check out our gallery of themes to see some examples. The typical turnaround time is about 3 days.</p>
        </div>
 
        <div id="site-payout-management">
-              <img src="http://placekitten.com/193/136">
+              <img src="http://adzerk-www.s3.amazonaws.com/marketing_site/network_payouts.jpg" alt="Bring sanity to your workflow. Manage all your financials in one place." />
               <h4>Site Payout Management</h4>
               <p>Site Payout Management allows you to manage paying out your sites using campaign data and delivery information from adOS. Download payment history as Excel or Paypal mass pay files.</p>
        </div>
 
        <div id="publisher-portal">
-              <img src="http://placekitten.com/193/136">
+              <img src="http://adzerk-www.s3.amazonaws.com/marketing_site/publisher_portal.jpg" alt="Give Publishers their own login and access to reports and earnings." />
               <h4>Publisher Portal</h4>
               <p>The Publisher Portal allows networks to give their publishers a separate login, with access to site overview data, ad code options (currently include synchronous versus asynchronous, static/email, and third–party ad server), zone management, customizable site reporting data, and remainder creative management.</p>
        </div>
 
        <div id="advertiser-portal">
-              <img src="http://placekitten.com/193/136">
+              <img src="http://adzerk-www.s3.amazonaws.com/marketing_site/advertiser_portal.jpg" alt="" />
               <h4>Advertiser Portal</h4>
               <p>The Advertiser Portal allows networks to give their advertisers a separate login, with access to configurable self-service reporting data, the ability to upload and manage their own creatives (subject to approval by a Network Admin via adOS's build-in notification system!), and manage their own portal account. The Advertiser Portal makes adOS a one-stop location for all interactions between Networks or Publishers and their Advertisers.</p>
        </div>

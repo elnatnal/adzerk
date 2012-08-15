@@ -54,7 +54,7 @@ aside.sidebar h3{
 	padding-bottom:.75em;
 }
 
-aside.sidebar div.newsletter-sign-up {
+aside.sidebar div.newsletter-sign-up, aside.press-and-media div.newsletter {
 	border-bottom:none;
 	margin-top:0;
 	
@@ -104,6 +104,9 @@ aside.sidebar div.newsletter-sign-up {
 	}
 }
 
+aside.press-and-media div.newsletter {
+	input{width:16em;}
+}
 
 .bottom-ad-sidebar{
 	background:$gray4;

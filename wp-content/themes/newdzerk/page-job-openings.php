@@ -34,8 +34,8 @@
               
               <strong>Some reasons why you want to work here:</strong>
               <ul>
-                     <li>Adzerk believes employees have rights. We have a <a href="Employee bill of rights post">Bill of Rights</a>, in fact.</li>
-                     <li>We put our <a href="Adzerk and Amendment One post">money where our convictions are</a>.</li>
+                     <li>Adzerk believes employees have rights. We have a <a href="/team-blog/creating-a-company-constitution/">Bill of Rights</a>, in fact.</li>
+                     <li>We put our <a href="/team-blog/amendment-one-and-adzerk/">money where our convictions are</a>.</li>
                      <li>We have a great location in glamorous Durham NC.</li>
                      <li>You'll get your own Macbook Pro and Thunderbolt display, with all the peripherals.</li>
                      <li>Excellent benefits for you and your family.</li>

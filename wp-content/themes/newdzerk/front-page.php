@@ -8,7 +8,7 @@
               <h2>For Publishers</h2>
               <p>Publishers use adOS to manage all of their ad inventory from direct sales to networks to house ads.</p>
               <button>
-                     <a href="#">
+                     <a href="<?php echo site_url(); ?>/for-publishers">
                             Find out more
                      </a>
               </button>
@@ -18,7 +18,7 @@
               <h2>For Networks</h2>
               <p>Ad networks use adOS to manage their business from delivery to publishers to payout.</p>
               <button>
-                     <a href="#">
+                     <a href="<?php echo site_url(); ?>/for-networks">
                             Find out more
                      </a>
               </button>
@@ -28,7 +28,7 @@
               <h2>Adzerk loves Developers </h2>
               <p>Did we mention our full API? Execute on your idea without rewriting an ad server from the ground up.</p>
               <button>
-                     <a href="#">
+                     <a href="<?php echo site_url(); ?>/we-love-developers">
                             Find out more
                      </a>
               </button>

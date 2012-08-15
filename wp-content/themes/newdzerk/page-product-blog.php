@@ -84,7 +84,7 @@
        </div>
 
 
-       <?php dynamic_sidebar('global-blog-sidebar'); ?>    
+       <?php get_sidebar('globalblogsidebar'); ?>
 
 
 
