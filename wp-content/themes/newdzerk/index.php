@@ -156,7 +156,7 @@ if ( is_category( 'product-blog' )){ ?>
 
        <div class="blog-list-container d-all from-the-product-blog">
                      <h4 class="blue1">From the Product Blog</h4>
-                     <?php query_posts('posts_per_page=4&cat=15'); ?>
+                     <?php query_posts('posts_per_page=4&cat=22'); ?>
                      <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
               		<article <?php post_class('clear') ?> id="post-<?php the_ID(); ?>">
