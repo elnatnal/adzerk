@@ -44,9 +44,12 @@
 		margin-top:0;
 		display:block;
 		width:100%;
-		height:em(180);
+		height:18em;
 	}
 
+	ul.more-features-show{
+		height:18em;
+	}
 	p{	
 		color:$gray2;
 	}
@@ -55,7 +58,7 @@
 		width:20.06em;
 		float:left;
 		margin-right:2.09em;
-		min-height:226px;
+		min-height:227px;
 
 		a:link, a:visited{
 			text-decoration:none;
@@ -76,7 +79,7 @@
 		background:$gray3;
 		font-size:.95em;
 		padding:em(10);
-		margin:0 41%;
+		margin:0 42.75%;
 		margin-top:em(9);
 		text-align:center;
 		width:10em;
@@ -93,7 +96,9 @@
 	padding-left:.5em;
 	
 }
-
+div.morefeaturesdiv{
+	display:inline-block;
+}
 section#customers{
 	border-bottom:1px solid $gray4;
 	margin-bottom:1em;
