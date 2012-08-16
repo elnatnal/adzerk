@@ -34,6 +34,13 @@
 	}
 }
 
+@-moz-document url-prefix() { 
+  #intro button a {
+     position:inherit;
+  }
+}
+
+
 #built-for {
 	border-bottom:1px solid $gray4;
 	padding-bottom:2em;
