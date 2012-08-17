@@ -31,6 +31,28 @@ if ( in_category( 'product-blog' )){ ?>
               </h1>
               <h1>Press &amp; Media</h1>
        </hgroup>
+<?php } elseif ( in_category( 'new-feature' )) { ?>
+              <hgroup>
+                     <h1 class='sassytext'>
+                        Attention!
+                     </h1>
+                     <h1>New Feature</h1>
+              </hgroup>
+<?php } elseif ( in_category( 'product-release' ) ) { ?>
+  <hgroup>
+         <h1 class='sassytext'>
+            Attention!
+         </h1>
+         <h1>Product Release</h1>
+  </hgroup>
+<?php } elseif ( in_category( 'product-release' ) ) { ?>
+    <hgroup>
+           <h1 class='sassytext'>
+              We're going to be down for a bit
+           </h1>
+           <h1>Scheduled Maintenance</h1>
+    </hgroup>
+
 <?php } else { ?>
        <hgroup>
               <h1 class="sassytext">
