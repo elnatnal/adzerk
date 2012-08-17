@@ -39,6 +39,7 @@
          <aside class="d8-d9">
                       <h4>Recent Posts</h4>
                       <?php $author_id = get_post_meta($post->ID, 'author-id', true); ?>
+                      <?php echo $author_id ?>
                       <?php echo do_shortcode('[latestbyauthor author="'.$author_id.'" show="5"]'); ?>
         </aside>
 </div>
