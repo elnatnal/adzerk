@@ -109,7 +109,7 @@ if ( is_page( '9','29' ) ) { ?>
               $("#more-show").show();
 
               $("#more-show").click(function() {
-              $("#more-features-show").animate({ opacity: 1.0 },275).slideToggle(500, function() {
+              $("#more-features-show").animate({ opacity: 1.0 },475).slideToggle(500, function() {
               $("#more-show").text($(this).is(':visible') ? "Less Features" : "More Features");
                      });
               });
