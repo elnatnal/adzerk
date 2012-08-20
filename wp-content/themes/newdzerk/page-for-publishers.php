@@ -17,9 +17,7 @@
               <h4><em>adOS is the best solution for running your network.</em></h4>
               <p>adOS is your ad network management platform. You'll have a publisher portal to share logins with your publishers and adOS will even help you calculate payouts to your publishers and generate the Paypal mass pay file. Our super easy <strong>three step process</strong> will have you serving ads in minutes.</p>
               
-              <button>
-                     <a href="#world-class-ad-serving">See Plans and Pricing</a>
-              </button>
+                     <a class="button" href="#world-class-ad-serving">See Plans and Pricing</a>
        </div>
 </section>
 
@@ -188,11 +186,9 @@
                          </div>
                   </div>
 
-                  <button class="get-started">
-                     <a href="http://new.adzerk.com/signup"><strong>Get Started Now</strong> <br />
+                     <a class="button get-started" href="http://new.adzerk.com/signup"><strong>Get Started Now</strong> <br />
                                    with our super easy wizard!
                      </a>
-                  </button>
        </div>
        
        <aside class="enterprise sidebar d7-d9">
@@ -205,7 +201,7 @@
               <p class="ron"><img src="<?php bloginfo('stylesheet_directory'); ?>/imgs/this-is-ron-sm.jpg" alt="This Is Ron">
               This is Ron. He's friendly, and he loves to talk to enterprise customers about all their needs. It's what he does all day every day. Shoot him an email, he'd love to hear from you.</p>
               
-              <button><a href="mailto:ron@adzerk.com">Get Enterprise Pricing</a></button>
+              <a class="button" href="mailto:ron@adzerk.com">Get Enterprise Pricing</a>
               
        </aside>
 

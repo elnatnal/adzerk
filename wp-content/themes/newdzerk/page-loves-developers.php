@@ -17,9 +17,8 @@
                             </ul>
                      </p>
                      
-                     <button>
-                            <a href="documentation">Check out our documentation</a>
-                     </button>
+                     
+                            <a class="button" href="documentation">Check out our documentation</a>
               </div>
 
               <div class="git-up-with-us">
@@ -27,14 +26,12 @@
                      <h2>Git up with us on Github</h2>
                      <p>We're developers too! We're very sociable!</p>
                      
-                     <button>
-                            <a href="http://github.com/adzerk">Fork us on Github</a>
-                     </button>
+                            <a class="button" href="http://github.com/adzerk">Fork us on Github</a>
 
               </div>
        </section>
 
-       <section id="built-for" class="d-all">
+       <section id="built-for" class="developers d-all">
               <h2>Built by Developers, for Developers</h2>
 
               <ul>
@@ -57,9 +54,7 @@
                      </li>
               </ul>
 
-              <button>
-                     <a href="features">More Features</a>
-              </button>
+                     <a class="button dev-features" href="features">More Features</a>
        </section>
 
 

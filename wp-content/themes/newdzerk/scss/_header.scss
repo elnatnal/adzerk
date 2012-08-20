@@ -45,7 +45,7 @@ header{
 
 /*   BUTTON START   */
 
-.button { 
+.sbutton { 
     position: relative; 
 	font-size:em(13);
 	line-height:em(15);
@@ -53,7 +53,7 @@ header{
     display: inline-block; 
     padding: 0.5em 1em; 
     margin: 0;
-    text-decoration: none; 
+    text-decoration: none !important; 
     font:em(5);
     color: white; 
     white-space: nowrap; 

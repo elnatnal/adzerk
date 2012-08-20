@@ -118,27 +118,19 @@ if ( in_category( 'product-blog' )){ ?>
                                    <?php
 
                                    if ( in_category( 'product-blog' )){ ?>    
-                                          <button class="back-to-parent">
-                                                 <a href="product-blog">Back to All Posts</a>
-                                          </button>
+                                                 <a class="button back-to-parent" href="product-blog">Back to All Posts</a>
 
                                    <?php } elseif ( in_category( 'news-and-announcements' ) ) { ?>	
-                                          <button class="back-to-parent">
-                                                 <a href="news-and-announcements">Back to All Posts</a>
-                                          </button>
+                                                 <a class="button back-to-parent" href="news-and-announcements">Back to All Posts</a>
 
                                    <?php } elseif ( in_category( 'team-blog' )) { ?>
-                                          <button class="back-to-parent">
-                                                 <a href="team-blog">Back to All Posts</a>
-                                          </button>
+                                                 <a class="button back-to-parent" href="team-blog">Back to All Posts</a>
+
                                    <?php } elseif ( in_category( 'press-and-media' ) ) { ?>
-                                          <button class="back-to-parent">
-                                                 <a href="press-and-media">Back to All Posts</a>
-                                          </button>
+                                                 <a class="button back-to-parent" href="press-and-media">Back to All Posts</a>
+
                                    <?php } else { ?>
-                                          <button class="back-to-parent">
-                                                 <a href="inside-adzerk">Back to All Posts</a>
-                                          </button>
+                                                 <a class="button back-to-parent" href="inside-adzerk">Back to All Posts</a>
 
                                    <?php } ?>
 

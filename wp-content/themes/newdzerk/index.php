@@ -125,17 +125,14 @@ if ( is_category( 'product-blog' )){ ?>
 
        			       <div class="entry">
                                           <?php echo substr(strip_tags($post->post_content), 0, 700);?>...
-                                          <button>
-                                                 <a href="<?php the_permalink();?>">Read More</a>
-                                          </button>			
+                                                 <a class="button read-more" href="<?php the_permalink();?>">Read More</a>
+                                   </div>
                             </div>
        		</article>
 
        	<?php endwhile; ?>
 
-              <button class="see-more">
-                     <a href="news-and-announcements">See More posts from News and Announcements</a>
-              </button>
+                     <a class="button see-more" id="news-and-announce" href="news-and-announcements">See More posts from News and Announcements</a>
 
        	<?php else : ?>
 
@@ -212,17 +209,14 @@ if ( is_category( 'product-blog' )){ ?>
 
               			       <div class="entry">
                                                  <?php echo substr(strip_tags($post->post_content), 0, 700);?>...
-                                                 <button>
-                                                        <a href="<?php the_permalink();?>">Read More</a>
-                                                 </button>			
+                                                        <a class="button read-more" href="<?php the_permalink();?>">Read More</a>
+                                          </div>
                                    </div>
               		</article>
        		<hr />
               	<?php endwhile; ?>
 
-                     <button class="see-more">
-                            <a href="product-blog">See More posts from the Product Blog</a>
-                     </button>
+                            <a class="button see-more" href="product-blog">See More posts from the Product Blog</a>
 
               	<?php else : ?>
 

@@ -23,12 +23,9 @@ section.developer-resources{
 	float:left
 }
 
-.full-api button, .git-up-with-us button{
-	position:relative;
-	bottom:0;
-	left:em(50);
+.full-api .button, .git-up-with-us .button{
 	font-size:.75em;
-	padding:.5em 2em;
+	padding:.25em 2em;
 	width:30em;
 	background:$gray2;
 	text-transform:uppercase;
@@ -38,10 +35,26 @@ section.developer-resources{
 	left:em(60);
 }
 
-.git-up-with-us button{
-	left:em(93);
-	top:em(19);
+.git-up-with-us .button{
+	margin-top:171px;
+	margin-left:60px;
 }
- 	.full-api button:hover, .full-api button:active,.full-api button:focus, .git-up-with-us button:hover,.git-up-with-us button:active,.git-up-with-us button:focus {
+ 	.full-api .button:hover, .full-api .button:active,.full-api .button:focus, .git-up-with-us .button:hover,.git-up-with-us .button:active,.git-up-with-us .button:focus {
 		background:$gray1;
 	}
+	
+#built-for.developers ul{
+	height:12em;
+}
+	
+.dev-features{
+	width:12%;
+	padding:.25em 1em;
+	background:$gray3 !important;
+	display:inline-block !important;
+	margin-left:39% !important;
+}	
+
+.dev-features:hover, .dev-feature:active{
+	background:$gray2;
+}

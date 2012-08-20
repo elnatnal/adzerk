@@ -1,37 +1,31 @@
 <?php get_header(); ?>
 
-<img src="<?php bloginfo('template_directory'); ?>/imgs/adzerk-infographic-iii.jpg" width="1034" height="420" alt="Adzerk Infographic" class="home-infographic">
+<img src="<?php bloginfo('template_directory'); ?>/imgs/adzerk-infographic-iv.jpg" width="1034" height="420" alt="Adzerk Infographic" class="home-infographic">
 
 <hr />
 <section class="frontpage-descriptions d-all">
        <div class="d1-d2">
               <h2>For Publishers</h2>
               <p>Publishers use adOS to manage all of their ad inventory from direct sales to networks to house ads.</p>
-              <button>
-                     <a href="<?php echo site_url(); ?>/for-publishers">
+                     <a class="button" href="<?php echo site_url(); ?>/for-publishers">
                             Find out more
                      </a>
-              </button>
        </div>
 
        <div class="d4-d6">
               <h2>For Networks</h2>
               <p>Ad networks use adOS to manage their business from delivery to publishers to payout.</p>
-              <button>
-                     <a href="<?php echo site_url(); ?>/for-networks">
+                     <a class="button" href="<?php echo site_url(); ?>/for-networks">
                             Find out more
                      </a>
-              </button>
        </div>
 
        <div class="d8-d9">
               <h2>Adzerk loves Developers </h2>
               <p>Did we mention our full API? Execute on your idea without rewriting an ad server from the ground up.</p>
-              <button>
-                     <a href="<?php echo site_url(); ?>/we-love-developers">
+                     <a class="button" href="<?php echo site_url(); ?>/we-love-developers">
                             Find out more
                      </a>
-              </button>
        </div>
 </section>
 

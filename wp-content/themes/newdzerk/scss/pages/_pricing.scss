@@ -49,26 +49,24 @@ section#publishers{
 	}
 }
 
-button.get-started {
+a.get-started {
 	padding:.75em;
-	min-width:em(300);
-	min-height:5em;
-	margin-left:36%;
-	
-	a{
-		display:block;		
-		font-style:italic;
-		font-size:1em;
-		color:white;
+	min-width:15.75em;
+	margin-left:27.5%;
+	display:block;		
+	font-style:italic;
+	font-size:.90em;
+	color:white;
+	line-height:1.15em;
 		
-		strong{
-			font-style:normal;
-			font-size:1.25em;
-		}
-
+	strong{
+		font-style:normal;
+		font-size:1.25em;
 	}
 }
 
 aside.pricing h4{
 	margin-top:1em;
 }
+
+

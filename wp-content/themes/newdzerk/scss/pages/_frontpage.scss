@@ -21,15 +21,11 @@
 	div:nth-of-type(3){
 		margin-left:2em;}
 
-	button{
-		margin-left:25%;
-		
-		a{
-			font-size:1.5em;
-			width:10em;
-			padding-left:0;
-			padding:.5em 0 .5em 0;
-		}
+	a.button{
+		margin-left:15%;
+		font-size:1.05em;
+		width:10em;
+		padding:.5em 0 .5em 0;
 	}
 }
 

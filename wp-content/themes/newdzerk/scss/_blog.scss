@@ -186,7 +186,7 @@ h4.orange{color:$orange;font-size:em(20);padding-bottom:.5em;}
 		padding-bottom:.5em;
 	}
 	
-	button.see-more{
+	#news-and-announce{
 		padding:1.5em 2em;
 		font-size:1.15em;
 		margin-left:em(65);
@@ -201,35 +201,26 @@ h4.orange{color:$orange;font-size:em(20);padding-bottom:.5em;}
 		margin-right:137px;
 		margin-top:0;
 		margin-bottom:1em;
-
-		a, a:visited, a:link{
-			line-height:0;
-			color:white;
-		}
+		line-height:0;
+		color:white;
 	}
 
-	button.see-more:hover, button.see-more:active, button.see-more:focus{
+	#news-and-announce:hover, #news-and-announce:active, #news-and-announce:focus{
 		background: darken($blue3, 15%);
 	}
 	
 }
-.blog-list-container button{
+.blog-list-container .button{
 	position:absolute;
 	bottom:0;
 	right:0;
-	font-size:.75em;
-	padding:.5em;
+	font-size:.85em;
+	padding:.25em .75em;
 	margin-bottom:-2em;
 	background:$gray2;
 }
 
-.blog-list-container button:hover,.blog-list-container button:active,.blog-list-container button:focus {
-	position:absolute;
-	bottom:0;
-	right:0;
-	font-size:.75em;
-	padding:.5em;
-	margin-bottom:-2em;
+.blog-list-container .button:hover,.blog-list-container .button:active,.blog-list-container .button:focus {
 	background:$gray1;
 }
 
@@ -256,16 +247,8 @@ aside.sidebar .from-the-team-blog{
 		margin-top:.5em;
 	}
 	
-	button{
-		height:em(30);
-		padding:1em 2em;
-		margin-left:em(17);
-		margin-top:em(20);
-		
-		a{
-			line-height:0;
-		}
-		
+	.button{
+		padding:.5em 1.25em;
 	}
 }
 
@@ -291,11 +274,9 @@ aside.sidebar .from-run-of-network{
 		margin-top:.5em;
 	}
 	
-	button{
-		height:em(30);
-		padding:1em 2em;
-		margin-left:em(18);
-		margin-top:em(20);
+	.button, .button:hover, .button:active, .button:visited{
+		padding:1.5em 1em;
+		margin-top:1.25em;
 		background-color:$orange;
 		
 		background-image: linear-gradient(bottom, darken($orange, 15%) 7%, $orange 54%);
@@ -304,10 +285,8 @@ aside.sidebar .from-run-of-network{
 		background-image: -webkit-linear-gradient(bottom, darken($orange, 15%) 7%, $orange 54%);
 		background-image: -ms-linear-gradient(bottom, darken($orange, 15%) 7%, $orange 54%);
 		
-		a, a:visited, a:link{
-			line-height:0;
-			color:white;
-		}
+		line-height:0;
+		color:white !important;
 	}
 
 	button:hover, button:active, button:focus{
@@ -326,7 +305,7 @@ aside.sidebar .from-run-of-network{
 .from-the-product-blog{
 	margin-top:1.75em;
 
-	button.see-more{
+	.button.see-more{
 		padding:1.5em 2em;
 		font-size:1.15em;
 		margin-left:em(65);
@@ -342,14 +321,11 @@ aside.sidebar .from-run-of-network{
 		margin-right:137px;
 		margin-top:-15px;
 
-
-		a, a:visited, a:link{
-			line-height:0;
-			color:white;
-		}
+		line-height:0;
+		color:white;
 	}
 
-	button.see-more:hover, button.see-more:active, button.see-more:focus{
+	.button.see-more:hover, .button.see-more:active, .button.see-more:focus{
 		background: darken($blue1, 5%);		
 	}
 
@@ -432,7 +408,7 @@ aside.sidebar .from-run-of-network{
 		}
 	}
 	
-	button.back-to-parent{
+	.button.back-to-parent{
 		position:absolute;
 		bottom:0;
 		right:0;
@@ -441,7 +417,7 @@ aside.sidebar .from-run-of-network{
 		background:$gray2;
 	}
 
- 	button.back-to-parent:hover, button.back-to-parent:active, button.back-to-parent:focus {
+ 	.button.back-to-parent:hover, .button.back-to-parent:active, .button.back-to-parent:focus {
 		background:$gray1;
 	}
 }

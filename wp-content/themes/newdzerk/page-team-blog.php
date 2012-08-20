@@ -65,9 +65,8 @@
 
        			       <div class="entry">
                                           <?php echo substr(strip_tags($post->post_content), 0, 700);?>...
-                                          <button>
-                                                 <a href="<?php the_permalink();?>">Read More</a>
-                                          </button>			
+                                                 <a class="button read-more" href="<?php the_permalink();?>">Read More</a>
+                                   </div>
                             </div>
        		</article>
 		<hr />

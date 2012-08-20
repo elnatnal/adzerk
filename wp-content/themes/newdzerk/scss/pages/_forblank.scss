@@ -7,19 +7,17 @@
 	height:em(272);
 	margin-bottom:1em;
 	
-	button{
-		width:26em;
-		height:3.5em;
-		
-		a{
-			position:relative;
-			top:.35em;
-			font-size:1.65em;
-		}
+	.button{
+		width:43%;
+		top:.35em;
+		font-size:1.11em;
+		padding:.75em .5em;
+		margin-left:0;
 	}
 	
 	h4{
 		font-size:1.5em;
+		margin-top:0;
 	}
 	
 	div{
@@ -27,17 +25,15 @@
 		display:block;
 		float:left;
 	}
+	
+	p{
+		margin-top:em(-17);
+	}
 
 
 	.isfor-video{
 		float:right;
 	}
-}
-
-@-moz-document url-prefix() { 
-  #intro button a {
-     position:inherit;
-  }
 }
 
 
@@ -185,6 +181,10 @@ aside#powered-by-ados{
 		outline:none;
 		margin-top:1em;
 	}
+	
+	li:nth-of-type(1){
+		margin-top:-30px;
+	}
 }
 
 #world-class-ad-serving h2{
@@ -204,9 +204,10 @@ aside#powered-by-ados{
 		margin-left:em(15);
 	}
 	
-	button.get-started{
+	.get-started{
 		margin-top:.5em;
-		margin-left:33%;
+		margin-left:27%;
+		display:inline-block !important;
 	}
 	
 	
@@ -276,4 +277,6 @@ aside#powered-by-ados{
 	button{
 		margin:em(-4) 0 em(18) 5.45em;
 	}
+	
+	a{padding:.65em;}
 }

@@ -99,8 +99,8 @@
 		              <?php include (TEMPLATEPATH . '/searchform.php'); ?>
 		              
                             <ul class="button-group">
-                                <!--<li><a href="#" class="button primary pill">Login</a></li>-->
-                                <li><a href="http://new.adzerk.com/signup" class="button pill">Sign Up</a></li>
+                                <!--<li><a href="#" class="sbutton primary pill">Login</a></li>-->
+                                <li><a href="http://new.adzerk.com/signup" class="sbutton pill">Sign Up</a></li>
                             </ul>
 		       </div>
 		              

@@ -10,19 +10,14 @@ aside.sidebar {
 		padding:em(15);		
 	}
 	
-	button {
-		margin:0 auto;
-		min-width:em(225);
-		min-height:em(50);
-		padding:1em 2em;
-		margin-left:2.65em;
-	
-		a{
-			display:block;
-			color:white;
-			font-size:1.5em;
-			text-align:center;
-		}
+	.button {
+		padding:1em;
+		display:block;
+		color:white;
+		font-size:1em;
+		text-align:center;
+		width:60%;
+		margin-bottom:.5em;
 	}
 }
 
@@ -54,55 +49,6 @@ aside.sidebar h3{
 	padding-bottom:.75em;
 }
 
-aside.sidebar div.newsletter-sign-up, aside.press-and-media div.newsletter {
-	border-bottom:none;
-	margin-top:0;
-	
-	label{
-		color:$gray1;
-	}
-	input{
-		-webkit-border-radius: .5em; 
-    	-moz-border-radius: .5em; 
-    	border-radius: .5em;
-		height:24px;
-		width:em(400);
-		padding-left:.5em;
-    	-webkit-appearance:none;
-		border:none;
-		position:relative;
-		top:-1px;
-		border:1px solid $gray3;
-	}
-
-	button.submit{
-		position:relative;
-		top:-1em;
-		min-width:50px !important;
-		width:70px !important;
-		margin-left:0;
-		height:20px !important;
-		min-height:23px;
-		margin-top:.5em;
-		
-
-	}
-
-	button.submit input{
-		height:20px;
-		color:white;
-		font-family:gesta;
-		background-color:transparent;
-		top:1px;
-		font-size:12px;
-		min-width:50px;
-		width:70px!important;
-		padding:0;
-		border:none;
-		top:-9px;
-		left:-22px;
-	}
-}
 
 aside.press-and-media div.newsletter {
 	input{width:16em;}
@@ -130,7 +76,7 @@ aside.press-and-media div.newsletter {
 		line-height:53px;
 	}
 	
-	button{
+	.button{
 		float:right;
 		position:relative;
 		top:-84px;
@@ -151,8 +97,59 @@ aside.press-and-media div.newsletter {
 		background-image: -ms-linear-gradient(bottom, darken($orange, 15%) 7%, $orange 54%);
 	}
 
-	button:hover, button:active, button:focus{
+	.button:hover, .button:active, .button:focus{
 		background:darken($orange, 15%);
 	}
 	
+}
+
+aside.sidebar div.newsletter-sign-up, aside.press-and-media div.newsletter {
+	border-bottom:none;
+	
+	label{
+		color:$gray1;
+	}
+	input{
+		-webkit-border-radius: .5em; 
+    	-moz-border-radius: .5em; 
+    	border-radius: .5em;
+		height:24px;
+		width:em(400);
+		padding-left:.5em;
+    	-webkit-appearance:none;
+		border:none;
+		position:relative;
+		top:-1px;
+		border:1px solid $gray3;
+	}
+
+	button.submit{
+		position:relative;
+	}
+
+	button.submit input{
+		color:white;
+		font-family:gesta;
+		background-color:transparent;
+		top:1px;
+		font-size:12px;
+		padding:0;
+		border:none;
+		background-color:$blue2;
+		background-image: linear-gradient(bottom, rgb(17,65,85) 7%, rgb(20,82,105) 54%);
+		background-image: -o-linear-gradient(bottom, rgb(17,65,85) 7%, rgb(20,82,105) 54%);
+		background-image: -moz-linear-gradient(bottom, rgb(17,65,85) 7%, rgb(20,82,105) 54%);
+		background-image: -webkit-linear-gradient(bottom, rgb(17,65,85) 7%, rgb(20,82,105) 54%);
+		background-image: -ms-linear-gradient(bottom, rgb(17,65,85) 7%, rgb(20,82,105) 54%);
+		width:80px;
+		margin-left:-7px;
+	}
+
+	button.submit{
+		background:transparent !important;
+  	}
+
+  	button.submit:hover{
+		opacity:.8;
+	}
 }

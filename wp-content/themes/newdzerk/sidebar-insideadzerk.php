@@ -11,9 +11,7 @@
                      </div>
                <?php endwhile; ?>
      <?php endif; ?>
-     <button>
-            <a href="team-blog">Read more Team Blogs</a>
-     </button>
+            <a class="button" href="team-blog">Read more Team Blogs</a>
 </div>
 
 <div class="from-run-of-network">
@@ -36,9 +34,7 @@
                             </div>
                             <?php endforeach; ?>
               <?php } ?>
-     <button>
-            <a href="http://runofnetwork.adzerk.com">More Run of Network</a>
-     </button>
+            <a class="button" href="http://runofnetwork.adzerk.com">More Run of Network</a>
 </div>
 
 
