@@ -59,7 +59,7 @@
 
               <li class="fast-accurate-reporting">
                      <h4>Fast &amp; Accurate Reporting</h4>
-                     <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
+                     <p>You can run preconfigured reports like Advertiser, Site, Channel, and Impression Forecasting reports, as well as Custom reports, and export as CSV, or get an Email notification when big reports are done generating.
                      <br /><a href="http://jonathanstephens.us/adzerk-iframes/#5" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
        </ul>
