@@ -7,7 +7,8 @@
     </hgroup>
 
 
-<?php query_posts( 'cat=11' );?>
+<?php query_posts( 'cat=12'.'&paged='.$paged );?>
+
        <div class="blog-list-container d-all">
        	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
