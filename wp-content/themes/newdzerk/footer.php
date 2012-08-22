@@ -170,13 +170,21 @@ if ( is_page( '9','29' ) ) { ?>
 
        if ( is_page('features')) { ?>
               <script type="text/javascript">
+                  var documentHeight = 0;
+                  var topPadding = 15;
                   $(function() {
                       var offset = $("#sidebar-features").offset();
-                      var topPadding = 15;
+                      documentHeight = $(document).height();
                       $(window).scroll(function() {
+                          var sideBarHeight = $("#sidebar-features").height();
                           if ($(window).scrollTop() > offset.top) {
+                              var newPosition = ($(window).scrollTop() - offset.top) + topPadding;
+                              var maxPosition = documentHeight - (sideBarHeight + 615);
+                              if (newPosition > maxPosition) {
+                                  newPosition = maxPosition;
+                              }
                               $("#sidebar-features").stop().animate({
-                                  marginTop: $(window).scrollTop() - offset.top + topPadding
+                                  marginTop: newPosition
                               });
                           } else {
                               $("#sidebar-features").stop().animate({
@@ -186,6 +194,7 @@ if ( is_page( '9','29' ) ) { ?>
                       });
                   });
               </script>
+              
               
               <script>
               $(document).ready(function() {
@@ -208,6 +217,8 @@ if ( is_page( '9','29' ) ) { ?>
        } else {
        }
        ?>
+       
+       
 <script>
 
   var _gaq = _gaq || [];

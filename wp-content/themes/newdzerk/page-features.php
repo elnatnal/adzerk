@@ -6,7 +6,6 @@
        </h1>
        <h1><?php the_title(); ?></h1>
 </hgroup>
-
 <aside id="sidebar-features" class="features d1">
        <ul>
               <li><a href="#fastest-ad-code">Fastest Ad Code in the World</a></li>
