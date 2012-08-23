@@ -10,6 +10,10 @@
 
 <div class="custom-ados-themes-container">
        <div class="theme">
+             <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/adsparent.jpg" title="Hotchalk"><img src="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/adsparent_sm.jpg"></a>
+             <h4>AdsParent</h4>
+       </div>
+       <div class="theme">
              <a class="custom-theme" href="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/hotchalk.jpg" title="Hotchalk"><img src="<?php bloginfo('stylesheet_directory'); ?>/imgs/custom-ados-themes/hotchalk_sm.jpg"></a>
              <h4>Hotchalk</h4>
        </div>
