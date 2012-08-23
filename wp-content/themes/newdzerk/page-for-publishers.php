@@ -29,38 +29,38 @@
 							<li class="skinnable-ui">
                      <h4>Skinnable UI</h4>
                      <p>With the White Label app, you can upload any custom CSS, JavaScript, and footer markup to make your adOS look like you own website. 
-                     <br /><a href="http://jonathanstephens.us/adzerk-iframes/#0" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                     <br /><a href="http://www.adzerk.com/tour/index.html#1" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
               <li class="site-payout-management">
                      <h4>Site Payout Management</h4>
                      <p>Calculate earnings, make adjustments, and mark sent payments for your Network's sites, all in one place.
-                     <br /><a href="http://jonathanstephens.us/adzerk-iframes/#1" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                     <br /><a href="http://www.adzerk.com/tour/index.html#2" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
 
               <li class="publisher-portal">
                      <h4>Forecasting Reports</h4>
                      <p>Forecast earnings based on impression trends. 
-                     <br /><a href="http://jonathanstephens.us/adzerk-iframes/#2" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                     <br /><a href="http://www.adzerk.com/tour/index.html#3" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
               <li class="advertiser-portal">
                      <h4>Advertiser Portal</h4> 
 										 <p>Give Advertiser customers the ability to login, run reports, and upload Creatives to be used in Campaigns (with the Advertiser Creative Management app). 
-                     <br /><a href="http://jonathanstephens.us/adzerk-iframes/#3" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                     <br /><a href="http://www.adzerk.com/tour/index.html#4" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
               <li class="robust-targeting-options">
                      <h4>Robust Targeting Options</h4>
                      <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
-                     <br /><a href="http://jonathanstephens.us/adzerk-iframes/#4" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                     <br /><a href="http://www.adzerk.com/tour/index.html#5" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
               <li class="fast-accurate-reporting">
                      <h4>Fast &amp; Accurate Reporting</h4>
                      <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
-                     <br /><a href="http://jonathanstephens.us/adzerk-iframes/#5" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                     <br /><a href="http://www.adzerk.com/tour/index.html#6" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
        </ul>
 <!-- hide this until we have more features for pubs

@@ -30,37 +30,37 @@
               <li class="skinnable-ui">
                      <h4>Skinnable UI</h4>
                      <p>With the White Label app, you can upload any custom CSS, JavaScript, and footer markup to make your adOS look like you own website. 
-                     <br /><a href="http://jonathanstephens.us/adzerk-iframes/#0" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                     <br /><a href="http://www.adzerk.com/tour/index.html#1" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
               <li class="site-payout-management">
                      <h4>Site Payout Management</h4>
                      <p>Calculate earnings, make adjustments, and mark sent payments for your Network's sites, all in one place.
-                     <br /><a href="http://jonathanstephens.us/adzerk-iframes/#1" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                     <br /><a href="http://www.adzerk.com/tour/index.html#2" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
               <li class="publisher-portal">
                      <h4>Publisher Portal</h4>
                      <p>Give your customers their own login with the ability to run reports, check their earnings, and generate ad code.
-                     <br /><a href="http://jonathanstephens.us/adzerk-iframes/#2" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                     <br /><a href="http://www.adzerk.com/tour/index.html#3" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
               <li class="advertiser-portal">
                      <h4>Advertiser Portal</h4> 
                      <p>Give Advertiser customers the ability to login, run reports, and upload Creatives to be used in Campaigns (with the Advertiser Creative Management app). 
-                     <br /><a href="http://jonathanstephens.us/adzerk-iframes/#3" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                     <br /><a href="http://www.adzerk.com/tour/index.html#4" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
               <li class="robust-targeting-options">
                      <h4>Robust Targeting Options</h4>
                      <p>Target ads by physical location including Continent, Country, Region, City/Metro code, and zip code. Also target by keyword, referrer, IP address, and more. 
-                     <br /><a href="http://jonathanstephens.us/adzerk-iframes/#4" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                     <br /><a href="http://www.adzerk.com/tour/index.html#5" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
               <li class="fast-accurate-reporting">
                      <h4>Fast &amp; Accurate Reporting</h4>
                      <p>You can run preconfigured reports like Advertiser, Site, Channel, and Impression Forecasting reports, as well as Custom reports, and export as CSV, or get an Email notification when big reports are done generating.
-                     <br /><a href="http://jonathanstephens.us/adzerk-iframes/#5" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                     <br /><a href="http://www.adzerk.com/tour/index.html#6" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
        </ul>
 
@@ -69,19 +69,19 @@
                             <li class="advertiser-portal">
                                    <h4>Flight Delivery Options</h4> 
                                    <p>Flight settings are completely configurable- only add the options that each particular Flight needs, including Rates, Targeting Options, Day parting, Frequency capping, and Distribution Options like Companion Ads. 
-                                   <br /><a href="http://jonathanstephens.us/adzerk-iframes/#3" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                                
                             </li>
 
                             <li class="robust-targeting-options">
                                    <h4>Robust Support Options</h4>
                                    <p>Get 30 days of free chat and email support to help you get set up, and then choose one of our four support packages, including live chat, phone, email support, help documentation, and always a rapid turnaround rate. 
-                                   <br /><a href="http://jonathanstephens.us/adzerk-iframes/#4" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                                   
                             </li>
 
                             <li class="fast-accurate-reporting">
                                    <h4>Forecast Earnings</h4>
                                    <p>Our Forecasting options allow you to forecast based on Channel, Ad type, Site, Zone, Location, and Keyword. 
-                                   <br /><a href="http://jonathanstephens.us/adzerk-iframes/#5" class="arrow-after iframe"><strong>Read More</strong></a></p>
+                               
                             </li>
                      </ul>
 
