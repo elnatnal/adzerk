@@ -37,7 +37,7 @@
                               </ul>
                        </div>
               </div>
-                            <a class="button get-started" href="#"><strong>Get Started Now</strong> <br />
+                            <a class="button get-started" href="http://new.adzerk.com/signup"><strong>Get Started Now</strong> <br />
                                    with our super easy wizard!
                                    </a>
 
