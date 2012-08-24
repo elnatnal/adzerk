@@ -16,9 +16,7 @@
                                    <li>– Open source libraries and tests (Ruby, C#, <em>PHP coming soon</em>)</li>
                             </ul>
                      </p>
-                     
-                     
-                            <a class="button" href="documentation">Check out our documentation</a>
+
               </div>
 
               <div class="git-up-with-us">
@@ -37,19 +35,19 @@
               <ul>
                      <li class="skinnable-ui">
                             <h4>Skinnable UI</h4>
-                            <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
-                            <br /><a href="#" class="arrow-after"><strong>Read More</strong></a></p>
+                            <p>Get full access to upload unrestricted CSS, JavaScript, and custom footer HTML. adOS uses jQuery and Twitter Bootstrap, so you can access those libraries in your theme.
+                            <br /><a href="/features" class="arrow-after"><strong>Read More</strong></a></p>
                      </li>
 
                      <li class="site-payout-management">
-                            <h4>Site Payout Management</h4>
-                            <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
-                            <br /><a href="#" class="arrow-after"><strong>Read More</strong></a></p>
+                            <h4>Custom Creatives</h4>
+                            <p>Have an idea for an awesome new style of creative? Want to pull in information from a social media source, or take advantage of HTML5 video? adOS provides a custom syntax for delivering CSS, JavaScript, or HTML through your creative and correctly delivering them for maximum awesomeness.
+                            <br /><a href="/features" class="arrow-after"><strong>Read More</strong></a></p>
                      </li>
 
                      <li class="publisher-portal">
-                            <h4>Publisher Portal</h4>
-                            <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
+                            <h4>SDK</h4>
+                            <p>In addition to our full API, adOS has an iOS SDK (Android coming soon!)
                             <br /><a href="#" class="arrow-after"><strong>Read More</strong></a></p>
                      </li>
               </ul>

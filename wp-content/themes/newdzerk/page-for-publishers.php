@@ -150,9 +150,9 @@
        <h2>World Class Ad Serving for All <span class="subtext">&emsp;Whether you're serving in the millions or billions, we have pricing to match &amp; scale.</span></h2>
        
        <div class="for-blank-pricing d1-d5">
-              <h4>Get Started from $150/mo or 5 cents/CPM</h4>
+              <h4>Get Started for FREE up to 100 million impressions</h4>
               <p class="gray">
-                     Network packages include adOS's great Network features, including:
+                     Publisher packages include adOS's great features, including:
               </p>
 
               <div class="price-packages">
@@ -160,7 +160,6 @@
                             <h6>Network Tools</h6>
                             <ul>
                                    <li>Advertiser Portal</li>
-                                   <li>Publisher Portal</li>
                                    <li>Site Payout Management</li>
                                    <li>Earnings Calculation</li>
                             </ul>
@@ -201,7 +200,7 @@
               <p class="ron"><img src="<?php bloginfo('stylesheet_directory'); ?>/imgs/this-is-ron-sm.jpg" alt="This Is Ron">
               This is Ron. He's friendly, and he loves to talk to enterprise customers about all their needs. It's what he does all day every day. Shoot him an email, he'd love to hear from you.</p>
               
-              <a class="button" href="/contact-sales">Get Enterprise Pricing</a>
+              <a class="button" href="mailto:ron@adzerk.com">Get Enterprise Pricing</a>
               
        </aside>
 
