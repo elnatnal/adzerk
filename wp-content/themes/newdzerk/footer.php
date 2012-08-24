@@ -123,13 +123,21 @@ if ( is_page( '9','29' ) ) { ?>
 
        if ( is_front_page()) { ?>
               <script type="text/javascript">
+                  var documentHeight = 0;
+                  var topPadding = 15;
                   $(function() {
                       var offset = $("ol.timeline_nav").offset();
-                      var topPadding = 100;
+                      documentHeight = $(document).height();
                       $(window).scroll(function() {
+                          var sideBarHeight = $("ol.timeline_nav").height();
                           if ($(window).scrollTop() > offset.top) {
+                              var newPosition = ($(window).scrollTop() - offset.top) + topPadding;
+                              var maxPosition = documentHeight - (sideBarHeight + 1515);
+                              if (newPosition > maxPosition) {
+                                  newPosition = maxPosition;
+                              }
                               $("ol.timeline_nav").stop().animate({
-                                  marginTop: $(window).scrollTop() - offset.top + topPadding
+                                  marginTop: newPosition
                               });
                           } else {
                               $("ol.timeline_nav").stop().animate({
@@ -138,8 +146,7 @@ if ( is_page( '9','29' ) ) { ?>
                           };
                       });
                   });
-              </script>
-              
+              </script>              
               <script>
               $(document).ready(function() {
                  $('a[href*=#]').bind('click', function(e) {
