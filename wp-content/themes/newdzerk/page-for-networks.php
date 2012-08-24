@@ -18,7 +18,7 @@
               <p>adOS is your ad network management platform. You'll have a publisher portal to share logins with your publishers and adOS will even help you calculate payouts to your publishers and generate the Paypal mass pay file. Our super easy <strong>three step process</strong> will have you serving ads in minutes.</p>
               
               
-                     <a class="button" href="#">See Plans and Pricing</a>
+                     <a class="button" href="#world-class-ad-serving">See Plans and Pricing</a>
        </div>
 </section>
 
