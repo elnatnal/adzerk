@@ -37,7 +37,7 @@
                               </ul>
                        </div>
               </div>
-                            <a class="button get-started" href="http://new.adzerk.com/signup"><strong>Get Started Now</strong> <br />
+                            <a class="button get-started" href="#"><strong>Get Started Now</strong> <br />
                                    with our super easy wizard!
                                    </a>
 
@@ -84,7 +84,7 @@
                          </div>
                   </div>
 
-                     <a class="button get-started" href="http://new.adzerk.com/signup"><strong>Get Started Now</strong> <br />
+                     <a class="button get-started" href="#"><strong>Get Started Now</strong> <br />
                                    with our super easy wizard!
                      </a>
        </section>
@@ -107,7 +107,7 @@
               <img src="<?php bloginfo('template_directory'); ?>/imgs/this-is-ron.jpg" width="265" height="265" alt="This Is Ron">
               <p>He's super friendly, and he loves to talk enterprise customers about all their needs. It's what he does all day everyday. Shoot him an email, he'd love to hear from you.</p>
               
-              <a class="button" href="/contact">Get Enterprise Pricing</a>
+              <a class="button" href="/contact-sales">Get Enterprise Pricing</a>
               </div>
        </aside>
        
