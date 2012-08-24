@@ -201,7 +201,7 @@
               <p class="ron"><img src="<?php bloginfo('stylesheet_directory'); ?>/imgs/this-is-ron-sm.jpg" alt="This Is Ron">
               This is Ron. He's friendly, and he loves to talk to enterprise customers about all their needs. It's what he does all day every day. Shoot him an email, he'd love to hear from you.</p>
               
-              <a class="button" href="mailto:ron@adzerk.com">Get Enterprise Pricing</a>
+              <a class="button" href="/contact-sales">Get Enterprise Pricing</a>
               
        </aside>
 
