@@ -1,0 +1,29 @@
+#signup form input[type=submit] {     
+    background-color: #14526A;
+    background-image: -moz-linear-gradient(#138CAA, #14526A);
+    border: medium none;
+    border-radius: 0.5em;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8125em;
+    line-height: 0.9375em;
+    margin: 0;
+    outline: medium none;
+    overflow: visible;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    white-space: nowrap;
+ }
+
+.left { float:left;}
+section.right { margin-top:32px; float:left; }
+
+.contactpage_form form {width: 1030px; }
+.contactpage_form label {font-weight:bold; display:block; }
+.contactpage_form input[type=text] { width:80%; height:24px; }
+.contactpage_form textarea { width:91.5%; height: 120px; }
+.field-box.left {float:left; width: 50%;}
+.field-box.right {float:right; width:50%; margin-top:0px;} 
+.field-box {margin-bottom: 24px;}
+
