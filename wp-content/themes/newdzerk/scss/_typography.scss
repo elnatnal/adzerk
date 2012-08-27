@@ -106,7 +106,9 @@ h4 {
 .testy-info h4{
 	line-height:0;
 }
-
+.side-testy h3{
+	padding-bottom:0;
+}
 #footer h3 {
 	font-style: normal;
 	font-weight: 700;
@@ -128,7 +130,8 @@ h4.orange {
 .side-testy h4{
 	color: $blue3;
 	font-style:italic;
-	margin-top:em(10);
+	margin-top:em(0);
+	margin-bottom:.75em;
 }
 
 h5 {
