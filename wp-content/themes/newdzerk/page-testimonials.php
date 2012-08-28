@@ -8,7 +8,7 @@
 </hgroup>
 
 <div class="d1-d6">
-<?php query_posts('post_type=testimonial&category_name=important&posts_per_page=10'); ?>
+<?php query_posts('post_type=testimonial&category_name=important'); ?>
 <?php if (have_posts()) : ?>
                <?php while (have_posts()) : the_post(); ?>    
                <section class="<?php the_slug();?> testimonial">

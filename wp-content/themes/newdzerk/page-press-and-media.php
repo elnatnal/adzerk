@@ -7,7 +7,7 @@
     </hgroup>
 
 
-<?php query_posts( 'cat=23'.'&paged='.$paged );?>
+<?php query_posts( 'cat=22'.'&paged='.$paged );?>
        <div class="blog-list-container d-all">
        	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
