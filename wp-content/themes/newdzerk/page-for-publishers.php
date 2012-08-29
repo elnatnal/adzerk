@@ -26,7 +26,7 @@
        <h2>Built for Publishers <span class="subtext">&emsp;adOS is your all&ndash;in&ndash;one network management platform</h2>
 
        <ul>
-							<li class="skinnable-ui">
+<!--							<li class="skinnable-ui">
                      <h4>Skinnable UI</h4>
                      <p>With the White Label app, you can upload any custom CSS, JavaScript, and footer markup to make your adOS look like you own website. 
                      <br /><a href="http://www.adzerk.com/tour/index.html#1" class="arrow-after iframe"><strong>Read More</strong></a></p>
@@ -44,7 +44,7 @@
                      <p>Forecast earnings based on impression trends. 
                      <br /><a href="http://www.adzerk.com/tour/index.html#3" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
-
+-->
               <li class="advertiser-portal">
                      <h4>Advertiser Portal</h4> 
 										 <p>Give Advertiser customers the ability to login, run reports, and upload Creatives to be used in Campaigns (with the Advertiser Creative Management app). 
@@ -53,13 +53,13 @@
 
               <li class="robust-targeting-options">
                      <h4>Robust Targeting Options</h4>
-                     <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
+                     <p>Target ads by physical location including Continent, Country, Region, City/Metro code, and zip code. Also target by keyword, referrer, IP address, and more. 
                      <br /><a href="http://www.adzerk.com/tour/index.html#5" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
               <li class="fast-accurate-reporting">
                      <h4>Fast &amp; Accurate Reporting</h4>
-                     <p>Here's the information that you want the user to get an inkling, a taste of. Entice them to click this little button here. 
+                     <p>You can run preconfigured reports like Advertiser, Site, Channel, and Impression Forecasting reports, as well as Custom reports, and export as CSV, or get an Email notification when big reports are done generating. 
                      <br /><a href="http://www.adzerk.com/tour/index.html#6" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
        </ul>
@@ -103,7 +103,6 @@
                      <li><img src="http://adzerk-www.s3.amazonaws.com/resources/reversemortgagedaily.png"></li>
                      <li><img src="http://adzerk-www.s3.amazonaws.com/resources/sno_color_sm.png"></li>
                      <li><img src="http://adzerk-www.s3.amazonaws.com/resources/statsheet_color_lg.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/tastebuds.png"></li>
               </ul>
        </aside>
 
