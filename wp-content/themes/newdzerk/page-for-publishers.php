@@ -14,8 +14,8 @@
        <iframe class="isfor-video" src="http://player.vimeo.com/video/14510432" width="393" height="217" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
        
        <div>
-              <h4><em>adOS is the best solution for running your network.</em></h4>
-              <p>adOS is your ad network management platform. You'll have a publisher portal to share logins with your publishers and adOS will even help you calculate payouts to your publishers and generate the Paypal mass pay file. Our super easy <strong>three step process</strong> will have you serving ads in minutes.</p>
+              <h4><em>adOS is the best solution for managing your site's ads.</em></h4>
+              <p>adOS is your ad management platform. You'll have an advertiser portal to share logins with your advertisers, and adOS will even help you calculate earnings. Give advertisers the ability to upload creatives for you to approve. Our super easy <strong>three step process</strong> will have you serving ads in minutes.</p>
               
                      <a class="button" href="#world-class-ad-serving">See Plans and Pricing</a>
        </div>
