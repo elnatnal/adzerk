@@ -2,7 +2,7 @@
 
 <div class="from-the-team-blog">
        <h4 class="blue2">From the Team Blog</h4>
-<?php query_posts('posts_per_page=3&cat=11'); ?>
+<?php query_posts('posts_per_page=3&cat=26'); ?>
 <?php if (have_posts()) : ?>
                <?php while (have_posts()) : the_post(); ?>    
                      <div class="article-side">
