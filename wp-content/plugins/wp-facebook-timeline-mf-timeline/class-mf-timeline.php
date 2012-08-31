@@ -671,12 +671,13 @@ class MF_Timeline {
 				$post_types_escape[] = '%s';
 			}
 			
+			$since = date('Y-m-01', strtotime('-3 months'));
 			$sql = "SELECT {$wpdb->posts}.ID AS id, {$wpdb->posts}.post_title AS title, {$wpdb->posts}.post_content AS content, {$wpdb->posts}.post_excerpt AS excerpt, {$wpdb->posts}.post_date AS date, {$wpdb->posts}.post_author AS author, {$wpdb->terms}.term_id AS term_id
 				FROM `{$wpdb->posts}` 
 				INNER JOIN {$wpdb->term_relationships} ON ({$wpdb->posts}.ID = {$wpdb->term_relationships}.object_id) 
 				INNER JOIN {$wpdb->term_taxonomy} ON ({$wpdb->term_relationships}.term_taxonomy_id = $wpdb->term_taxonomy.term_taxonomy_id)
 				INNER JOIN {$wpdb->terms} ON ({$wpdb->term_taxonomy}.term_id = {$wpdb->terms}.term_id)
-				WHERE {$wpdb->posts}.post_status = 'publish' 
+				WHERE {$wpdb->posts}.post_status = 'publish' AND {$wpdb->posts}.post_date >= '$since'
 				AND {$wpdb->posts}.post_type IN (".implode(',', $post_types_escape).")";
 			
 			// Check if we are filtering the post types by hireachrical taxonomy terms
