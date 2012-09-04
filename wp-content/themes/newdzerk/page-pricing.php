@@ -22,7 +22,6 @@
                             <ul>
                                    <li>Robust Documentation</li>
                                    <li>Live Chat</li>
-                                   <li>Phone</li>
                                    <li>Email</li>
                             </ul>
                        </div>    
