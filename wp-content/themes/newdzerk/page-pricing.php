@@ -37,9 +37,7 @@
                               </ul>
                        </div>
               </div>
-                            <a class="button get-started" href="#"><strong>Get Started Now</strong> <br />
-                                   with our super easy wizard!
-                                   </a>
+                            <a class="button get-started" href="#"><strong>Get Started Now</strong></a>
 
        </section>
 
@@ -84,9 +82,7 @@
                          </div>
                   </div>
 
-                     <a class="button get-started" href="#"><strong>Get Started Now</strong> <br />
-                                   with our super easy wizard!
-                     </a>
+                     <a class="button get-started" href="#"><strong>Get Started Now</strong></a>
        </section>
 </div>
 

@@ -187,9 +187,7 @@
                          </div>
                   </div>
 
-                     <a class="button get-started" href="http://new.adzerk.com"><strong>Get Started Now</strong> <br />
-                                   with our super easy wizard!
-                     </a>
+                     <a class="button get-started" href="http://new.adzerk.com"><strong>Get Started Now</strong></a>
        </div>
        
        <aside class="enterprise sidebar d7-d9">

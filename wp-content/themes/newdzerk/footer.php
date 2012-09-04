@@ -94,9 +94,9 @@
 
 <script>
 
-$(".iframe").colorbox({iframe:true, width:"1000px", height:"620px", style:"overflow:hidden;"});
+$(".iframe").colorbox({iframe:true, width:"1000px", height:"920px", style:"overflow:hidden;"});
 $(".inline").colorbox({inline:true, width:"50%"});
-$(".custom-theme").colorbox({rel:'custom-theme', transition:"none", width:"1000px", height:"620px", arrowKey:true, transition:"fade"});
+$(".custom-theme").colorbox({rel:'custom-theme', transition:"none", width:"1000px", height:"920px", arrowKey:true, transition:"fade"});
 
 </script>
 
