@@ -103,6 +103,9 @@ h4 {
 .testy-info h4 {
   line-height: 0; }
 
+.side-testy h3 {
+  padding-bottom: 0; }
+
 #footer h3 {
   font-style: normal;
   font-weight: 700;
@@ -123,7 +126,8 @@ h4.orange {
 .side-testy h4 {
   color: #138caa;
   font-style: italic;
-  margin-top: 0.625em; }
+  margin-top: 0em;
+  margin-bottom: .75em; }
 
 h5 {
   color: #e35525;
@@ -3238,7 +3242,8 @@ aside.sidebar {
     font-size: 1em;
     text-align: center;
     width: 60%;
-    margin-bottom: .5em; }
+    margin-bottom: .5em;
+    margin-top: 2em; }
 
 aside .d8-d9 {
   margin-left: 0em !important; }
