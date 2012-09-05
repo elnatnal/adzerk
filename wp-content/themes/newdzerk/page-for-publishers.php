@@ -184,7 +184,7 @@
                          </div>
                   </div>
 
-                     <a class="button get-started" href="http://new.adzerk.com/signup"><strong>Get Started Now</strong></a>
+                     <a class="button get-started" href="http://new.adzerk.com/signup">Get Started Now</a>
        </div>
        
        <aside class="enterprise sidebar d7-d9">

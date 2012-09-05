@@ -237,6 +237,7 @@ aside#powered-by-ados{
 	}
 	li{
 		margin-left:-1.25em;
+		color:$blue2;
 	}
 	li:before{
 		content:url('../imgs/icons/check-forblank.gif');
@@ -253,7 +254,6 @@ aside#powered-by-ados{
 	
 	blockquote{
 		margin-left:em(15);
-		color:$blue2;
 		line-height:em(21);
 		margin-top:em(-10);
 		padding-top:0;

@@ -138,7 +138,6 @@ h5 {
 
 h6 {
   font-weight: 400;
-  font-weight: bold;
   margin: .25em;
   padding: 0;
   font-size: 1em;
@@ -2905,8 +2904,8 @@ header {
   line-height: 0.938em;
   overflow: visible;
   display: inline-block;
-  padding: 0.5em 1em;
-  margin: 0;
+  padding: 0.7em 1em;
+  margin: 0 0 -1em 0;
   text-decoration: none !important;
   font: 0.313em;
   color: white;
@@ -2928,8 +2927,7 @@ header {
   border-radius: 0.1em;
   /* IE hacks */
   zoom: 1;
-  *display: inline;
-  border-left: 2px solid #903212; }
+  *display: inline; }
 
 #searchsubmit {
   font-size: 0.813em;
@@ -4065,7 +4063,7 @@ h4:before {
 #tracking-options h4:before {
   content: url("../imgs/icons/tracking-options.gif"); }
 
-#always-up h4:before, #technical-eupport h4:before, #scalable h4:before, #ad-ops-support h4:before {
+#always-up h4:before, #technical-support h4:before, #scalable h4:before, #ad-ops-support h4:before {
   content: url("../imgs/icons/check.gif"); }
 
 #full-api h4:before {
@@ -4417,7 +4415,8 @@ aside#powered-by-ados {
   .for-blank-pricing h6 {
     color: black; }
   .for-blank-pricing li {
-    margin-left: -1.25em; }
+    margin-left: -1.25em;
+    color: #14526a; }
   .for-blank-pricing li:before {
     content: url("../imgs/icons/check-forblank.gif");
     top: 0.188em;
@@ -4428,7 +4427,6 @@ aside#powered-by-ados {
   margin-left: 0 !important; }
   #world-class-ad-serving aside.enterprise blockquote {
     margin-left: 0.938em;
-    color: #14526a;
     line-height: 1.313em;
     margin-top: -0.625em;
     padding-top: 0; }

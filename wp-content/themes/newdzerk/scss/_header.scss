@@ -51,8 +51,8 @@ header{
 	line-height:em(15);
     overflow: visible; 
     display: inline-block; 
-    padding: 0.5em 1em; 
-    margin: 0;
+    padding: 0.7em 1em; 
+    margin: 0 0 -1em 0;
     text-decoration: none !important; 
     font:em(5);
     color: white; 
@@ -74,7 +74,7 @@ header{
     /* IE hacks */
     zoom: 1; 
     *display: inline; 
-	border-left:2px solid darken($orange, 20%);
+	//border-left:2px solid darken($orange, 20%);
 }
 
 #searchsubmit{
