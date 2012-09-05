@@ -58,7 +58,7 @@
               </li>
 
               <li class="fast-accurate-reporting">
-                     <h4>Fast &amp; Accurate Reporting</h4>
+                     <h4>Robust Reporting</h4>
                      <p>You can run preconfigured reports like Advertiser, Site, Channel, and Impression Forecasting reports, as well as Custom reports, and export as CSV, or get an Email notification when big reports are done generating. 
                      <br /><a href="http://www.adzerk.com/tour/index.html#6" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
