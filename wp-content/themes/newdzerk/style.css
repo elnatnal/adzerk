@@ -4397,7 +4397,11 @@ aside#powered-by-ados {
   .for-blank-pricing .get-started {
     margin-top: .5em;
     margin-left: 27%;
-    display: inline-block !important; }
+    display: inline-block !important;
+    font-size: .875em;
+    line-height: auto;
+    padding: 0.65em;
+    font-style: normal; }
   .for-blank-pricing .price-packages {
     margin-left: 1em;
     font-size: 0.875em; }

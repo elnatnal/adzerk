@@ -156,11 +156,11 @@
 
               <div class="price-packages">
                      <div class="network-tools">
-                            <h6>Network Tools</h6>
+                            <h6>Robust Targeting Options</h6>
                             <ul>
-                                   <li>Advertiser Portal</li>
-                                   <li>Site Payout Management</li>
-                                   <li>Earnings Calculation</li>
+                                   <li>Geo-targeting</li>
+                                   <li>IP targeting</li>
+                                   <li>Keyword targeting</li>
                             </ul>
                        </div>
 
@@ -169,17 +169,16 @@
                             <ul>
                                    <li>Robust Documentation</li>
                                    <li>Live Chat</li>
-                                   <li>Phone</li>
                                    <li>Email</li>
                             </ul>
                        </div>    
                      
                        <div class="white-label">
-                              <h6>White Label</h6>
+                              <h6>Fast & Accurate Reporting</h6>
                               <ul>
-                                     <li>100% Skinnable Interface</li>
-                                     <li>CNAME-ing</li>
-                                     <li>API</li>
+                                     <li>Preconfigured reports</li>
+                                     <li>Custom reports</li>
+                                     <li>Up to the minute data</li>
                               </ul>
                          </div>
                   </div>
@@ -189,7 +188,7 @@
        
        <aside class="enterprise sidebar d7-d9">
               <h4>Enterprise Pricing</h4>
-              <p>20 million impressions/month and up</p>
+              <p>100 million impressions/month and up</p>
               
               <blockquote>
                      adOS's robust feature set was built to be scalable as well as affordable. Contact our sales team and we can tailor a package for your needs.

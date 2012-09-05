@@ -199,6 +199,7 @@ aside#powered-by-ados{
 	-webkit-border-radius: 10px;
 	padding:em(15);
 	padding-right:0;
+	min-height: 19.5em;
 	
 	h4,p.gray,div.network-tools{
 		margin-left:em(15);
@@ -208,6 +209,10 @@ aside#powered-by-ados{
 		margin-top:.5em;
 		margin-left:27%;
 		display:inline-block !important;
+		font-size: .875em;
+		line-height: auto;
+		padding: 0.65em;
+		font-style: normal;
 	}
 	
 	
