@@ -4127,10 +4127,8 @@ a.get-started {
   min-width: 15.75em;
   margin-left: 27.5%;
   display: block;
-  font-style: italic;
   font-size: .90em;
-  color: white;
-  line-height: 1.15em; }
+  color: white; }
   a.get-started strong {
     font-style: normal;
     font-size: 1.25em; }
@@ -4391,7 +4389,8 @@ aside#powered-by-ados {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   padding: 0.938em;
-  padding-right: 0; }
+  padding-right: 0;
+  min-height: 19.5em; }
   .for-blank-pricing h4, .for-blank-pricing p.gray, .for-blank-pricing div.network-tools {
     margin-left: 0.938em; }
   .for-blank-pricing .get-started {
