@@ -26,28 +26,28 @@
        <h2>Built for Publishers <span class="subtext">&emsp;adOS is your all&ndash;in&ndash;one network management platform</h2>
 
        <ul>
-<!--							<li class="skinnable-ui">
-                     <h4>Skinnable UI</h4>
-                     <p>With the White Label app, you can upload any custom CSS, JavaScript, and footer markup to make your adOS look like you own website. 
+							<li class="campaigns">
+                     <h4>Easy Campaign Management</h4>
+                     <p>See all your campaigns in a glance, along with transparent messaging around their current status (Healthy, In danger, etc.) 
                      <br /><a href="http://www.adzerk.com/tour/index.html#1" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
-              <li class="site-payout-management">
-                     <h4>Site Payout Management</h4>
-                     <p>Calculate earnings, make adjustments, and mark sent payments for your Network's sites, all in one place.
+              <li id="flight-delivery-options">
+                     <h4>Super Configurable Flight Delivery</h4>
+                     <p>Flight settings are completely configurable- only add the options that each particular Flight needs, including Rates, Targeting Options, Day parting, Frequency capping, and Distribution Options like Companion Ads.
                      <br /><a href="http://www.adzerk.com/tour/index.html#2" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 
 
-              <li class="publisher-portal">
+              <li class="earnings">
                      <h4>Forecasting Reports</h4>
-                     <p>Forecast earnings based on impression trends. 
+                     <p>Forecast your earnings based on impression trends. 
                      <br /><a href="http://www.adzerk.com/tour/index.html#3" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
--->
+
               <li class="advertiser-portal">
                      <h4>Advertiser Portal</h4> 
-										 <p>Give Advertiser customers the ability to login, run reports, and upload Creatives to be used in Campaigns (with the Advertiser Creative Management app). 
+										 <p>Give Advertiser customers the ability to login, run reports, and upload Creatives to be used in Campaigns (with the Advertiser Creative Management app). Advertisers can also configure their own settings. 
                      <br /><a href="http://www.adzerk.com/tour/index.html#4" class="arrow-after iframe"><strong>Read More</strong></a></p>
               </li>
 

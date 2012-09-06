@@ -66,19 +66,19 @@
 
        <div class="morefeaturesdiv">
               <ul id="more-features-show">
-                            <li class="advertiser-portal">
-                                   <h4>Flight Delivery Options</h4> 
+                            <li id="flight-delivery-options">
+                                   <h4>Super Configurable Flight Delivery</h4> 
                                    <p>Flight settings are completely configurable- only add the options that each particular Flight needs, including Rates, Targeting Options, Day parting, Frequency capping, and Distribution Options like Companion Ads. 
                                 
                             </li>
 
-                            <li class="robust-targeting-options">
-                                   <h4>Robust Support Options</h4>
-                                   <p>Get 30 days of free chat and email support to help you get set up, and then choose one of our four support packages, including live chat, phone, email support, help documentation, and always a rapid turnaround rate. 
+                            <li class="robust-support-options">
+                                   <h4>Get Just The Support You Need</h4>
+                                   <p>Get 30 days of free chat and email support to help you get set up, and then choose one of our four support packages, including live chat, email support, help documentation, and always a rapid turnaround rate. 
                                    
                             </li>
 
-                            <li class="fast-accurate-reporting">
+                            <li class="earnings">
                                    <h4>Forecast Earnings</h4>
                                    <p>Our Forecasting options allow you to forecast based on Channel, Ad type, Site, Zone, Location, and Keyword. 
                                

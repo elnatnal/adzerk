@@ -4036,6 +4036,15 @@ h4:before {
   top: 0.563em;
   padding-right: .35em; }
 
+.campaigns h4:before {
+  content: url("../imgs/icons/campaigns.png"); }
+
+.earnings h4:before {
+  content: url("../imgs/icons/earnings.png"); }
+
+.robust-support-options h4:before {
+  content: url("../imgs/icons/support.png"); }
+
 #skinnable-interface h4:before, #built-for li.skinnable-ui h4:before {
   content: url("../imgs/icons/skinnable-ui.gif"); }
 
