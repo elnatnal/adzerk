@@ -36,7 +36,7 @@
                               </ul>
                        </div>
               </div>
-                            <a class="button get-started" href="#"><strong>Get Started Now</strong></a>
+                            <a class="button get-started" href="http://new.adzerk.com/signup">Get Started Now</a>
 
        </section>
 
@@ -81,7 +81,7 @@
                          </div>
                   </div>
 
-                     <a class="button get-started" href="#"><strong>Get Started Now</strong></a>
+                     <a class="button get-started" href="http://new.adzerk.com/signup">Get Started Now</a>
        </section>
 </div>
 
