@@ -124,7 +124,7 @@ if ( is_page( '9','29' ) ) { ?>
        if ( is_front_page()) { ?>
               <script type="text/javascript">
                   var documentHeight = 0;
-                  var topPadding = 15;
+                  var topPadding = 65;
                   $(function() {
                       var offset = $("ol.timeline_nav").offset();
                       documentHeight = $(document).height();
