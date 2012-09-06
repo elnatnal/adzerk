@@ -47,7 +47,7 @@
 
 <section id="fastest-ad-code">
        <h2>Fastest Ad Code in the World <span class="subtext">&emsp;No, seriously, <a href="<?php echo home_url(); ?>/product-blog/new-feature-the-fastest-ad-code-in-the-world">we've clocked it.</a></span></h2>
-       <img src="http://adzerk-www.s3.amazonaws.com/marketing_site/fastest.jpg" alt="Ad request sizes are less than 25% of OpenX ad requests" />
+       <a class="features" href="http://adzerk.com/tour/img/fast.png" title="The Fastest Ad Code in the World"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/fastest.jpg" alt="Ad request sizes are less than 25% of OpenX ad requests" /></a>
        <div>
               <h4>Our ad code is flexible and fast. We can serve:</h4>
               <ul>
@@ -65,25 +65,25 @@
 <section id="for-networks">
        <h2>For Networks</h2>
        <div id="skinnable-interface">
-              <img src="http://adzerk-www.s3.amazonaws.com/marketing_site/skinnable.jpg" alt="adOs' user interface is completely customizeable" />
+              <a class="features" href="http://adzerk.com/tour/img/skin.png" title="100% Skinnable UI"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/skinnable.jpg" alt="adOs' user interface is completely customizeable" /></a>
               <h4>Skinnable Interface</h4>
               <p>adOS's user interface is completely customizable. You can upload your own CSS, Javascript, and HTML files to make any and every part of the app match your own site's look and feel. Better yet, you can have us do it for you! Check out our gallery of themes to see some examples. The typical turnaround time is about 3 days.</p>
        </div>
 
        <div id="site-payout-management">
-              <img src="http://adzerk-www.s3.amazonaws.com/marketing_site/network_payouts.jpg" alt="Bring sanity to your workflow. Manage all your financials in one place." />
+              <a class="features" href="http://adzerk.com/tour/img/payouts.png" title="Site Payout Management"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/network_payouts.jpg" alt="Bring sanity to your workflow. Manage all your financials in one place." /></a>
               <h4>Site Payout Management</h4>
               <p>Site Payout Management allows you to manage paying out your sites using campaign data and delivery information from adOS. Download payment history as Excel or Paypal mass pay files.</p>
        </div>
 
        <div id="publisher-portal">
-              <img src="http://adzerk-www.s3.amazonaws.com/marketing_site/publisher_portal.jpg" alt="Give Publishers their own login and access to reports and earnings." />
+              <a class="features" href="http://www.adzerk.com/tour/img/publisherPortal.png" title="Publisher Portal"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/publisher_portal.jpg" alt="Give Publishers their own login and access to reports and earnings." /></a>
               <h4>Publisher Portal</h4>
               <p>The Publisher Portal allows networks to give their publishers a separate login, with access to site overview data, ad code options (currently include synchronous versus asynchronous, static/email, and third–party ad server), zone management, customizable site reporting data, and remainder creative management.</p>
        </div>
 
        <div id="advertiser-portal">
-              <img src="http://adzerk-www.s3.amazonaws.com/marketing_site/advertiser_portal.jpg" alt="" />
+              <a class="features" href="http://adzerk.com/tour/img/advertiserPortal.png" title="Advertiser Portal"><img src="http://adzerk-www.s3.amazonaws.com/marketing_site/advertiser_portal.jpg" alt="Advertiser Portal" /></a>
               <h4>Advertiser Portal</h4>
               <p>The Advertiser Portal allows networks to give their advertisers a separate login, with access to configurable self-service reporting data, the ability to upload and manage their own creatives (subject to approval by a Network Admin via adOS's build-in notification system!), and manage their own portal account. The Advertiser Portal makes adOS a one-stop location for all interactions between Networks or Publishers and their Advertisers.</p>
        </div>
@@ -92,7 +92,7 @@
 <section id="campaign-trafficking">
        <h2>Campaign Trafficking</h2>
        <div id="robust-targeting-options" class="d2-d5">
-              <h4>Robust Targeting Options</h4>
+              <h4><a class="features" href="http://adzerk.com/tour/img/targeting.png" title="Targeting Options including Location, Site/Zone, Keyword, Referrer, User Agent, and IP range.">Robust Targeting Options</a></h4>
               <ul>
                      <li>
                             <p>
@@ -140,7 +140,7 @@
        
        <div class="d6-d9">
        <div id="flight-delivery-options">
-              <h4>Flight Delivery Options</h4>
+              <h4><a class="features" href="http://adzerk.com/tour/img/flight.png" title="Flight Delivery Options">Flight Delivery Options</a></h4>
                      <ul>
                             <li>Day Parting</li>
                             <li>Frequency Capping</li>

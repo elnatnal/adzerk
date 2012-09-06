@@ -149,6 +149,8 @@ if ( is_page( '9','29' ) ) { ?>
               </script>              
               <script>
               $(document).ready(function() {
+								//tour on features page
+								$(".features").colorbox({rel:'features'});
                  $('a[href*=#]').bind('click', function(e) {
               	e.preventDefault();
 
