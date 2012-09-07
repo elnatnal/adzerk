@@ -207,6 +207,7 @@ if ( is_page( array('for-networks', 'for-publishers') ) ) { ?>
               
               <script>
               $(document).ready(function() {
+								$('a.features').colorbox();
                  $('a[href*=#]').bind('click', function(e) {
               	e.preventDefault();
 
