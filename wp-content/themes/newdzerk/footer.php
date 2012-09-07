@@ -95,8 +95,13 @@
 <script>
 
 $(".iframe").colorbox({iframe:true, width:"1000px", height:"920px", style:"overflow:hidden;"});
-$(".inline").colorbox({inline:true, width:"50%"});
 $(".custom-theme").colorbox({rel:'custom-theme', transition:"none", width:"1000px", height:"920px", arrowKey:true, transition:"fade"});
+
+$('.logo a').mousedown(function(e) {
+    if (e.which === 3) {
+			$(".inline").colorbox({inline:true, width:"auto"});
+    }
+});
 
 </script>
 
