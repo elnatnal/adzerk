@@ -29,38 +29,39 @@
 							<li class="campaigns">
                      <h4>Easy Campaign Management</h4>
                      <p>See all your campaigns in a glance, along with transparent messaging around their current status (Healthy, In danger, etc.) 
-                     <br /><a href="http://www.adzerk.com/tour/index.html#1" class="arrow-after iframe"><strong>Read More</strong></a></p>
+										 <br /><a href="http://adzerk.com/tour/img/campaign.png" class="arrow-after for-publishers" title="Add only the options you need for any given Flight."><strong>Check it out</strong></a></p>
               </li>
 
               <li id="flight-delivery-options">
                      <h4>Super Configurable Flight Delivery</h4>
                      <p>Flight settings are completely configurable- only add the options that each particular Flight needs, including Rates, Targeting Options, Day parting, Frequency capping, and Distribution Options like Companion Ads.
-                     <br /><a href="http://www.adzerk.com/tour/index.html#2" class="arrow-after iframe"><strong>Read More</strong></a></p>
+										 <br /><a href="http://adzerk.com/tour/img/flight.png" class="arrow-after for-publishers" title="Add only the options you need for any given Flight."><strong>Check it out</strong></a></p>
               </li>
 
 
               <li class="earnings">
                      <h4>Forecasting Reports</h4>
                      <p>Forecast your earnings based on impression trends. 
-                     <br /><a href="http://www.adzerk.com/tour/index.html#3" class="arrow-after iframe"><strong>Read More</strong></a></p>
+										 <br /><a href="http://adzerk.com/tour/img/forecast.png" class="arrow-after for-publishers" title="Forecast reporting."><strong>Check it out</strong></a></p>
               </li>
 
               <li class="advertiser-portal">
                      <h4>Advertiser Portal</h4> 
 										 <p>Give Advertiser customers the ability to login, run reports, and upload Creatives to be used in Campaigns (with the Advertiser Creative Management app). Advertisers can also configure their own settings. 
-                     <br /><a href="http://www.adzerk.com/tour/index.html#4" class="arrow-after iframe"><strong>Read More</strong></a></p>
+										 <br /><a href="http://adzerk.com/tour/img/advertiserPortal.png" title="The Advertiser Portal lets Advertisers run their own reports." class="arrow-after for-publishers"><strong>Check it out</strong></a></p>
               </li>
 
               <li class="robust-targeting-options">
                      <h4>Robust Targeting Options</h4>
                      <p>Target ads by physical location including Continent, Country, Region, City/Metro code, and zip code. Also target by keyword, referrer, IP address, and more. 
-                     <br /><a href="http://www.adzerk.com/tour/index.html#5" class="arrow-after iframe"><strong>Read More</strong></a></p>
+										 <br /><a href="http://adzerk.com/tour/img/targeting.png" title="Robust targeting options include Location, Keyword, Site, Zone, and many more." class="arrow-after for-publishers"><strong>Check it out</strong></a></p>
+
               </li>
 
               <li class="fast-accurate-reporting">
                      <h4>Robust Reporting</h4>
                      <p>You can run preconfigured reports like Advertiser, Site, Channel, and Impression Forecasting reports, as well as Custom reports, and export as CSV, or get an Email notification when big reports are done generating. 
-                     <br /><a href="http://www.adzerk.com/tour/index.html#6" class="arrow-after iframe"><strong>Read More</strong></a></p>
+										 <br /><a href="http://adzerk.com/tour/img/report.png" class="arrow-after for-publishers" title="adOS generates reporting data throughout the day for fast, accurate results."><strong>Check it out</strong></a></p>
               </li>
        </ul>
 <!-- hide this until we have more features for pubs

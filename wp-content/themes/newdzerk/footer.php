@@ -105,6 +105,8 @@ wp_reset_query();
 if ( is_page( array('for-networks', 'for-publishers') ) ) { ?>
        <script>
        $(document).ready(function(){
+							$("a.for-networks").colorbox({rel:'for-networks'});
+							$("a.for-publishers").colorbox({rel:'for-publishers'});
               $("#more-features-show").hide();
               $("#more-show").show();
 
@@ -150,7 +152,7 @@ if ( is_page( array('for-networks', 'for-publishers') ) ) { ?>
               <script>
               $(document).ready(function() {
 								//tour on features page
-								$(".features").colorbox({rel:'features'});
+								$("a.features").colorbox({rel:'features'});
                  $('a[href*=#]').bind('click', function(e) {
               	e.preventDefault();
 

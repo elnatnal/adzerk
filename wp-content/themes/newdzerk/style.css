@@ -2632,7 +2632,8 @@ button {
   color: white;
   border-radius: 5px;
   -moz-border-radius: 5px;
-  -webkit-border-radius: 5px; }
+  -webkit-border-radius: 5px;
+  text-shadow: none; }
 
 a.button, #footer button {
   outline: none;
@@ -2861,6 +2862,9 @@ section.fourohfour {
 
 #wpstats {
   display: none; }
+
+.slide img, .slide h1 {
+  margin-bottom: 1em; }
 
 /*   
  *	Theme Name: Newdzerk
