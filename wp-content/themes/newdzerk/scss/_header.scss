@@ -52,7 +52,7 @@ header{
     overflow: visible; 
     display: inline-block; 
     padding: 0.7em 1em; 
-    margin: 0 0 -1em 0;
+    margin: 0;
     text-decoration: none !important; 
     font:em(5);
     color: white; 
@@ -82,7 +82,7 @@ header{
 	line-height:em(15);
     overflow: visible; 
     display: inline-block; 
-    padding: 0.5em 1em; 
+    padding: 0.7em 1em; 
     margin: 0;
     text-decoration: none; 
     color: white; 
@@ -115,7 +115,7 @@ input#s{
 	-webkit-border-radius: .5em 0 0 .5em; 
     -moz-border-radius: .5em 0 0 .5em; 
     border-radius: .5em 0 0 .5em;
-	height:24px;
+	height:27px;
 	width:em(220);
 	margin-right:em(-6);
     -webkit-appearance:none;
