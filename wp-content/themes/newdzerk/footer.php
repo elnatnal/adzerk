@@ -102,7 +102,7 @@ $(".custom-theme").colorbox({rel:'custom-theme', transition:"none", width:"1000p
 
 <?php
 wp_reset_query();
-if ( is_page( '9','29' ) ) { ?>
+if ( is_page( array('for-networks', 'for-publishers') ) ) { ?>
        <script>
        $(document).ready(function(){
               $("#more-features-show").hide();
