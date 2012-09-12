@@ -117,12 +117,15 @@ hr{
 
 /* COLORBOX END */
 
+.pop-logo.white img { background-color: #000;}
+
 .pop-logo{
 	float:left;
 	margin-right:8px;
 	text-align:center;
 	width:218px;
 	margin-top:21px;
+	padding-bottom: 2em;
 	
 	img{
 		width:72%;

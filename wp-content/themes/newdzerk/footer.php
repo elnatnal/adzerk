@@ -63,24 +63,18 @@
               <div class="pop-logo">
                      <h4>Adzerk Logo (.png)</h4>
                      <img src="http://adzerk-www.s3.amazonaws.com/resources/adzerk-logo.png">
-                     <button>
-                            <a href="#">Download</a>
-                     </button>
+                     <a class="button" href="http://adzerk-www.s3.amazonaws.com/resources/adzerk-logo.png">Download</a>
               </div>
 
               <div class="pop-logo">
                      <h4>adOS Blue Logo (.png)</h4>
                      <img src="http://adzerk-www.s3.amazonaws.com/resources/adOs_logo_blue.png">
-                     <button>
-                            <a href="#">Download</a>
-                     </button>
+                     <a class="button" href="http://adzerk-www.s3.amazonaws.com/resources/adOs_logo_blue.png">Download</a>
               </div>
-              <div class="pop-logo">
+              <div class="pop-logo white">
                      <h4>adOS White Logo (.png)</h4>
                      <img src="http://adzerk-www.s3.amazonaws.com/resources/adOS_logo_white.png">
-                     <button>
-                            <a href="#">Download</a>
-                     </button>
+                     <a class="button" href="http://adzerk-www.s3.amazonaws.com/resources/adOS_logo_white.png">Download</a>
               </div>
 
 
@@ -99,10 +93,16 @@ $(".custom-theme").colorbox({rel:'custom-theme', transition:"none", width:"1000p
 
 $('.logo a').mousedown(function(e) {
     if (e.which === 3) {
-			$(".inline").colorbox({inline:true, width:"auto"});
+			$('.inline').colorbox({inline:true, width:"auto", href:"#inline_content"});
     }
 });
 
+$('.logo a').click(function(e)
+    {
+        if (e.ctrlKey) {
+					$('.inline').colorbox({inline:true, width:"auto", href:"#inline_content"});
+        }
+    });
 </script>
 
 <?php
