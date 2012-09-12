@@ -41,7 +41,7 @@
 
               <li class="earnings">
                      <h4>Forecasting Reports</h4>
-                     <p>Forecast your earnings based on impression trends. 
+                     <p>Forecast your impressions based on historical trends. 
 										 <br /><a href="http://adzerk.com/tour/img/forecast.png" class="arrow-after for-publishers" title="Forecast reporting."><strong>Check it out</strong></a></p>
               </li>
 

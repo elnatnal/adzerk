@@ -91,9 +91,14 @@
 $(".iframe").colorbox({iframe:true, width:"1000px", height:"920px", style:"overflow:hidden;"});
 $(".custom-theme").colorbox({rel:'custom-theme', transition:"none", width:"1000px", height:"920px", arrowKey:true, transition:"fade"});
 
-$('header').bind("contextmenu", function(e) {
+$('logo').bind("contextmenu", function(e) {
     return false;
 });
+
+$('logo a').bind("contextmenu", function(e) {
+    return false;
+});
+
 
 $('.logo a').mousedown(function(e) {
     if (e.which === 3) {
