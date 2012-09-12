@@ -100,7 +100,7 @@
               </ul>
               <h3>This is Ron.</h3>
               <img src="<?php bloginfo('template_directory'); ?>/imgs/this-is-ron.jpg" width="265" height="265" alt="This Is Ron">
-              <p>He's super friendly, and he loves to talk enterprise customers about all their needs. It's what he does all day everyday. Shoot him an email, he'd love to hear from you.</p>
+              <p>He's super friendly, and he loves to talk to enterprise customers about all their needs. It's what he does all day everyday. Shoot him an email, he'd love to hear from you.</p>
               
               <a class="button" href="/contact-sales">Get Enterprise Pricing</a>
               </div>
