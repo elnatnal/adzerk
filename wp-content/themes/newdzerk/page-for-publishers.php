@@ -96,14 +96,15 @@
        <aside id="powered-by-ados">
               <h2>Publishers powered by adOS</h2>
               <ul>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/stackexchange_color_lg.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/campingusa_color_sm.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/digicreative.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/planapple.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/radiox_color_sm.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/reversemortgagedaily.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/sno_color_sm.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/statsheet_color_lg.png"></li>
+                     <li><a href="http://stackexchange.com/"><img src="http://adzerk-www.s3.amazonaws.com/resources/stackexchange_color_lg.png"></a></li>
+                     <li><a href="http://www.xconomy.com/"><img src="http://adzerk-www.s3.amazonaws.com/resources/xconomy.png"></a></li>
+                     <li><a href="http://www.camping-usa.com/"><img src="http://adzerk-www.s3.amazonaws.com/resources/campingusa_color_sm.png"></a></li>
+                     <li><a href="http://www.digicreativ.net/"><img src="http://adzerk-www.s3.amazonaws.com/resources/digicreative.png"></a></li>
+                     <li><a href="https://www.planapple.com/"><img src="http://adzerk-www.s3.amazonaws.com/resources/planapple.png"></a></li>
+                     <li><a href="http://www.radiox.com/"><img src="http://adzerk-www.s3.amazonaws.com/resources/radiox_color_sm.png"></a></li>
+                     <li><a href="http://reversemortgagedaily.com/"><img src="http://adzerk-www.s3.amazonaws.com/resources/reversemortgagedaily.png"></a></li>
+                     <li><a href="http://www.schoolnewspapersonline.com/"><img src="http://adzerk-www.s3.amazonaws.com/resources/sno_color_sm.png"></a></li>
+                     <li><a href="http://statsheet.com/"><img src="http://adzerk-www.s3.amazonaws.com/resources/statsheet_color_lg.png"></a></li>
               </ul>
        </aside>
 
