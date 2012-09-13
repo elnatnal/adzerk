@@ -99,14 +99,15 @@
        <aside id="powered-by-ados">
               <h2>Networks powered by adOS</h2>
               <ul>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/350_color_sm.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/adavengers_color_sm.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/bookriot_color_sm.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/builtads_color_sm.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/adbase_color_sm.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/nectarads.png"></li>
-                     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/healthyads.png"></li>
-		     <li><img src="http://adzerk-www.s3.amazonaws.com/resources/sophio_color_sm.png"></li>
+                     <li><a href="http://www.350media.com/"><img src="http://adzerk-www.s3.amazonaws.com/resources/350_color_sm.png"></a></li>
+                     <li><a href="http://adavengers.com/"><img src="http://adzerk-www.s3.amazonaws.com/resources/adavengers_color_sm.png"></a></li>
+                     <li><a href="http://builtads.com/"><img src="http://adzerk-www.s3.amazonaws.com/resources/builtads_color_sm.png"></a></li>
+                     <li><a href="http://adbase.com.au/"><img src="http://adzerk-www.s3.amazonaws.com/resources/adbase_color_sm.png"></a></li>
+                     <li><a href="http://nectarads.com/"><img src="http://adzerk-www.s3.amazonaws.com/resources/nectarads.png"></a></li>
+                     <li><a href="http://healthyads.com/"><img src="http://adzerk-www.s3.amazonaws.com/resources/healthyads.png"></a></li>
+                     <li><a href="http://www.hotchalk.com/index_new.html"><img src="http://adzerk-www.s3.amazonaws.com/resources/hotchalk.png"></a></li>
+                     <li><a href="http://muslimadnetwork.com/"><img src="http://adzerk-www.s3.amazonaws.com/resources/muslim.png"></a></li>
+										 
               </ul>
        </aside>
 
