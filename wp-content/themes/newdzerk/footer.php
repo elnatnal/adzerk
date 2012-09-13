@@ -85,6 +85,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/flexie.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/jquery.colorbox.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/slies.min.jquery.js"></script>
 
 <script>
 
@@ -258,7 +259,6 @@ if ( is_page( array('for-networks', 'for-publishers') ) ) { ?>
   })();
 
 </script>
-<script src="http://get.gridsetapp.com/1013/overlay/"></script>	
 </body>
 
 </html>

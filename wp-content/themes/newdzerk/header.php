@@ -74,6 +74,7 @@
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/_/img/apple-touch-icon.png">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/screen.css?<?php echo date('l jS \of F Y h:i:s A'); ?>">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/global.css">
        <script type="text/javascript" src="//use.typekit.net/elw3okv.js"></script>
        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
        	

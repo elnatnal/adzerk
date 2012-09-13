@@ -10,8 +10,23 @@
 
 
 <section id="intro">
-       
-       <iframe class="isfor-video" src="http://player.vimeo.com/video/14510432" width="393" height="217" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      
+			<div id="slides">
+            <div class="slides_container">
+                <div>
+                    <img src="http://placehold.it/570x270">
+                </div>
+                <div>
+                    <img src="http://placehold.it/570x270">
+                </div>
+                <div>
+                    <img src="http://placehold.it/570x270">
+                </div>
+                <div>
+                    <img src="http://placehold.it/570x270">
+                </div>
+            </div>
+        </div> 
        
        <div>
               <h4><em>adOS is the best solution for managing your site's ads.</em></h4>
