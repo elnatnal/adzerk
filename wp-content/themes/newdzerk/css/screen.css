@@ -2635,7 +2635,7 @@ button {
   -webkit-border-radius: 5px;
   text-shadow: none; }
 
-a.button, #footer button {
+a.button, #footer button, input.button {
   outline: none;
   border: none;
   margin: 0 auto;

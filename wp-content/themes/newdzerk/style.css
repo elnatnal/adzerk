@@ -2635,7 +2635,7 @@ button {
   -webkit-border-radius: 5px;
   text-shadow: none; }
 
-a.button, #footer button {
+a.button, #footer button, input.button {
   outline: none;
   border: none;
   margin: 0 auto;
@@ -3270,7 +3270,7 @@ aside.sidebar h3 {
   line-height: 1.5em;
   padding-bottom: .75em; }
 
-aside.press-and-media div.newsletter input {
+aside.press-and-media div.newsletter input[type="text"] {
   width: 16em; }
 
 .bottom-ad-sidebar {
@@ -3316,7 +3316,7 @@ aside.sidebar div.newsletter-sign-up, aside.press-and-media div.newsletter {
   border-bottom: none; }
   aside.sidebar div.newsletter-sign-up label, aside.press-and-media div.newsletter label {
     color: #666666; }
-  aside.sidebar div.newsletter-sign-up input, aside.press-and-media div.newsletter input {
+  aside.sidebar div.newsletter-sign-up input[type="text"], aside.press-and-media div.newsletter input[type="text"] {
     -webkit-border-radius: .5em;
     -moz-border-radius: .5em;
     border-radius: .5em;

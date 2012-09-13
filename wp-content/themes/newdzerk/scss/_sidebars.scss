@@ -52,7 +52,7 @@ aside.sidebar h3{
 
 
 aside.press-and-media div.newsletter {
-	input{width:16em;}
+	input[type="text"] {width:16em;}
 }
 
 .bottom-ad-sidebar{
@@ -110,7 +110,7 @@ aside.sidebar div.newsletter-sign-up, aside.press-and-media div.newsletter {
 	label{
 		color:$gray1;
 	}
-	input{
+	input[type="text"]{
 		-webkit-border-radius: .5em; 
     	-moz-border-radius: .5em; 
     	border-radius: .5em;
