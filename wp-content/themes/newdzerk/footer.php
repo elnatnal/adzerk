@@ -85,7 +85,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/flexie.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/jquery.colorbox.js"></script>
-<script src="<?php bloginfo('template_directory'); ?>/js/slies.min.jquery.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/slides.min.jquery.js"></script>
 
 <script>
 
@@ -244,7 +244,19 @@ if ( is_page( array('for-networks', 'for-publishers') ) ) { ?>
        } else {
        }
        ?>
-       
+<script>
+
+$(function(){
+      $("#slides").slides({
+        preload: true,
+        preloadImage: '/imgs/loading.gif',
+        play: 5000,
+        pause: 2500,
+        hoverPause: true
+      });
+    });
+
+</script>       
        
 <script>
 

@@ -14,21 +14,21 @@
 			<div id="slides">
             <div class="slides_container">
                 <div>
-                    <img src="http://placehold.it/570x270">
+                    <a href="http://adzerk.com/tour/img/campaign.png" class="for-publishers" title="Add only the options you need for any given Flight."><img src="http://adzerk-www.s3.amazonaws.com/resources/campaignsPage_sm.png"></a>
                 </div>
                 <div>
-                    <img src="http://placehold.it/570x270">
+                    <a href="http://adzerk.com/tour/img/flight.png" class="for-publishers" title="Add only the options you need for any given Flight."><img src="http://adzerk-www.s3.amazonaws.com/resources/flight_sm.png"></a>
                 </div>
                 <div>
-                    <img src="http://placehold.it/570x270">
+                   <a href="http://adzerk.com/tour/img/forecast.png" class="for-publishers" title="Forecast reporting."><img src="http://adzerk-www.s3.amazonaws.com/resources/forecast_sm.png"></a>
                 </div>
                 <div>
-                    <img src="http://placehold.it/570x270">
+                    <a href="http://adzerk.com/tour/img/advertiserPortal.png" title="The Advertiser Portal lets Advertisers run their own reports." class="for-publishers"><img src="http://adzerk-www.s3.amazonaws.com/resources/advertiserPortal_sm.png"></a>
                 </div>
             </div>
         </div> 
        
-       <div>
+       <div class="text">
               <h4><em>adOS is the best solution for managing your site's ads.</em></h4>
               <p>adOS is your ad management platform. You'll have an advertiser portal to share logins with your advertisers, and adOS will even help you calculate earnings. Give advertisers the ability to upload creatives for you to approve. Our super easy <strong>three step process</strong> will have you serving ads in minutes.</p>
               

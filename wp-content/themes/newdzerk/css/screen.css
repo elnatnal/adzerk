@@ -3270,7 +3270,7 @@ aside.sidebar h3 {
   line-height: 1.5em;
   padding-bottom: .75em; }
 
-aside.press-and-media div.newsletter input {
+aside.press-and-media div.newsletter input[type="text"] {
   width: 16em; }
 
 .bottom-ad-sidebar {
@@ -3316,7 +3316,7 @@ aside.sidebar div.newsletter-sign-up, aside.press-and-media div.newsletter {
   border-bottom: none; }
   aside.sidebar div.newsletter-sign-up label, aside.press-and-media div.newsletter label {
     color: #666666; }
-  aside.sidebar div.newsletter-sign-up input, aside.press-and-media div.newsletter input {
+  aside.sidebar div.newsletter-sign-up input[type="text"], aside.press-and-media div.newsletter input[type="text"] {
     -webkit-border-radius: .5em;
     -moz-border-radius: .5em;
     border-radius: .5em;
@@ -4288,7 +4288,7 @@ section.testimonial:nth-of-type(even) .testy-content {
   #intro h4 {
     font-size: 1.5em;
     margin-top: 0; }
-  #intro div {
+  #intro div.text {
     width: 36.25em;
     display: block;
     float: left; }
@@ -4463,6 +4463,83 @@ aside#powered-by-ados {
     margin: -0.25em 0 1.125em 5.45em; }
   #world-class-ad-serving aside.enterprise a {
     padding: .65em; }
+
+/*
+	Slideshow style
+*/
+#slides {
+  position: absolute;
+  top: 440px;
+  left: 800px;
+  z-index: 100; }
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	If height not specified height will be set by the slide content
+	Set to display none, prevents content flash
+*/
+.slides_container {
+  width: 300px;
+  height: 230px;
+  overflow: hidden;
+  position: relative;
+  display: none; }
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	Offeset for the 20px of padding
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+#slides .slide {
+  padding: 20px;
+  width: 530px;
+  height: 230px;
+  display: block; }
+
+/*
+	Next/prev buttons
+*/
+#slides .next, #slides .prev {
+  position: absolute;
+  top: 107px;
+  left: -39px;
+  width: 24px;
+  height: 43px;
+  display: block;
+  z-index: 101; }
+
+#slides .next {
+  left: 585px; }
+
+/*
+	Pagination
+*/
+.pagination {
+  margin: 12px auto 0;
+  width: 100px; }
+
+.pagination li {
+  float: left;
+  margin: 0 1px;
+  list-style: none; }
+
+.pagination li a {
+  display: block;
+  width: 12px;
+  height: 0;
+  padding-top: 12px;
+  background-image: url(../imgs/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden; }
+
+.pagination li.current a {
+  background-position: 0 -12px; }
 
 .full-api {
   float: left;
