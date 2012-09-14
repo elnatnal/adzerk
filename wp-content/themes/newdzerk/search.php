@@ -8,7 +8,7 @@
                      <h1>Search Results</h1>
               </hgroup>
 
-              <div class="search-results d1-d6">
+              <div class="search-results d1-d9">
 		<?php while (have_posts()) : the_post(); ?>
 
                      <article <?php post_class() ?> id="post-<?php the_ID(); ?>">
