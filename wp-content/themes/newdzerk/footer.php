@@ -127,7 +127,7 @@ if ( is_page( array('for-networks', 'for-publishers') ) ) { ?>
 
               $("#more-show").click(function() {
               $("#more-features-show").animate({ opacity: 1.0 },475).slideToggle(500, function() {
-              $("#more-show").text($(this).is(':visible') ? "Less Features" : "More Features");
+              $("#more-show").text($(this).is(':visible') ? "Fewer Features" : "More Features");
                      });
               });
        });

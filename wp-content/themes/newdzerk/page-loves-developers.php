@@ -41,18 +41,17 @@
 
                      <li class="site-payout-management">
                             <h4>Custom Creatives</h4>
-                            <p>Have an idea for an awesome new style of creative? Want to pull in information from a social media source, or take advantage of HTML5 video? adOS provides a custom syntax for delivering CSS, JavaScript, or HTML through your creative and correctly delivering them for maximum awesomeness.
+                            <p>Have an idea for an awesome new style of creative? adOS provides a custom syntax for delivering CSS, JavaScript, or HTML through your creative and correctly delivering them for maximum awesomeness.
                             <br /><a href="/features" class="arrow-after"><strong>Read More</strong></a></p>
                      </li>
 
                      <li class="publisher-portal">
                             <h4>SDK</h4>
                             <p>In addition to our full API, adOS has an iOS SDK (Android coming soon!)
-                            <br /><a href="#" class="arrow-after"><strong>Read More</strong></a></p>
                      </li>
               </ul>
 
-                     <a class="button dev-features" href="features">More Features</a>
+                     <!--<a class="button dev-features" href="features">More Features</a> -->
        </section>
 
 
