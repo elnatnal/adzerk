@@ -74,13 +74,8 @@
 }
 
 .timeline .section .title a {
-	background: $gray4;
 	color:black;
 	font-weight:500;
-	-webkit-border-radius: 4px;
-	-khtml-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
 	display: inline-block;
 	line-height:0;
 	padding: 15px 20px 15px 20px;
@@ -88,8 +83,7 @@
 }
 
 .timeline .section .title a:hover {
-	background: $gray3;
-	text-decoration: underline;
+	cursor: default;
 }
 
 .timeline .section ol.events {

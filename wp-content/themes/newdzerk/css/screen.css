@@ -3729,21 +3729,15 @@ aside.sidebar .from-run-of-network {
   color: white; }
 
 .timeline .section .title a {
-  background: #efefef;
   color: black;
   font-weight: 500;
-  -webkit-border-radius: 4px;
-  -khtml-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
   display: inline-block;
   line-height: 0;
   padding: 15px 20px 15px 20px;
   text-decoration: none; }
 
 .timeline .section .title a:hover {
-  background: #cdcdcd;
-  text-decoration: underline; }
+  cursor: default; }
 
 .timeline .section ol.events {
   clear: both;
