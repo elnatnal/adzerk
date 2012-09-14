@@ -4468,10 +4468,9 @@ aside#powered-by-ados {
 	Slideshow style
 */
 #slides {
-  position: absolute;
-  top: 440px;
-  left: 800px;
-  z-index: 100; }
+  z-index: 100;
+  position: relative;
+  float: right; }
 
 /*
 	Slides container

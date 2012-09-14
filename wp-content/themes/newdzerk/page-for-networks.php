@@ -10,8 +10,15 @@
 
 
 <section id="intro">
-       
-       <iframe class="isfor-video" src="http://player.vimeo.com/video/14510432" width="393" height="217" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+       <div id="slides">
+            <div class="slides_container">
+                <div><a class="for-networks arrow-after" href="http://adzerk.com/tour/img/skin.png" title="100% Skinnable UI"><img src="http://adzerk-www.s3.amazonaws.com/resources/skinnable_sm.png"></a></div>
+                <div><a href="http://adzerk.com/tour/img/payouts.png" title="Site Payout Management- keep your financials all in one place." class="for-networks"><img src="http://adzerk-www.s3.amazonaws.com/resources/payouts_sm.png"></a></div>
+								<div><a href="http://adzerk.com/tour/img/advertiserPortal.png" title="The Advertiser Portal lets Advertisers run their own reports." class="for-networks"><img src="http://adzerk-www.s3.amazonaws.com/resources/advertiserPortal_sm.png"></a></div>
+								<div><a href="http://www.adzerk.com/tour/img/publisherPortal.png" title="The Publisher Portal lets Publishers run reports, generate ad code, and more." class="for-networks"><img src="http://adzerk-www.s3.amazonaws.com/resources/publisherPortal_sm.png"></a></div>
+
+            </div>  
+        </div>    
        
        <div>
               <h4><em>adOS is your all-in-one network management platform.</em></h4>

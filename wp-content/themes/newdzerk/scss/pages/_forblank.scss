@@ -292,10 +292,9 @@ aside#powered-by-ados{
 */
 
 #slides {
-	position:absolute;
-	top:440px;
-	left:800px;
 	z-index:100;
+	position:relative;
+	float:right;
 }
 
 /*
