@@ -45,6 +45,10 @@ header{
 
 /*   BUTTON START   */
 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#searchsubmit {position:relative; top: -1px; padding: .6em 1em !important;}
+}
+
 .sbutton { 
     position: relative; 
 	font-size:em(13);

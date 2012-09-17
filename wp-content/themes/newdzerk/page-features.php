@@ -157,6 +157,12 @@
        <div id="tracking-options">
               <h4>Tracking Options</h4>
                      <p><strong>Track by Actions</strong></p>
+										 <ul>
+											<li>Generate action tracking code for any type of Campaign.</li>
+											<li>Clicks</li>
+											<li>Page views</li>
+											<li>Customize with JavaScript</li>
+										 </ul>
        </div>
        </div>
 </section>       
