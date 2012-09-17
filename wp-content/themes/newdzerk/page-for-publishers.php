@@ -204,9 +204,7 @@
        </div>
        
        <aside class="enterprise sidebar d7-d9">
-              <h4>Enterprise Pricing</h4>
-              <p>100 million impressions/month and up</p>
-              
+              <h4>Enterprise Pricing- 100 million impressions/month and up</h4>
               <blockquote>
                      adOS's robust feature set was built to be scalable as well as affordable. Contact our sales team and we can tailor a package for your needs.
               </blockquote>
