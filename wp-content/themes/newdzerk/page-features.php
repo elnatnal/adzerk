@@ -224,7 +224,6 @@
                             <li>Advanced Forecasting</li>
                             <li>Network Tools</li>
                             <li>Custom Themes</li>
-                            <li><a href="#">and more...</a></li>
                      </ul>
               </p>
        </div>

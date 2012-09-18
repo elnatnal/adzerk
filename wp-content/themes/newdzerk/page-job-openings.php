@@ -42,7 +42,7 @@
                      <li>Unlimited paid vacation. Because we're all grownups here.</li>
                      <li>Flexible work hours, and work from home 2 days a week. (Seriously, half our code gets written after midnight.)</li>
                      <li>Free coffee, snacks, and beer. And we get the <a href="http://www.larrysbeans.com/">good stuff</a>.</li>
-                     <li>And that's just a few!</li>
+                     <li>And those are just a few!</li>
               </ul>
        </div>
        </aside>
