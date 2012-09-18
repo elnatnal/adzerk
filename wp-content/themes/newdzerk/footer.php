@@ -90,7 +90,7 @@
 <script>
 
 $(".iframe").colorbox({iframe:true, width:"1000px", height:"920px", style:"overflow:hidden;"});
-$(".custom-theme").colorbox({rel:'custom-theme', transition:"none", width:"1000px", height:"920px", arrowKey:true, transition:"fade"});
+$(".custom-theme").colorbox({rel:'custom-theme', arrowKey:true, transition:"fade"});
 
 $('logo').bind("contextmenu", function(e) {
     return false;
@@ -120,8 +120,8 @@ wp_reset_query();
 if ( is_page( array('for-networks', 'for-publishers') ) ) { ?>
        <script>
        $(document).ready(function(){
-							$("a.for-networks").colorbox({rel:'for-networks'});
-							$("a.for-publishers").colorbox({rel:'for-publishers'});
+							$("a.for-networks").colorbox({rel:'for-networks', arrowKey:true, transition:"fade"});
+							$("a.for-publishers").colorbox({rel:'for-publishers', arrowKey:true, transition:"fade"});
               $("#more-features-show").hide();
               $("#more-show").show();
 
