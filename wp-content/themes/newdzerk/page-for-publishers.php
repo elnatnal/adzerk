@@ -17,10 +17,10 @@
                     <a href="http://adzerk.com/tour/img/campaign.png" class="for-publishers" title="Add only the options you need for any given Flight."><img src="http://adzerk-www.s3.amazonaws.com/resources/campaignsPage_sm.png"></a>
                 </div>
                 <div>
-                    <a href="http://adzerk.com/tour/img/flight.png" class="for-publishers" title="Add only the options you need for any given Flight."><img src="http://adzerk-www.s3.amazonaws.com/resources/flight_sm.png"></a>
+                    <a href="http://adzerk.com/tour/img/flight.png" class="for-publishers" title="Add only the options you need for any given Flight."><img src="http://adzerk-www.s3.amazonaws.com/resources/flights_sm.png"></a>
                 </div>
                 <div>
-                   <a href="http://adzerk.com/tour/img/forecast.png" class="for-publishers" title="Forecast reporting."><img src="http://adzerk-www.s3.amazonaws.com/resources/forecast_sm.png"></a>
+                   <a href="http://adzerk.com/tour/img/forecast.png" class="for-publishers" title="Forecast reporting."><img src="http://adzerk-www.s3.amazonaws.com/resources/forecasting_sm.png"></a>
                 </div>
                 <div>
                     <a href="http://adzerk.com/tour/img/advertiserPortal.png" title="The Advertiser Portal lets Advertisers run their own reports." class="for-publishers"><img src="http://adzerk-www.s3.amazonaws.com/resources/advertiserPortal_sm.png"></a>
