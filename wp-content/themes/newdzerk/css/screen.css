@@ -3706,7 +3706,7 @@ aside.sidebar .from-run-of-network {
   margin: 0px auto;
   padding: 0px;
   width: 100%; }
-  .timeline a.button {
+  .timeline .button {
     width: 16em;
     line-height: 3em; }
 
