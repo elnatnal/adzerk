@@ -1,8 +1,6 @@
 <?php get_header(); ?>
     <hgroup>
-           <h1 class="sassytext">
-                  We can write
-           </h1>
+           <h1 class="sassytext">Life in a Startup</h1>
            <h1>Team Blog</h1>
     </hgroup>
 

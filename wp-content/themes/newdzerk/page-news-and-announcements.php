@@ -1,7 +1,7 @@
 <?php get_header(); ?>
     <hgroup>
            <h1 class="sassytext">
-						The Latest and Greatest
+						Sweet Sassy Molassey
            </h1>
            <h1>News and Announcements</h1>
     </hgroup>
