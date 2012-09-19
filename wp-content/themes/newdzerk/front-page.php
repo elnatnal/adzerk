@@ -38,6 +38,7 @@
 
 
 <?php echo $mf_timeline->get_timeline(); ?>
+<a class="button" href="/inside-adzerk/">All Posts</a>
 </section>
 
 

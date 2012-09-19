@@ -20,7 +20,7 @@ if ( in_category( 'product-blog' )){ ?>
 <?php } elseif ( in_category( 'team-blog' )) { ?>
        <hgroup>
               <h1 class='sassytext'>
-                 We can write
+								Cool story, bro.
               </h1>
               <h1>Team Blog</h1>
        </hgroup>
