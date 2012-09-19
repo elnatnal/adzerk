@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<img src="<?php bloginfo('template_directory'); ?>/imgs/adzerk-infographic-iv.jpg" width="1034" height="420" alt="Adzerk Infographic" class="home-infographic">
+<img src="<?php bloginfo('template_directory'); ?>/imgs/adzerk-infographic-iv.jpg" width="1034" height="420" alt="Your ad server should do more than just serve ads. We built adOS to be the fastest, easiest to use platform for managing all your online advertising. It's free to get started!" title="Your ad server should do more than just serve ads. We built adOS to be the fastest, easiest to use platform for managing all your online advertising. It's free to get started!" class="home-infographic">
 
 <hr />
 <section class="frontpage-descriptions d-all">
