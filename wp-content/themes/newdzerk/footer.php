@@ -92,14 +92,10 @@
 $(".iframe").colorbox({iframe:true, width:"1000px", height:"920px", style:"overflow:hidden;"});
 $(".custom-theme").colorbox({rel:'custom-theme', arrowKey:true, transition:"fade"});
 
-$('logo').bind("contextmenu", function(e) {
-    return false;
+$(document).ready(function() { $('header').bind('contextmenu', function(e) {
+	return false;
+	});
 });
-
-$('logo a').bind("contextmenu", function(e) {
-    return false;
-});
-
 
 $('.logo a').mousedown(function(e) {
     if (e.which === 3) {
@@ -271,6 +267,22 @@ $(function(){
   })();
 
 </script>
+
+<script type="text/javascript">
+  var _kmq = _kmq || [];
+  var _kmk = _kmk || '9acdcaf6cca1833aa1293cd4616079d29f78521e';
+  function _kms(u){
+    setTimeout(function(){
+      var d = document, f = d.getElementsByTagName('script')[0],
+      s = d.createElement('script');
+      s.type = 'text/javascript'; s.async = true; s.src = u;
+      f.parentNode.insertBefore(s, f);
+    }, 1);
+  }
+  _kms('//i.kissmetrics.com/i.js');
+  _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+</script>
+
 </body>
 
 </html>

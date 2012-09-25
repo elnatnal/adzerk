@@ -50,36 +50,39 @@ header{
 }
 
 .sbutton { 
-    position: relative; 
+	top: -1px;
+  position: relative; 
 	font-size:em(13);
 	line-height:em(15);
-    overflow: visible; 
-    display: inline-block; 
-    padding: 0.6em 1em; 
-    margin: 0;
-    text-decoration: none !important; 
-    font:em(5);
-    color: white; 
-    white-space: nowrap; 
-    cursor: pointer; 
-    outline: none; 
-    background-color: $orange;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e35525), to(#a73f1b));
-    background-image: -moz-linear-gradient(#e35525, #a73f1b);
-    background-image: -o-linear-gradient(#e35525, #a73f1b);
-    background-image: linear-gradient(#e35525, #a73f1b);
-    -webkit-background-clip: padding;
-    -moz-background-clip: padding;
-    -o-background-clip: padding-box; 
-    /*background-clip: padding-box;*/ /* commented out due to Opera 11.10 bug */
-    -webkit-border-radius: 0.1em; 
-    -moz-border-radius: 0.1em; 
-    border-radius: 0.1em; 
-    /* IE hacks */
-    zoom: 1; 
-    *display: inline; 
+  overflow: visible; 
+  display: inline-block; 
+  padding: 0.6em 1em; 
+  margin: 0;
+  text-decoration: none !important; 
+  font:em(5);
+  color: white; 
+  white-space: nowrap; 
+  cursor: pointer; 
+  outline: none; 
+  background-color: $orange;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e35525), to(#a73f1b));
+  background-image: -moz-linear-gradient(#e35525, #a73f1b);
+  background-image: -o-linear-gradient(#e35525, #a73f1b);
+  background-image: linear-gradient(#e35525, #a73f1b);
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  -o-background-clip: padding-box; 
+  /*background-clip: padding-box;*/ /* commented out due to Opera 11.10 bug */
+  -webkit-border-radius: 0.1em; 
+  -moz-border-radius: 0.1em; 
+  border-radius: 0.1em; 
+  /* IE hacks */
+  zoom: 1; 
+  *display: inline; 
 	//border-left:2px solid darken($orange, 20%);
 }
+
+.sbutton:hover {background: #A73F1B;}
 
 #searchsubmit{
 	font-size:em(13);
@@ -117,16 +120,16 @@ header{
 
 input#s{
 	-webkit-border-radius: .5em 0 0 .5em; 
-    -moz-border-radius: .5em 0 0 .5em; 
-    border-radius: .5em 0 0 .5em;
+  -moz-border-radius: .5em 0 0 .5em; 
+  border-radius: .5em 0 0 .5em;
 	height:27px;
 	width:em(220);
 	margin-right:em(-6);
-    -webkit-appearance:none;
+  -webkit-appearance:none;
 	border:none;
 	position:relative;
 	top:-1px;
-	
+	padding-left: 1em;
 }
 
 .button:hover,

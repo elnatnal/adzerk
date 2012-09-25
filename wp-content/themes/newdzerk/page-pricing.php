@@ -12,17 +12,17 @@
               <h2>Pricing for Publishers</h2>
               <h4>Get Started free up to 100 million impressions</h4>
               <p class="gray">
-                     Publisher packages include adOS's great features, including:
+                     Publisher packages start for free, but you can add-on features for as little as $50, including:
               </p>
 
               <div class="price-packages">
                      <div class="bronze-support">
                             <img src="http://adzerk-www.s3.amazonaws.com/ados/100x120_bronzesupport.jpg"> <br />
-                            <h6>Support</h6>
+                            <h6>Bronze Support</h6>
                             <ul>
                                    <li>Robust Documentation</li>
-                                   <li>Live Chat</li>
                                    <li>Email</li>
+                                   <li><i>Starts at $50/mo</i></li>
                             </ul>
                        </div>    
                      
@@ -33,8 +33,20 @@
                                      <li>100% Skinnable Interface</li>
                                      <li>CNAME-ing</li>
                                      <li>API</li>
+                                   <li><i>Starts at $50</i></li>
                               </ul>
                        </div>
+                     <div class="silver-support">
+                            <img src="http://adzerk-www.s3.amazonaws.com/ados/100x120_silversupport.jpg"> <br />
+                            <h6>Silver Support</h6>
+                            <ul>
+                                   <li>Robust Documentation</li>
+                                   <li>Email</li>
+                                   <li>Live Chat</li>
+                                   <li><i>Starts at $100/mo</i></li>
+                            </ul>
+                       </div>   
+											<div class="addons"><i>More add-ons are available in the adOS Marketplace</i></div>
               </div>
                             <a class="button get-started" href="http://new.adzerk.com/signup">Get Started Now</a>
 
@@ -44,7 +56,7 @@
               <h2>Pricing for Networks</h2>
               <h4>Get Started from $150/mo or 5 cents/CPM</h4>
               <p class="gray">
-                     Network packages include adOS's great Network features, including:
+                     Network packages include adOS's great add-on Network features, including:
               </p>
 
               <div class="price-packages">
@@ -79,6 +91,7 @@
                                      <li>API</li>
                               </ul>
                          </div>
+											<div class="addons"><i>More add-ons are available in the adOS Marketplace</i></div>
                   </div>
 
                      <a class="button get-started" href="http://new.adzerk.com/signup">Get Started Now</a>
@@ -100,8 +113,7 @@
               </ul>
               <h3>This is Ron.</h3>
               <img src="<?php bloginfo('template_directory'); ?>/imgs/this-is-ron.jpg" width="265" height="265" alt="This Is Ron">
-              <p>He's super friendly, and he loves to talk to enterprise customers about all their needs. It's what he does all day everyday. Shoot him an email, he'd love to hear from you.</p>
-              
+              <p>He's super friendly, and he loves to talk to enterprise customers about all their needs. It's what he does all day everyday. Click on over to the <a href="/contact-sales">Contact Sales</a> page to get Enterprise Pricing.</p>
               <a class="button" href="/contact-sales">Get Enterprise Pricing</a>
               </div>
        </aside>

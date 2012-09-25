@@ -106,7 +106,7 @@
 		              
 		
 		       
-			<h1 class="logo d1"><a href="/home" class="inline"><?php bloginfo('name'); ?></a></h1>
+			<h1 class="logo d1"><a href="http://adzerk.com" class="inline"><?php bloginfo('name'); ?></a></h1>
 			
 			</script>
 			

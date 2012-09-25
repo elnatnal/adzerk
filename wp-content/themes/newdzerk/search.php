@@ -38,7 +38,7 @@
               </hgroup>
 	
 	       <article>
-		       <h2 style="text-align:center;">Try looking at a through our blogs, you might find one that's useful</h2><br />
+		       <h2 style="text-align:center;">Try looking through our blogs, you might find one that's useful</h2><br />
                      <div class="inside-adzerk-blog-summary">
                             <div class="blog-summary blue3">
                                   <h4>News and Announcements</h4>

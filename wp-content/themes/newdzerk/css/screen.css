@@ -2912,6 +2912,7 @@ header {
     top: -1px;
     padding: .6em 1em !important; } }
 .sbutton {
+  top: -1px;
   position: relative;
   font-size: 0.813em;
   line-height: 0.938em;
@@ -2941,6 +2942,9 @@ header {
   /* IE hacks */
   zoom: 1;
   *display: inline; }
+
+.sbutton:hover {
+  background: #A73F1B; }
 
 #searchsubmit {
   font-size: 0.813em;
@@ -2982,7 +2986,8 @@ input#s {
   -webkit-appearance: none;
   border: none;
   position: relative;
-  top: -1px; }
+  top: -1px;
+  padding-left: 1em; }
 
 .button:hover,
 .button:focus,
@@ -3153,6 +3158,8 @@ ol.commentlist li.parent {
   margin-top: 3em;
   width: 101.5%;
   margin-left: -13px; }
+  #footer img {
+    border-style: none; }
   #footer hr {
     width: 96%;
     margin-left: -1em; }
@@ -3370,7 +3377,8 @@ aside.sidebar div.newsletter-sign-up, aside.press-and-media div.newsletter {
     text-align: center;
     font-size: 0.875em;
     color: #cdcdcd;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    width: 5.5em; }
   .date-meta h5.date-bottom {
     font-family: proxima-nova-extra-condensed;
     text-transform: uppercase;
@@ -4109,11 +4117,17 @@ h4:before {
 
 section#publishers, section#networks, section#advertisers {
   padding: 1em 0; }
+  section#publishers .addons, section#networks .addons, section#advertisers .addons {
+    clear: both;
+    height: 2em;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 0 0 6px 6px; }
   section#publishers div, section#networks div, section#advertisers div {
     text-align: center; }
   section#publishers .price-packages, section#networks .price-packages, section#advertisers .price-packages {
     background-color: #efefef;
-    height: 14.063em;
+    height: 16.063em;
     padding: 1em 0;
     margin-bottom: 1.5em;
     border-radius: 5px;
@@ -4128,7 +4142,7 @@ section#publishers, section#networks, section#advertisers {
     color: #666666;
     font-size: .95em;
     line-height: 1.5em; }
-  section#publishers .bronze-support, section#publishers .white-label, section#publishers .get-started, section#publishers .network-tools, section#publishers .silver-support, section#publishers .advertiser-mode, section#networks .bronze-support, section#networks .white-label, section#networks .get-started, section#networks .network-tools, section#networks .silver-support, section#networks .advertiser-mode, section#advertisers .bronze-support, section#advertisers .white-label, section#advertisers .get-started, section#advertisers .network-tools, section#advertisers .silver-support, section#advertisers .advertiser-mode {
+  section#publishers .silver-support, section#publishers .bronze-support, section#publishers .white-label, section#publishers .get-started, section#publishers .network-tools, section#publishers .silver-support, section#publishers .advertiser-mode, section#networks .silver-support, section#networks .bronze-support, section#networks .white-label, section#networks .get-started, section#networks .network-tools, section#networks .silver-support, section#networks .advertiser-mode, section#advertisers .silver-support, section#advertisers .bronze-support, section#advertisers .white-label, section#advertisers .get-started, section#advertisers .network-tools, section#advertisers .silver-support, section#advertisers .advertiser-mode {
     width: 12.5em;
     display: block;
     float: left;

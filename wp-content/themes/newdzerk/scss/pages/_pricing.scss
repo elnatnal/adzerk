@@ -1,6 +1,8 @@
 section#publishers, section#networks, section#advertisers {
 	padding:1em 0;
 
+	.addons {clear:both; height:2em; width:100%; background-color:#ddd; border-radius: 0 0 6px 6px;}
+
 	div{
 		text-align:center;
 		
@@ -8,7 +10,7 @@ section#publishers, section#networks, section#advertisers {
 	
 	.price-packages{
 		background-color:$gray4;
-		height:em(225);
+		height:16.063em;
 		padding: 1em 0;
 		margin-bottom:1.5em;
 				
@@ -30,7 +32,7 @@ section#publishers, section#networks, section#advertisers {
 	line-height:1.5em;
 	}
 
-	.bronze-support, .white-label, .get-started, .network-tools, .silver-support, .advertiser-mode{
+	.silver-support, .bronze-support, .white-label, .get-started, .network-tools, .silver-support, .advertiser-mode{
 		width:em(200);
 		display:block;
 		float:left;
