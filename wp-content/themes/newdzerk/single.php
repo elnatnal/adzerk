@@ -12,7 +12,7 @@ if ( in_category( 'product-blog' )){ ?>
 <?php } elseif ( in_category( 'news-and-announcements' ) ) { ?>	
        <hgroup>
               <h1 class='sassytext'>
-                 A horrible death to die
+                 Sweet Sassy Molassey
               </h1>
               <h1>News &amp; Announcements</h1>
        </hgroup>
@@ -34,14 +34,14 @@ if ( in_category( 'product-blog' )){ ?>
 <?php } elseif ( in_category( 'new-feature' )) { ?>
               <hgroup>
                      <h1 class='sassytext'>
-                        Attention!
+                        Well, isn't that nifty and new
                      </h1>
                      <h1>New Feature</h1>
               </hgroup>
 <?php } elseif ( in_category( 'product-release' ) ) { ?>
   <hgroup>
          <h1 class='sassytext'>
-            Attention!
+            Well, isn't that nifty and new
          </h1>
          <h1>Product Release</h1>
   </hgroup>
@@ -110,7 +110,7 @@ if ( in_category( 'product-blog' )){ ?>
                                                  </div>
                                    <?php endif; ?>
 
-                                   <div class="twitter-button"><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://dev.twitter.com" data-via="adzerk" data-lang="en">Tweet</a>
+                                   <div class="twitter-button"><a href="https://twitter.com/share" class="twitter-share-button" data-via="adzerk" data-lang="en">Tweet</a>
                                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                                    </div>
 

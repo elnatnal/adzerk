@@ -18,6 +18,7 @@ function adzerk_testimonials() {
                             'supports' => array( 'title','excerpt','editor','thumbnail'),
 			       'taxonomies' => array('category'),
                             'register_meta_box_cb' => 'add_testimonial_metaboxes'
+                            
                             )
                       );
 

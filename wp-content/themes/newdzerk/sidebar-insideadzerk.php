@@ -6,8 +6,8 @@
 <?php if (have_posts()) : ?>
                <?php while (have_posts()) : the_post(); ?>    
                      <div class="article-side">
-                            <h3><a href="<?php get_permalink(); ?>"><?php the_title(); ?></a></h3>
-                            <p><?php echo substr(strip_tags($post->post_content), 0, 200);?>...<a href="<?php get_permalink(); ?>">Read more</a></p>
+                            <h3><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h3>
+                            <p><?php echo substr(strip_tags($post->post_content), 0, 200);?>...<a href="<?php echo get_permalink(); ?>">Read more</a></p>
                      </div>
                <?php endwhile; ?>
      <?php endif; ?>

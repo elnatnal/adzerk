@@ -3455,7 +3455,7 @@ aside.sidebar div.newsletter-sign-up, aside.press-and-media div.newsletter {
   color: #138caa; }
 
 .blue2 h4, .blue2 a {
-  color: #14526a; }
+  color: #14526a !important; }
 
 .blue1 h4, .blue1 a {
   color: #092937; }

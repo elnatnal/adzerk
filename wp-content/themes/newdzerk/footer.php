@@ -270,7 +270,7 @@ $(function(){
 
 <script type="text/javascript">
   var _kmq = _kmq || [];
-  var _kmk = _kmk || '9acdcaf6cca1833aa1293cd4616079d29f78521e';
+  var _kmk = _kmk || 'afe22e57bee181965602af67867d110bd92c38f5';
   function _kms(u){
     setTimeout(function(){
       var d = document, f = d.getElementsByTagName('script')[0],
@@ -282,7 +282,6 @@ $(function(){
   _kms('//i.kissmetrics.com/i.js');
   _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
 </script>
-
 </body>
 
 </html>

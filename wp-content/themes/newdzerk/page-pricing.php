@@ -54,7 +54,7 @@
 
        <section id="networks">
               <h2>Pricing for Networks</h2>
-              <h4>Get Started from $150/mo or 5 cents/CPM</h4>
+              <h4>Get Started from $200/mo or 5 cents/CPM</h4>
               <p class="gray">
                      Network packages include adOS's great add-on Network features, including:
               </p>

@@ -23,7 +23,7 @@
        <div class="d8-d9">
               <h2>Adzerk loves Developers </h2>
               <p>Did we mention our full API? Execute on your idea without rewriting an ad server from the ground up.</p>
-                     <a class="button" href="<?php echo site_url(); ?>/we-love-developers">
+                     <a class="button" href="<?php echo site_url(); ?>/loves-developers">
                             Find out more
                      </a>
        </div>
@@ -38,7 +38,7 @@
 
 
 <?php echo $mf_timeline->get_timeline(); ?>
-<a class="button" href="/inside-adzerk/">All Posts</a>
+<a class="button" href="/inside-adzerk/">More posts</a>
 </section>
 
 

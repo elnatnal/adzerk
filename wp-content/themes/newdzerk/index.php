@@ -12,7 +12,7 @@ if ( is_category( 'product-blog' )){ ?>
 <?php } elseif ( is_category( 'news-and-announcements' ) ) { ?>	
        <hgroup>
               <h1 class='sassytext'>
-                 A horrible death to die
+                 Sweet Sassy Molassey
               </h1>
               <h1>News &amp; Announcements</h1>
        </hgroup>
@@ -20,7 +20,7 @@ if ( is_category( 'product-blog' )){ ?>
 <?php } elseif ( is_category( 'team-blog' )) { ?>
        <hgroup>
               <h1 class='sassytext'>
-                 We can write
+                 Cool Story, Bro
               </h1>
               <h1>Team Blog</h1>
        </hgroup>
@@ -41,22 +41,22 @@ if ( is_category( 'product-blog' )){ ?>
        
        <div class="inside-adzerk-blog-summary">
               <div class="blog-summary blue3">
-                    <h4>News and Announcements</h4>
+                    <h4><a href="news-and-announcements">News and Announcements</a></h4>
                     <p>Here are the latest postings about us and what we are doing around the office and world community.&emsp;<a href="news-and-announcements">Read Posts</a></p> 
               </div>
               
               <div class="blog-summary blue1">
-                    <h4>Product Blog</h4>
+                    <h4><a href="product-blog">Product Blog</a></h4>
                     <p>We roll out new features like every day here. Look at what's being implemented right now!&emsp;<a href="product-blog">Read More</a></p> 
               </div>
               
               <div class="blog-summary blue2">
-                    <h4>Team Blog</h4>
+                    <h4><a href="team-blog">Team Blog</a></h4>
                     <p>Here's where we rant, rave and talk about random opportunities we have at work. It's cool. Check it.&emsp;<a href="team-blog">Read Posts</a></p> 
               </div>
               
               <div class="blog-summary orange">
-                    <h4>Run of Network</h4>
+                    <h4><a href="http://runofnetwork.adzerk.com/">Run of Network</a></h4>
                     <p>Just how do you run an ad network? Check out tips, tricks and wisdom about the ad tech and ad industry.&emsp;<a href="http://runofnetwork.adzerk.com/">Read Posts</a></p> 
               </div>
        </div>

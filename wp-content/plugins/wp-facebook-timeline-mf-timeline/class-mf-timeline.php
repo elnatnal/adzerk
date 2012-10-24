@@ -671,7 +671,7 @@ class MF_Timeline {
 				$post_types_escape[] = '%s';
 			}
 			
-			$since = date('Y-m-01', strtotime('-3 months'));
+			$since = date('Y-m-01', strtotime('-1 months'));
 			$sql = "SELECT {$wpdb->posts}.ID AS id, {$wpdb->posts}.post_title AS title, {$wpdb->posts}.post_content AS content, {$wpdb->posts}.post_excerpt AS excerpt, {$wpdb->posts}.post_date AS date, {$wpdb->posts}.post_author AS author, {$wpdb->terms}.term_id AS term_id
 				FROM `{$wpdb->posts}` 
 				INNER JOIN {$wpdb->term_relationships} ON ({$wpdb->posts}.ID = {$wpdb->term_relationships}.object_id) 
